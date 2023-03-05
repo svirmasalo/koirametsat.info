@@ -3,7 +3,7 @@
       id="mobile-nav"
       class="fixed inset-x-0 bottom-0 z-30 bg-secondary border-t border-t-primary/50 pt-2 pb-2 shadow-inner"
     >
-      <ul class="flex flex-row justify-around text-primary">
+      <ul class="flex flex-row justify-around text-primary max-w-lg mx-auto">
         <li>
           <NuxtLink to="/" activeClass="text-primary-active">
             <svg

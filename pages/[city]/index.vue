@@ -12,7 +12,6 @@
         }
     }).findOne();
 
-
     // List of paths that are not cities
     const nonCities = [route.path];
     // Filter out non-cities and paths that are not direct children of root

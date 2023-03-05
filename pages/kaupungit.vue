@@ -25,7 +25,6 @@
     cityList = cityList.sort((a, b) => {
         return a.title.localeCompare(b.title);
     });
-
 </script>
 <template>
   <header class="pt-16 pb-12 text-center">

@@ -1,6 +1,8 @@
 ---
 navigation: false
 title: 'Jyväskylä'
+titleIn: 'Jyväskylässä'
+description: 'Täältä löydät kaikki Jyväskylän koirametsät'
 ---
 # Jyväskylän kaikki koirametsät
 
