@@ -20,6 +20,7 @@ import 'radix3';
 import 'node:fs';
 import 'node:url';
 import 'pathe';
+import 'ipx';
 import 'unified';
 import 'mdast-util-to-string';
 import 'micromark/lib/preprocess.js';

@@ -38,7 +38,7 @@ featureDescription: 80m*100m (0,8Ha)
 ---
 featureName: Verkkosivusto
 featureDescription: https://taimon-koirametsa.fi
-descriptionLink: 1
+descriptionLink: true
 ---
 ::
 ## Kuvaus

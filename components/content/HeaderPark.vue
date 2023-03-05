@@ -8,7 +8,7 @@ defineProps({
 <template>
   <header class="pt-16 pb-0 px-4 text-center">
     <div class="rounded-full border-2 border-secondary overflow-hidden mb-6 w-44 h-44 mx-auto">
-        <img :src="image" class="object-cover object-center h-full" />
+        <nuxt-img :src="image" class="object-cover object-center h-full" quality="20" format="webp" loading="lazy"/>
     </div>
     <ContentSlot :use="$slots.default" />
     <div

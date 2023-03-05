@@ -18,9 +18,8 @@ export default defineNuxtConfig({
       anchorLinks: false
     }
   },
-  ssr: true,
-  modules: ["@nuxt/content", "@nuxtjs/algolia"],
   css: ["~/assets/css/main.css"],
+  modules: ["@nuxt/content", "@nuxtjs/algolia", "@nuxt/image-edge"],
   nitro: {
     prerender: {
       routes: ["sitemap.xml"],
@@ -32,4 +31,5 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  ssr: true,
 });

@@ -7,10 +7,10 @@ import { renderDOMHead, debouncedRenderDOMHead } from '@unhead/dom';
 import { renderSSRHead } from '@unhead/ssr';
 import { createMemoryHistory, createRouter, useRoute as useRoute$1, RouterView } from 'vue-router';
 import { createError as createError$1, sendRedirect } from 'h3';
-import { isEqual, hasProtocol, parseURL, parseQuery, joinURL } from 'ufo';
+import { isEqual, hasProtocol, parseURL, parseQuery, encodeParam, withLeadingSlash, joinURL, encodePath } from 'ufo';
+import { defu } from 'defu';
 import { createInMemoryCache } from '@algolia/cache-in-memory';
 import { ssrRenderSuspense, ssrRenderComponent, ssrRenderAttrs } from 'vue/server-renderer';
-import { defu } from 'defu';
 import { a as useRuntimeConfig$1 } from '../nitro/node-server.mjs';
 import 'node-fetch-native/polyfill';
 import 'node:http';
@@ -26,6 +26,7 @@ import 'radix3';
 import 'node:fs';
 import 'node:url';
 import 'pathe';
+import 'ipx';
 import 'unified';
 import 'mdast-util-to-string';
 import 'micromark/lib/preprocess.js';
@@ -198,27 +199,27 @@ function defineGetter(obj, key, val) {
 }
 const components = {
   BodyPage: /* @__PURE__ */ defineAsyncComponent(() => import(
-    './_nuxt/BodyPage-7690fd41.mjs'
+    './_nuxt/BodyPage-5db4a045.mjs'
     /* webpackChunkName: "components/body-page" */
   ).then((c) => c.default || c)),
   CtaPage: /* @__PURE__ */ defineAsyncComponent(() => import(
-    './_nuxt/CtaPage-72e60c5a.mjs'
+    './_nuxt/CtaPage-0a7674cb.mjs'
     /* webpackChunkName: "components/cta-page" */
   ).then((c) => c.default || c)),
   HeaderPage: /* @__PURE__ */ defineAsyncComponent(() => import(
-    './_nuxt/HeaderPage-72f2cfa0.mjs'
+    './_nuxt/HeaderPage-b6f368c9.mjs'
     /* webpackChunkName: "components/header-page" */
   ).then((c) => c.default || c)),
   HeaderPark: /* @__PURE__ */ defineAsyncComponent(() => import(
-    './_nuxt/HeaderPark-1617de4b.mjs'
+    './_nuxt/HeaderPark-170bd1e8.mjs'
     /* webpackChunkName: "components/header-park" */
   ).then((c) => c.default || c)),
   Hero: /* @__PURE__ */ defineAsyncComponent(() => import(
-    './_nuxt/Hero-ab78ede4.mjs'
+    './_nuxt/Hero-ed5987d0.mjs'
     /* webpackChunkName: "components/hero" */
   ).then((c) => c.default || c)),
   ParkItem: /* @__PURE__ */ defineAsyncComponent(() => import(
-    './_nuxt/ParkItem-6c5657ed.mjs'
+    './_nuxt/ParkItem-62a2d997.mjs'
     /* webpackChunkName: "components/park-item" */
   ).then((c) => c.default || c)),
   Pricing: /* @__PURE__ */ defineAsyncComponent(() => import(
@@ -230,31 +231,31 @@ const components = {
     /* webpackChunkName: "components/search" */
   ).then((c) => c.default || c)),
   ContentDoc: /* @__PURE__ */ defineAsyncComponent(() => import(
-    './_nuxt/ContentDoc-bc14d1e5.mjs'
+    './_nuxt/ContentDoc-789516a8.mjs'
     /* webpackChunkName: "components/content-doc" */
   ).then((c) => c.default || c)),
   ContentList: /* @__PURE__ */ defineAsyncComponent(() => import(
-    './_nuxt/ContentList-ba148400.mjs'
+    './_nuxt/ContentList-6913bfbf.mjs'
     /* webpackChunkName: "components/content-list" */
   ).then((c) => c.default || c)),
   ContentNavigation: /* @__PURE__ */ defineAsyncComponent(() => import(
-    './_nuxt/ContentNavigation-25688351.mjs'
+    './_nuxt/ContentNavigation-e38ad187.mjs'
     /* webpackChunkName: "components/content-navigation" */
   ).then((c) => c.default || c)),
   ContentQuery: /* @__PURE__ */ defineAsyncComponent(() => import(
-    './_nuxt/ContentQuery-478aea45.mjs'
+    './_nuxt/ContentQuery-62f3da33.mjs'
     /* webpackChunkName: "components/content-query" */
   ).then((c) => c.default || c)),
   ContentRenderer: /* @__PURE__ */ defineAsyncComponent(() => import(
-    './_nuxt/ContentRenderer-1183ed2a.mjs'
+    './_nuxt/ContentRenderer-a1769908.mjs'
     /* webpackChunkName: "components/content-renderer" */
   ).then((c) => c.default || c)),
   ContentRendererMarkdown: /* @__PURE__ */ defineAsyncComponent(() => import(
-    './_nuxt/ContentRendererMarkdown-29deaf43.mjs'
+    './_nuxt/ContentRendererMarkdown-40605cc3.mjs'
     /* webpackChunkName: "components/content-renderer-markdown" */
   ).then((c) => c.default || c)),
   ContentSlot: /* @__PURE__ */ defineAsyncComponent(() => import(
-    './_nuxt/ContentSlot-a1d100b5.mjs'
+    './_nuxt/ContentSlot-1a6327ff.mjs'
     /* webpackChunkName: "components/content-slot" */
   ).then((c) => c.default || c)),
   DocumentDrivenEmpty: /* @__PURE__ */ defineAsyncComponent(() => import(
@@ -266,103 +267,103 @@ const components = {
     /* webpackChunkName: "components/document-driven-not-found" */
   ).then((c) => c.default || c)),
   Markdown: /* @__PURE__ */ defineAsyncComponent(() => import(
-    './_nuxt/Markdown-00b1fe26.mjs'
+    './_nuxt/Markdown-87d1d105.mjs'
     /* webpackChunkName: "components/markdown" */
   ).then((c) => c.default || c)),
   ProseA: /* @__PURE__ */ defineAsyncComponent(() => import(
-    './_nuxt/ProseA-69ee5be4.mjs'
+    './_nuxt/ProseA-ba190f93.mjs'
     /* webpackChunkName: "components/prose-a" */
   ).then((c) => c.default || c)),
   ProseBlockquote: /* @__PURE__ */ defineAsyncComponent(() => import(
-    './_nuxt/ProseBlockquote-91f2d3b6.mjs'
+    './_nuxt/ProseBlockquote-e8dc1ee6.mjs'
     /* webpackChunkName: "components/prose-blockquote" */
   ).then((c) => c.default || c)),
   ProseCode: /* @__PURE__ */ defineAsyncComponent(() => import(
-    './_nuxt/ProseCode-4b8f52ba.mjs'
+    './_nuxt/ProseCode-fdbf98b5.mjs'
     /* webpackChunkName: "components/prose-code" */
   ).then((c) => c.default || c)),
   ProseCodeInline: /* @__PURE__ */ defineAsyncComponent(() => import(
-    './_nuxt/ProseCodeInline-5af49b2e.mjs'
+    './_nuxt/ProseCodeInline-c6b2eec3.mjs'
     /* webpackChunkName: "components/prose-code-inline" */
   ).then((c) => c.default || c)),
   ProseEm: /* @__PURE__ */ defineAsyncComponent(() => import(
-    './_nuxt/ProseEm-b2bdf1b7.mjs'
+    './_nuxt/ProseEm-c2a04588.mjs'
     /* webpackChunkName: "components/prose-em" */
   ).then((c) => c.default || c)),
   ProseH1: /* @__PURE__ */ defineAsyncComponent(() => import(
-    './_nuxt/ProseH1-636ccc41.mjs'
+    './_nuxt/ProseH1-12141288.mjs'
     /* webpackChunkName: "components/prose-h1" */
   ).then((c) => c.default || c)),
   ProseH2: /* @__PURE__ */ defineAsyncComponent(() => import(
-    './_nuxt/ProseH2-17797413.mjs'
+    './_nuxt/ProseH2-27a6871c.mjs'
     /* webpackChunkName: "components/prose-h2" */
   ).then((c) => c.default || c)),
   ProseH3: /* @__PURE__ */ defineAsyncComponent(() => import(
-    './_nuxt/ProseH3-106aaed3.mjs'
+    './_nuxt/ProseH3-a360fc2d.mjs'
     /* webpackChunkName: "components/prose-h3" */
   ).then((c) => c.default || c)),
   ProseH4: /* @__PURE__ */ defineAsyncComponent(() => import(
-    './_nuxt/ProseH4-16789eb2.mjs'
+    './_nuxt/ProseH4-980d40d4.mjs'
     /* webpackChunkName: "components/prose-h4" */
   ).then((c) => c.default || c)),
   ProseH5: /* @__PURE__ */ defineAsyncComponent(() => import(
-    './_nuxt/ProseH5-2597b869.mjs'
+    './_nuxt/ProseH5-53f699ed.mjs'
     /* webpackChunkName: "components/prose-h5" */
   ).then((c) => c.default || c)),
   ProseH6: /* @__PURE__ */ defineAsyncComponent(() => import(
-    './_nuxt/ProseH6-dded926b.mjs'
+    './_nuxt/ProseH6-a275559c.mjs'
     /* webpackChunkName: "components/prose-h6" */
   ).then((c) => c.default || c)),
   ProseHr: /* @__PURE__ */ defineAsyncComponent(() => import(
-    './_nuxt/ProseHr-045d3795.mjs'
+    './_nuxt/ProseHr-8c7f5552.mjs'
     /* webpackChunkName: "components/prose-hr" */
   ).then((c) => c.default || c)),
   ProseImg: /* @__PURE__ */ defineAsyncComponent(() => import(
-    './_nuxt/ProseImg-90954ac0.mjs'
+    './_nuxt/ProseImg-57512a59.mjs'
     /* webpackChunkName: "components/prose-img" */
   ).then((c) => c.default || c)),
   ProseLi: /* @__PURE__ */ defineAsyncComponent(() => import(
-    './_nuxt/ProseLi-fe0be2fa.mjs'
+    './_nuxt/ProseLi-396d3dd9.mjs'
     /* webpackChunkName: "components/prose-li" */
   ).then((c) => c.default || c)),
   ProseOl: /* @__PURE__ */ defineAsyncComponent(() => import(
-    './_nuxt/ProseOl-ebdecfe5.mjs'
+    './_nuxt/ProseOl-a20e75c2.mjs'
     /* webpackChunkName: "components/prose-ol" */
   ).then((c) => c.default || c)),
   ProseP: /* @__PURE__ */ defineAsyncComponent(() => import(
-    './_nuxt/ProseP-dc21f6c3.mjs'
+    './_nuxt/ProseP-ab3530bf.mjs'
     /* webpackChunkName: "components/prose-p" */
   ).then((c) => c.default || c)),
   ProseStrong: /* @__PURE__ */ defineAsyncComponent(() => import(
-    './_nuxt/ProseStrong-71aae843.mjs'
+    './_nuxt/ProseStrong-ab4bfe6b.mjs'
     /* webpackChunkName: "components/prose-strong" */
   ).then((c) => c.default || c)),
   ProseTable: /* @__PURE__ */ defineAsyncComponent(() => import(
-    './_nuxt/ProseTable-aa047eb3.mjs'
+    './_nuxt/ProseTable-9acec1db.mjs'
     /* webpackChunkName: "components/prose-table" */
   ).then((c) => c.default || c)),
   ProseTbody: /* @__PURE__ */ defineAsyncComponent(() => import(
-    './_nuxt/ProseTbody-fd90d64d.mjs'
+    './_nuxt/ProseTbody-54951e1f.mjs'
     /* webpackChunkName: "components/prose-tbody" */
   ).then((c) => c.default || c)),
   ProseTd: /* @__PURE__ */ defineAsyncComponent(() => import(
-    './_nuxt/ProseTd-623d0fdb.mjs'
+    './_nuxt/ProseTd-1d310de0.mjs'
     /* webpackChunkName: "components/prose-td" */
   ).then((c) => c.default || c)),
   ProseTh: /* @__PURE__ */ defineAsyncComponent(() => import(
-    './_nuxt/ProseTh-9309edcc.mjs'
+    './_nuxt/ProseTh-4abc6140.mjs'
     /* webpackChunkName: "components/prose-th" */
   ).then((c) => c.default || c)),
   ProseThead: /* @__PURE__ */ defineAsyncComponent(() => import(
-    './_nuxt/ProseThead-688f21bc.mjs'
+    './_nuxt/ProseThead-a198b3f6.mjs'
     /* webpackChunkName: "components/prose-thead" */
   ).then((c) => c.default || c)),
   ProseTr: /* @__PURE__ */ defineAsyncComponent(() => import(
-    './_nuxt/ProseTr-59d20f1f.mjs'
+    './_nuxt/ProseTr-c22219cf.mjs'
     /* webpackChunkName: "components/prose-tr" */
   ).then((c) => c.default || c)),
   ProseUl: /* @__PURE__ */ defineAsyncComponent(() => import(
-    './_nuxt/ProseUl-cbee2b5d.mjs'
+    './_nuxt/ProseUl-27236efa.mjs'
     /* webpackChunkName: "components/prose-ul" */
   ).then((c) => c.default || c))
 };
@@ -578,7 +579,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/_...slug_-df787d5d.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/_...slug_-73862b6e.mjs').then((m) => m.default || m)
   },
   {
     name: "city-slug",
@@ -587,7 +588,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/_...slug_-4f6026d7.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/_...slug_-d037bf54.mjs').then((m) => m.default || m)
   },
   {
     name: "city",
@@ -596,7 +597,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/index-17c25d81.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-cbbc467c.mjs').then((m) => m.default || m)
   },
   {
     name: "haku",
@@ -605,7 +606,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/haku-b7b7cbf6.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/haku-b093b676.mjs').then((m) => m.default || m)
   },
   {
     name: "index",
@@ -614,7 +615,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/index-33fb298c.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-85c7e2e4.mjs').then((m) => m.default || m)
   },
   {
     name: "kaupungit",
@@ -623,7 +624,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/kaupungit-d70940d1.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/kaupungit-366b8eb1.mjs').then((m) => m.default || m)
   },
   {
     name: "tietoa-palvelusta",
@@ -632,7 +633,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/tietoa-palvelusta-844ef2b0.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/tietoa-palvelusta-97c4ef18.mjs').then((m) => m.default || m)
   }
 ];
 const routerOptions0 = {
@@ -1054,6 +1055,279 @@ const defuFn = createDefu((object, key, currentValue) => {
 });
 const inlineConfig = {};
 defuFn(inlineConfig);
+async function imageMeta(_ctx, url) {
+  const meta = await _imageMeta(url).catch((err) => {
+    console.error("Failed to get image meta for " + url, err + "");
+    return {
+      width: 0,
+      height: 0,
+      ratio: 0
+    };
+  });
+  return meta;
+}
+async function _imageMeta(url) {
+  {
+    const imageMeta2 = await import('image-meta').then((r) => r.imageMeta);
+    const data = await fetch(url).then((res) => res.buffer());
+    const metadata = imageMeta2(data);
+    if (!metadata) {
+      throw new Error(`No metadata could be extracted from the image \`${url}\`.`);
+    }
+    const { width, height } = metadata;
+    const meta = {
+      width,
+      height,
+      ratio: width && height ? width / height : void 0
+    };
+    return meta;
+  }
+}
+function createMapper(map) {
+  return (key) => {
+    return key ? map[key] || key : map.missingValue;
+  };
+}
+function createOperationsGenerator({ formatter, keyMap, joinWith = "/", valueMap } = {}) {
+  if (!formatter) {
+    formatter = (key, value) => `${key}=${value}`;
+  }
+  if (keyMap && typeof keyMap !== "function") {
+    keyMap = createMapper(keyMap);
+  }
+  const map = valueMap || {};
+  Object.keys(map).forEach((valueKey) => {
+    if (typeof map[valueKey] !== "function") {
+      map[valueKey] = createMapper(map[valueKey]);
+    }
+  });
+  return (modifiers = {}) => {
+    const operations = Object.entries(modifiers).filter(([_, value]) => typeof value !== "undefined").map(([key, value]) => {
+      const mapper = map[key];
+      if (typeof mapper === "function") {
+        value = mapper(modifiers[key]);
+      }
+      key = typeof keyMap === "function" ? keyMap(key) : key;
+      return formatter(key, value);
+    });
+    return operations.join(joinWith);
+  };
+}
+function parseSize(input = "") {
+  if (typeof input === "number") {
+    return input;
+  }
+  if (typeof input === "string") {
+    if (input.replace("px", "").match(/^\d+$/g)) {
+      return parseInt(input, 10);
+    }
+  }
+}
+function createImage(globalOptions) {
+  const ctx = {
+    options: globalOptions
+  };
+  const getImage2 = (input, options = {}) => {
+    const image = resolveImage(ctx, input, options);
+    return image;
+  };
+  const $img = (input, modifiers = {}, options = {}) => {
+    return getImage2(input, {
+      ...options,
+      modifiers: defu(modifiers, options.modifiers || {})
+    }).url;
+  };
+  for (const presetName in globalOptions.presets) {
+    $img[presetName] = (source, modifiers, options) => $img(source, modifiers, { ...globalOptions.presets[presetName], ...options });
+  }
+  $img.options = globalOptions;
+  $img.getImage = getImage2;
+  $img.getMeta = (input, options) => getMeta(ctx, input, options);
+  $img.getSizes = (input, options) => getSizes(ctx, input, options);
+  ctx.$img = $img;
+  return $img;
+}
+async function getMeta(ctx, input, options) {
+  const image = resolveImage(ctx, input, { ...options });
+  if (typeof image.getMeta === "function") {
+    return await image.getMeta();
+  } else {
+    return await imageMeta(ctx, image.url);
+  }
+}
+function resolveImage(ctx, input, options) {
+  var _a, _b;
+  if (typeof input !== "string" || input === "") {
+    throw new TypeError(`input must be a string (received ${typeof input}: ${JSON.stringify(input)})`);
+  }
+  if (input.startsWith("data:")) {
+    return {
+      url: input
+    };
+  }
+  const { provider, defaults } = getProvider(ctx, options.provider || ctx.options.provider);
+  const preset = getPreset(ctx, options.preset);
+  input = hasProtocol(input) ? input : withLeadingSlash(input);
+  if (!provider.supportsAlias) {
+    for (const base in ctx.options.alias) {
+      if (input.startsWith(base)) {
+        input = joinURL(ctx.options.alias[base], input.substr(base.length));
+      }
+    }
+  }
+  if (provider.validateDomains && hasProtocol(input)) {
+    const inputHost = parseURL(input).host;
+    if (!ctx.options.domains.find((d) => d === inputHost)) {
+      return {
+        url: input
+      };
+    }
+  }
+  const _options = defu(options, preset, defaults);
+  _options.modifiers = { ..._options.modifiers };
+  const expectedFormat = _options.modifiers.format;
+  if ((_a = _options.modifiers) == null ? void 0 : _a.width) {
+    _options.modifiers.width = parseSize(_options.modifiers.width);
+  }
+  if ((_b = _options.modifiers) == null ? void 0 : _b.height) {
+    _options.modifiers.height = parseSize(_options.modifiers.height);
+  }
+  const image = provider.getImage(input, _options, ctx);
+  image.format = image.format || expectedFormat || "";
+  return image;
+}
+function getProvider(ctx, name) {
+  const provider = ctx.options.providers[name];
+  if (!provider) {
+    throw new Error("Unknown provider: " + name);
+  }
+  return provider;
+}
+function getPreset(ctx, name) {
+  if (!name) {
+    return {};
+  }
+  if (!ctx.options.presets[name]) {
+    throw new Error("Unknown preset: " + name);
+  }
+  return ctx.options.presets[name];
+}
+function getSizes(ctx, input, opts) {
+  var _a, _b;
+  const width = parseSize((_a = opts.modifiers) == null ? void 0 : _a.width);
+  const height = parseSize((_b = opts.modifiers) == null ? void 0 : _b.height);
+  const hwRatio = width && height ? height / width : 0;
+  const variants = [];
+  const sizes = {};
+  if (typeof opts.sizes === "string") {
+    for (const entry2 of opts.sizes.split(/[\s,]+/).filter((e) => e)) {
+      const s = entry2.split(":");
+      if (s.length !== 2) {
+        continue;
+      }
+      sizes[s[0].trim()] = s[1].trim();
+    }
+  } else {
+    Object.assign(sizes, opts.sizes);
+  }
+  for (const key in sizes) {
+    const screenMaxWidth = ctx.options.screens && ctx.options.screens[key] || parseInt(key);
+    let size = String(sizes[key]);
+    const isFluid = size.endsWith("vw");
+    if (!isFluid && /^\d+$/.test(size)) {
+      size = size + "px";
+    }
+    if (!isFluid && !size.endsWith("px")) {
+      continue;
+    }
+    let _cWidth = parseInt(size);
+    if (!screenMaxWidth || !_cWidth) {
+      continue;
+    }
+    if (isFluid) {
+      _cWidth = Math.round(_cWidth / 100 * screenMaxWidth);
+    }
+    const _cHeight = hwRatio ? Math.round(_cWidth * hwRatio) : height;
+    variants.push({
+      width: _cWidth,
+      size,
+      screenMaxWidth,
+      media: `(max-width: ${screenMaxWidth}px)`,
+      src: ctx.$img(input, { ...opts.modifiers, width: _cWidth, height: _cHeight }, opts)
+    });
+  }
+  variants.sort((v1, v2) => v1.screenMaxWidth - v2.screenMaxWidth);
+  const defaultVar = variants[variants.length - 1];
+  if (defaultVar) {
+    defaultVar.media = "";
+  }
+  return {
+    sizes: variants.map((v) => `${v.media ? v.media + " " : ""}${v.size}`).join(", "),
+    srcset: variants.map((v) => `${v.src} ${v.width}w`).join(", "),
+    src: defaultVar == null ? void 0 : defaultVar.src
+  };
+}
+const operationsGenerator = createOperationsGenerator({
+  keyMap: {
+    format: "f",
+    fit: "fit",
+    width: "w",
+    height: "h",
+    resize: "s",
+    quality: "q",
+    background: "b"
+  },
+  joinWith: "&",
+  formatter: (key, val) => encodeParam(key) + "_" + encodeParam(val)
+});
+const getImage = (src, { modifiers = {}, baseURL: baseURL2 } = {}, _ctx) => {
+  if (modifiers.width && modifiers.height) {
+    modifiers.resize = `${modifiers.width}x${modifiers.height}`;
+    delete modifiers.width;
+    delete modifiers.height;
+  }
+  const params = operationsGenerator(modifiers) || "_";
+  if (!baseURL2) {
+    baseURL2 = joinURL("/", "/_ipx");
+  }
+  return {
+    url: joinURL(baseURL2, params, encodePath(src))
+  };
+};
+const validateDomains = true;
+const supportsAlias = true;
+const ipxRuntime$SHzIEAgl3i = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  getImage,
+  supportsAlias,
+  validateDomains
+});
+const imageOptions = {
+  "screens": {
+    "xs": 320,
+    "sm": 640,
+    "md": 768,
+    "lg": 1024,
+    "xl": 1280,
+    "xxl": 1536,
+    "2xl": 1536
+  },
+  "presets": {},
+  "provider": "ipx",
+  "domains": [],
+  "alias": {}
+};
+imageOptions.providers = {
+  ["ipx"]: { provider: ipxRuntime$SHzIEAgl3i, defaults: {} }
+};
+const plugin_OrkQhMqHci = defineNuxtPlugin(() => {
+  const img = createImage(imageOptions);
+  return {
+    provide: {
+      img
+    }
+  };
+});
 const plugin_BqLkNUef68 = defineNuxtPlugin(async (nuxtApp) => {
   let __temp, __restore;
   const { applicationId, apiKey, lite, recommend, cache } = useRuntimeConfig().algolia;
@@ -1069,6 +1343,7 @@ const _plugins = [
   components_plugin_KR1HBZs4kY,
   vueuse_head_plugin_D7WGfuP1A0,
   router_Pg0DINazwm,
+  plugin_OrkQhMqHci,
   plugin_BqLkNUef68
 ];
 const Fragment = /* @__PURE__ */ defineComponent({
@@ -1404,8 +1679,8 @@ const _sfc_main = {
   __name: "nuxt-root",
   __ssrInlineRender: true,
   setup(__props) {
-    const ErrorComponent = /* @__PURE__ */ defineAsyncComponent(() => import('./_nuxt/error-component-a7e99902.mjs').then((r) => r.default || r));
-    const IslandRenderer = /* @__PURE__ */ defineAsyncComponent(() => import('./_nuxt/island-renderer-ae3ae5fd.mjs').then((r) => r.default || r));
+    const ErrorComponent = /* @__PURE__ */ defineAsyncComponent(() => import('./_nuxt/error-component-d806309f.mjs').then((r) => r.default || r));
+    const IslandRenderer = /* @__PURE__ */ defineAsyncComponent(() => import('./_nuxt/island-renderer-5c8b4bb9.mjs').then((r) => r.default || r));
     const nuxtApp = useNuxtApp();
     nuxtApp.deferHydration();
     provide("_route", useRoute());
@@ -1465,5 +1740,5 @@ const plugins = normalizePlugins(_plugins);
 }
 const entry$1 = (ctx) => entry(ctx);
 
-export { __nuxt_component_0$1 as _, _export_sfc as a, useRequestEvent as b, createError as c, useRoute as d, entry$1 as default, useNuxtApp as e, useState as f, useRuntimeConfig as u };
+export { __nuxt_component_0$1 as _, _export_sfc as a, useRequestEvent as b, createError as c, useRuntimeConfig as d, entry$1 as default, useRoute as e, useState as f, parseSize as p, useNuxtApp as u };
 //# sourceMappingURL=server.mjs.map
