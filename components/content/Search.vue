@@ -1,12 +1,15 @@
 <script setup lang="ts">
-const { result, search } = useAlgoliaSearch("dev_koirametsat");
+/* const { result, search } = useAlgoliaSearch(process.env.ALGOLIA_INDEX);
 
 onMounted(async () => {
   // await search({ query: "Samsung" });
 });
+const newSearch = (params: string) => {
+  result.value = "Loading...";
+  search(params);
+} */
 </script>
 
 <template>
-    <h2>Tehokas haku</h2>
-  <div>{{ result }}</div>
+    
 </template>

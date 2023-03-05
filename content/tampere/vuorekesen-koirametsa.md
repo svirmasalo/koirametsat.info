@@ -2,6 +2,7 @@
 title: 'Vuoreksen koirametsä'
 description: 'Tampereen ja Lempäälän rajalla sijaitseva Vuoreksen Koirametsä on 1,4 hehtaarin kokoinen suuri aidattu metsäalue, jota voi varata kaikenkokoisten koirien ulkoiluttamiseen vapaana, turvallisesti luonnon helmassa.'
 tags: 'Lempäälä'
+address: 'Koipitaipaleenkatu 20, 33890 Tampere'
 ---
 
 # Vuoreksen koirametsä

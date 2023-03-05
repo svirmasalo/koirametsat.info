@@ -1,3 +1,65 @@
 @tailwind base;
+@layer base {
+    body {
+        @apply bg-primary text-secondary pb-20 relative antialiased;
+    }
+    .prose {
+        @apply mx-auto;
+    }
+}
 @tailwind components;
+@layer components {
+    #mobile-nav li a {
+        @apply text-center px-2 block;
+    }
+    #mobile-nav li a.router-link-active {
+        @apply text-primary-active;
+    }
+    #mobile-nav li svg {
+        @apply mx-auto;
+    }
+    a.body-cta-link {
+        @apply my-2 text-center hover:bg-primary-active text-white py-4 leading-none px-12 rounded no-underline;
+    }
+}
 @tailwind utilities;
+
+.ais-SearchBox {
+    @apply px-4 pt-2 pb-6 mx-auto;
+}
+
+.ais-SearchBox-form {
+    @apply flex flex-row justify-between items-center relative;
+}
+
+.ais-SearchBox-input {
+    @apply py-2 text-primary w-full rounded rounded-r-none px-6 focus:outline-none;
+}
+
+button.ais-SearchBox-submit {
+    @apply bg-white text-white rounded rounded-l-none px-4 py-3 ml-0 border-0 focus:outline-none;
+}
+
+button.ais-SearchBox-submit svg {
+    @apply w-4 h-4;
+}
+button.ais-SearchBox-reset {
+    @apply absolute -right-2 -top-2 bg-primary-active border border-primary text-white rounded-full p-1 focus:outline-none text-xs;
+}
+button.ais-SearchBox-reset svg {
+    @apply w-2 h-2 fill-current;
+}
+
+div.ais-Hits {
+    @apply pt-10;
+}
+ol.ais-Hits-list {
+    @apply px-4 flex flex-col gap-4 justify-center;
+}
+.ais-Hits-item a {
+    @apply bg-white shadow text-primary rounded p-5 hover:shadow-md transition-shadow flex flex-row justify-between items-center;
+}
+
+.ais-Highlight-highlighted {
+    @apply bg-primary-active text-white;
+}

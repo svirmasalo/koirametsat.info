@@ -1,18 +1,26 @@
+import consola from "consola";
+import algoliasearch from "algoliasearch";
+
 import { serverQueryContent } from '#content/server'
 import { SitemapStream, streamToPromise } from 'sitemap'
 
 export default defineEventHandler(async (event) => {
   // Fetch all documents
   const docs = await serverQueryContent(event).find();
+
   const sitemap = new SitemapStream({
-    hostname: 'https://some-url.com'
+    hostname: process.env.SITE_URL
   });
 
   for (const doc of docs) {
-    sitemap.write({
-      url: doc._path,
-      changefreq: 'monthly'
-    })
+    try {
+      sitemap.write({
+        url: doc._path,
+        changefreq: 'monthly'
+      })
+    } catch (e) {
+      consola.error(e)
+    }
   }
   sitemap.end()
 
