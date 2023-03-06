@@ -14,12 +14,24 @@ export default defineNuxtConfig({
     },
   },
   content: {
-    markdown:{
-      anchorLinks: false
-    }
+    markdown: {
+      anchorLinks: false,
+    },
   },
   css: ["~/assets/css/main.css"],
-  modules: ["@nuxt/content", "@nuxtjs/algolia", "@nuxt/image-edge"],
+  /*
+  "google-adsense": { 
+    id: process.env.ADSENSE_ID, 
+    analyticsDomainName: "koirametsat.info",
+    onPageLoad: true,
+  },
+  */
+  modules: [
+    "@nuxt/content",
+    "@nuxtjs/algolia",
+    "@nuxt/image-edge",
+    "@nuxtjs/google-adsense",
+  ],
   nitro: {
     prerender: {
       routes: ["sitemap.xml"],
