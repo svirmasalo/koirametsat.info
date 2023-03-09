@@ -1,8 +1,14 @@
 <script setup>
-// defineProps(['content'])
+const props = defineProps(['skipMain']);
+const skipMain = props.skipMain || false;
 </script>
 <template>
-  <main class="bg-secondary flex flex-col justify-start pb-12 min-h-screen">
+  <div v-if="skipMain" class="container pt-10 text-primary">
+    <div class="prose">
+      <ContentSlot :use="$slots.default" />
+    </div>
+  </div>
+  <main v-else class="bg-secondary flex flex-col justify-start pb-12 min-h-screen">
     <div class="container pt-10 text-primary">
       <div class="prose">
         <ContentSlot :use="$slots.default" />

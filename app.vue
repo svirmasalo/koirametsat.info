@@ -4,5 +4,6 @@
       <NuxtPage />
     </NuxtLayout>
     <SiteNav />
+    <CookieBanner />
   </div>
 </template>

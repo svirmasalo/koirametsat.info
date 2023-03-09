@@ -33,7 +33,7 @@ Nettiajanvaraus."'
 ::ParkItem
 ---
 featureName: Alueen koko
-featureDescription: 8Ha
+featureDescription: 8ha
 ---
 ::
 ::ParkItem

@@ -1,4 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import cookieSettings from "./cookies";
+import cookieUi from "./cookieUi";
+import cookieTexts from "./cookieTexts";
+
 export default defineNuxtConfig({
   algolia: {
     applicationId: process.env.ALGOLIA_APP_ID,
@@ -6,14 +10,11 @@ export default defineNuxtConfig({
     instantSearch: {
       theme: "reset",
     },
-    crawler: {
-      apiKey: `${process.env.ALGOLIA_API_KEY}`,
-      indexName: `${process.env.ALGOLIA_INDEX}`,
-      meta: ["title", "description", "tags", "path"],
-      include: () => true,
-    },
   },
   content: {
+    api: {
+      baseURL: "/api/_my_content",
+    },
     markdown: {
       anchorLinks: false,
     },
@@ -30,12 +31,22 @@ export default defineNuxtConfig({
     "@nuxt/content",
     "@nuxtjs/algolia",
     "@nuxt/image-edge",
-    "@nuxtjs/google-adsense",
+    "@dargmuesli/nuxt-cookie-control",
+    /* "@nuxtjs/google-adsense", */
   ],
   nitro: {
     prerender: {
       routes: ["sitemap.xml"],
     },
+  },
+  cookieControl: {
+    barPosition: 'bottom-full',
+    domain: process.env.SITE_URL,
+    locales: ['en'],
+    cookies: cookieSettings,
+    ...cookieUi,
+    localeTexts: cookieTexts,
+    isControlButtonEnabled: true,
   },
   postcss: {
     plugins: {

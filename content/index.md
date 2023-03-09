@@ -8,10 +8,17 @@ description: 'Koirametsät.info-sivusto on suunniteltu helpottamaan koiranomista
 ::HeaderPage
 # Koirametsät.info
 Löydä lähin koirametsä missä tahansa oletkin.
+::Search
+::
 ::
 
 
 ::BodyPage
+
+::CityList{:cities='["/helsinki", "/tampere", "/jyvaskyla"]'}
+## Suosituimmat kaupungit
+::
+
 [Tervetuloa Koirametsät.info-sivustolle! Meidän tavoitteemme on auttaa sinua löytämään lähin koirametsä missä tahansa oletkin.]{.text-lg}
 <!--more-->
 Koirametsät.info-sivusto on suunniteltu helpottamaan koiranomistajien arkea tarjoamalla kattavan tietokannan koirametsistä ympäri Suomen. Meiltä löydät tietoa koirametsistä, joissa voit käydä rauhallisin mielin koirasi kanssa ulkoilemassa ja nauttimassa luonnosta.
@@ -28,9 +35,11 @@ Voit myös selata sivustoamme alueittain ja löytää uusia mielenkiintoisia koi
 ## Tavoitteena helppokäyttöisyys
 Meidän tavoitteemme on tarjota sinulle helpoin kokemus ja siksi päivitämme jatkuvasti tietokantamme uusilla koirametsillä. Haluamme varmistaa, että löydät aina uusimmat tiedot koirametsistä, jotta voit suunnitella retkesi mahdollisimman helposti ja turvallisesti.
 
+Mikäli huomaat että palvelussa on vääriä tietoja, ota ihmeessä yhteyttä sähköpostitse osoitteeseen [sampo.virmasalo@gmail.com](mailto:sampo.virmasalo@gmail.com).
+
 Kiitos, että valitsit Koirametsät.info-sivuston. Toivomme, että nautit käyttäessäsi palveluamme ja löydät etsimäsi koirametsän helposti ja nopeasti!
 
-Lisää tietoa [täältä](/info)
+Lisää tietoa :PageLink{to="/tietoa-palvelusta" label="Täältä" }
 
 _Huom! Koirametsät.info ei vastaa yhdenkään koirametsän tilasta tai toiminnasta._
 ::

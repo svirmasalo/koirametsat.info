@@ -32,7 +32,7 @@ featureDescription: '"Nuuksion jylhään maastoon rakennettu hehtaarin kokoinen 
 ::ParkItem
 ---
 featureName: Alueen koko
-featureDescription: 1Ha
+featureDescription: 1ha
 ---
 ::
 ::ParkItem

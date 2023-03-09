@@ -32,7 +32,7 @@ featureDescription: '"Aidoin rajattu kahden hehtaarin metsäalue, jossa lemmikin
 ::ParkItem
 ---
 featureName: Alueen koko
-featureDescription: ~2Ha
+featureDescription: ~2ha
 ---
 ::
 ::ParkItem

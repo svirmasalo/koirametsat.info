@@ -31,7 +31,7 @@ featureDescription: Aidattu, viihtyisä, nuotiopaikka
 ::ParkItem
 ---
 featureName: Alueen koko
-featureDescription: 80m*100m (0,8Ha)
+featureDescription: 80m*100m (0,8ha)
 ---
 ::
 ::ParkItem
