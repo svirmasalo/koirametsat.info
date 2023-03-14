@@ -27,12 +27,18 @@ module.exports = {
       },
     },
     extend: {
+      height: {
+        'og': '627px',
+      },
       colors: {
         primary: "#354E57",
         secondary: "#EEF2F4",
         accent: "#5B8595",
         cloud: "#F7F7F7",
         "primary-active": '#547665'
+      },
+      width: {
+        'og': '1200px',
       },
     },
   },

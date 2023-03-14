@@ -8,7 +8,7 @@ closeBy: 'Forssa'
 
 ::HeaderPark
 ---
-image: 'https://3840754966.clvaw-cdnwnd.com/25fa4eed16924e34482fd184d0bf236d/200000004-b86c4b86c6/koirakallion%20mets%C3%A4-%20nettiin2.jpg?ph=3840754966'
+
 notificationText: 'Verkkosivusto osoitteessa: https://www.koirakallionmetsa.fi/.'
 notificationLink: 'https://www.koirakallionmetsa.fi/'
 ---

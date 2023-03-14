@@ -1,16 +1,22 @@
 <script setup lang="ts">
+const route = useRoute()
 defineProps({
   image: { type: String, default: "" },
   notificationText: { type: String, default: "" },
   notificationLink: { type: String, default: "" },
 });
+// Get path of default image if no image is provided. Default image for the park is in the ./public/images folder, named <slug>.png
+const defaultImage = `images/${route.params.slug}.png`;
+
 </script>
 <template>
   <header class="pt-16 pb-0 px-4 text-center">
     <div class="rounded-full border-2 border-secondary overflow-hidden mb-6 w-44 h-44 mx-auto">
-        <nuxt-img :src="image" class="object-cover object-center h-full w-full" quality="20" format="webp" loading="lazy"/>
+        <nuxt-img :src="defaultImage" class="object-cover object-center h-full w-full" quality="20" format="webp" loading="lazy" alt="AI:n luoma kuvituskuva koirametsästä"/>
     </div>
-    <ContentSlot :use="$slots.default" />
+    <div class="max-w-lg mx-auto">
+      <ContentSlot :use="$slots.default" />
+    </div>
     <div
       class="py-4 mt-12 bg-accent text-white text-xs -mx-4 flex justify-between items-center px-4 lg:justify-center"
     >

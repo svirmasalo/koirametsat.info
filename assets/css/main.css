@@ -1,7 +1,7 @@
 @tailwind base;
 @layer base {
     body {
-        @apply bg-primary text-secondary pb-20 relative antialiased;
+        @apply bg-primary bg-gradient-to-br from-primary to-primary-active text-secondary pb-20 relative antialiased;
     }
     .prose {
         @apply mx-auto;
