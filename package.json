@@ -9,7 +9,7 @@
     "postinstall": "nuxt prepare"
   },
   "engines": {
-    "node": "18.x"
+    "node": "17.x"
   },
   "devDependencies": {
     "@dargmuesli/nuxt-cookie-control": "^5.1.0",
