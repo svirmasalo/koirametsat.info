@@ -1,10 +1,4 @@
 <script setup>
-useHead({
-  title: "Haku",
-  description: "Etsitkö täydellistä koirametsää? Käytä koirametsät.info huippunopeaa hakutoimintoa löytääksesi laajan valikoiman erilaisia koirametsiä ympäri Suomen alueen, koon, sijainnin tai palveluiden perusteella. Löydä unelmiesi koirametsä hetkessä - tutustu nyt!",
-});
-const indexName = "dev_koirametsat";
-const algolia = useAlgoliaRef();
 import {
   AisInstantSearch,
   AisSearchBox,
@@ -12,11 +6,37 @@ import {
   AisHighlight,
 } from "vue-instantsearch/vue3/es/index.js";
 
+useHead({
+  title: "Haku",
+  description: "Etsitkö täydellistä koirametsää? Käytä koirametsät.info huippunopeaa hakutoimintoa löytääksesi laajan valikoiman erilaisia koirametsiä ympäri Suomen alueen, koon, sijainnin tai palveluiden perusteella. Löydä unelmiesi koirametsä hetkessä - tutustu nyt!",
+});
+const indexName = "dev_koirametsat";
+const algolia = useAlgoliaRef();
+
 // Get initial search from query string
 const initialSearch = useRoute().query.q || "";
 
 // Set search string to initial search
 const searchString = ref(initialSearch);
+
+// Tracking event for Facebook and Google. Send event only after search input is blurred.
+const track = (string) => {
+  try {
+    fbq('track', 'Search', {
+      search_string: string
+    });
+  } catch (e) {
+    console.warn("Facebook Pixel not loaded");
+  }
+  try {
+    dataLayer.push({
+      'event': 'Search',
+      'searchTerm': string, // Replace with the actual search term entered by the user
+    });
+  } catch(error) {
+    console.warn("Datalayer not defined");
+  }
+}
 
 </script>
 
@@ -36,6 +56,7 @@ const searchString = ref(initialSearch);
           reset-title="Tyhjennä"
           autofocus
           v-model="searchString"
+          @blur="track(searchString)"
         />
       </div>
       <div class="bg-secondary flex flex-col justify-start pb-12 min-h-screen">

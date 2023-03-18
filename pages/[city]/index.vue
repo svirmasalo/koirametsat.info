@@ -12,6 +12,15 @@
         }
     }).findOne();
 
+    // Query all documents that have a closeBy array including current city
+    const closeByQuery = await queryContent({
+        where: {
+            closeBy: {$contains: ['Helsinki']},
+        }
+    }).find();
+
+
+
     // List of paths that are not cities
     const nonCities = [route.path];
     // Filter out non-cities and paths that are not direct children of root
@@ -47,8 +56,18 @@
                     </li>
                 </ul>
             </div>
-            <div class="prose text-center" v-else>
-                <NoContentForCity  />
+            <div class="prose text-center py-10" v-else>
+                <NoContentForCity />
+            </div>
+            <div v-if="closeByQuery.length > 0" class="prose mt-12">
+                <h2>Koirametsät lähellä</h2>
+            </div>
+            <div v-if="closeByQuery.length > 0" class="w-full max-w-lg mx-auto pt-8">
+                <ul class="flex flex-col gap-4 justify-center">
+                    <li v-for="item in closeByQuery" :key="item._path" class="bg-white shadow text-primary rounded p-5 hover:shadow-md transition-shadow">
+                        <ListItem :to="item._path" :title="item.title" :substring="item.address" />
+                    </li>
+                </ul>
             </div>
             <ContentDoc :path="$route.path" />
         </div>

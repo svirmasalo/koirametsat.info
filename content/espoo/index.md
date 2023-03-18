@@ -3,7 +3,6 @@ navigation: false
 title: 'Espoo'
 titleIn: 'Espoossa'
 description: 'Täältä löydät kaikki Espoon koirametsät'
-closeBy: 'Helsinki, Vihti, Tuusula, Nurmijärvi, Hyvinkää'
 ---
 # Espoon kaikki koirametsät
 

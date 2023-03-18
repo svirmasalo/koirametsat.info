@@ -22,19 +22,21 @@
 </style>
 <script setup lang="ts">
 const {
-  cookiesEnabled,
+  /* cookiesEnabled, */
   cookiesEnabledIds,
-  isConsentGiven,
-  isModalActive,
-  moduleOptions,
+  /* isConsentGiven,
+  isModalActive, */
+  moduleOptions
 } = useCookieControl();
+
+const idsToWatch = moduleOptions.cookies?.optional.map((cookieId) => cookieId.id);
 
 watch(
   () => cookiesEnabledIds.value,
   (current, previous) => {
     if (
-      !previous?.includes("google-analytics") &&
-      current?.includes("google-analytics")
+      !previous?.includes("AW") &&
+      current?.includes("AW")
     ) {
       // cookie with id `google-analytics` got added
       window.location.reload(); // placeholder for your custom change handler

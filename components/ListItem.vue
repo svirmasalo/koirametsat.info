@@ -17,7 +17,7 @@ export default {
 }
 </script>
 <template>
-    <NuxtLink class="flex flex-row justify-between items-center" :to="to">
+    <NuxtLink class="flex flex-row justify-between items-center" data-target="park" :to="to">
         <div class="">
             <p class="text-lg font-bold">{{ title }}</p>
             <p class="text-sm leading-relaxed">{{ substring }}</p>

@@ -1,9 +1,27 @@
 <script setup lang="ts">
-  const router = useRouter();
-  let searchString = ref('');
-  function search() {
-    router.push({ path: '/haku', query: { q: searchString.value } });
+const router = useRouter();
+let searchString = ref("");
+function search() {
+  // Track search event to Google and facebook
+  try {
+    fbq("track", "Search", {
+      search_string: searchString.value,
+    });
+  } catch (e) {
+    console.warn("Facebook Pixel not loaded");
   }
+
+  try {
+    window.dataLayer.push({
+      event: "Search",
+      searchTerm: searchString.value, // Replace with the actual search term entered by the user
+    });
+  } catch (error) {
+    console.warn("Datalayer not defined");
+  }
+
+  router.push({ path: "/haku", query: { q: searchString.value } });
+}
 </script>
 <template>
   <div class="max-w-sm mx-auto mt-12">
