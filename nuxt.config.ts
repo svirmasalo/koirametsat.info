@@ -41,18 +41,10 @@ export default defineNuxtConfig({
     },
   },
   css: ["~/assets/css/main.css"],
-  "google-adsense": { 
-    onPageLoad: true,
-    pageLevelAds: true,
-  },
   runtimeConfig: {
     public: {
       GTAG_ID: process.env.GTAG_ID,
       META_ID: process.env.META_ID,
-      /* 'google-adsense': {
-        id: process.env.ADSENSE_ID,
-        test: process.env.ADSENSE_TEST_MODE === 'true',
-      }, */
     },
   },
   modules: [
@@ -60,7 +52,6 @@ export default defineNuxtConfig({
     "@nuxtjs/algolia",
     "@nuxt/image-edge",
     "@dargmuesli/nuxt-cookie-control",
-    /* "@nuxtjs/google-adsense", */
     '@nuxtjs/robots'
   ],
   nitro: {
