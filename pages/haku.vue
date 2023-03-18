@@ -59,7 +59,7 @@ const track = (string) => {
           @blur="track(searchString)"
         />
       </div>
-      <div class="bg-secondary flex flex-col justify-start pb-12 min-h-screen">
+      <div class="bg-secondary flex flex-col justify-start pb-12">
         <div class="max-w-lg mx-auto w-full">
           <AisHits>
             <template v-slot:item="{ item }">
@@ -69,7 +69,7 @@ const track = (string) => {
                     <AisHighlight attribute="title" :hit="item"></AisHighlight>
                   </p>
                   <p class="text-sm">
-                    <AisHighlight attribute="tags" :hit="item"></AisHighlight>
+                    <AisHighlight attribute="city" :hit="item"></AisHighlight>
                   </p>
                 </div>
                 <svg
@@ -93,6 +93,9 @@ const track = (string) => {
         <ContentDoc />
       </div>
     </AisInstantSearch>
+    <div class="bg-cloud py-12">
+      <DisplayAd />
+    </div>
   </main>
 </template>
   

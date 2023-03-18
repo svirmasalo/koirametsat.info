@@ -68,6 +68,7 @@
                     </li>
                 </ul>
             </div>
+            <DisplayAd />
             <ContentDoc :path="$route.path" />
         </div>
     </main>
