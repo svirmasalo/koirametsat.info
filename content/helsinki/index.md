@@ -1,6 +1,8 @@
 ---
 navigation: false
 title: 'Helsinki'
+titleIn: 'Helsingissä'
+description: 'Täältä löydät kaikki Helsingin koirametsät'
 ---
 # Helsingin kaikki koirametsät
 

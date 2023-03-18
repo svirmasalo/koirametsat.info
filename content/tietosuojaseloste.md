@@ -12,7 +12,7 @@ Suosittelemme, että luet tämän tietosuojaselosteen huolellisesti ennen kuin k
 ## Rekisterinpitäjä
 Rekisterinpitäjä koirametsät.info on sitoutunut varmistamaan, että käyttäjien henkilötietoja käsitellään lainmukaisesti, asianmukaisesti ja läpinäkyvästi. Rekisterinpitäjän yhteystiedot ovat:
 - Tmi S. Virmasalo
-- Y-tunnus: 1234567-8
+- Y-tunnus: 2645284-9
 - Osoite: Suvelantie 73, 41940 Vesanka
 - Sähköposti: sampo.virmasalo@gmail.com
 
@@ -49,6 +49,16 @@ Käyttäjä voi käyttää oikeuksiaan ottamalla yhteyttä rekisterinpitäjään
 
 ## Evästeet
 Verkkosivusto käyttää evästeitä parantaakseen käyttäjäkokemusta ja tarjotakseen yksilöllistä sisältöä. Evästeet ovat pieniä tekstitiedostoja, jotka tallennetaan käyttäjän laitteelle. Verkkosivustolla käytettävien evästeiden tiedot ja käyttötarkoitukset on kuvattu tarkemmin evästekäytännössämme.
+
+Evästeidenhallinta on koko ajan saatavillasi. Voit hallita evästeitä klikkaamalla palvelun oikeasta alareunasta 
+löytyvää eväste-ikonia (kuva alla).
+
+::ContentImage
+---
+src: '/images/evasteiden-hallinta.png'
+alt: 'Tietosuojaseloste'
+---
+::
 
 ## Muutokset tietosuojaselosteeseen
 

@@ -15,10 +15,9 @@
     // Query all documents that have a closeBy array including current city
     const closeByQuery = await queryContent({
         where: {
-            closeBy: {$contains: ['Helsinki']},
+            closeBy: {$contains: [cityQuery.title]},
         }
     }).find();
-
 
 
     // List of paths that are not cities
@@ -59,8 +58,8 @@
             <div class="prose text-center py-10" v-else>
                 <NoContentForCity />
             </div>
-            <div v-if="closeByQuery.length > 0" class="prose mt-12">
-                <h2>Koirametsät lähellä</h2>
+            <div v-if="closeByQuery.length > 0" class="mx-auto prose mt-12">
+                <h2>Lähellä sijaitsevat koirametsät</h2>
             </div>
             <div v-if="closeByQuery.length > 0" class="w-full max-w-lg mx-auto pt-8">
                 <ul class="flex flex-col gap-4 justify-center">

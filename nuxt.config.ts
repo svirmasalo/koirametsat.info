@@ -4,6 +4,7 @@ import cookieUi from "./cookieUi";
 import cookieTexts from "./cookieTexts";
 import gtmNoscript from "./gtmNoscript";
 import metaNoscript from "./metaNoscript";
+import robotsConfig from "./robots.config";
 
 export default defineNuxtConfig({
   app: {
@@ -48,10 +49,10 @@ export default defineNuxtConfig({
     public: {
       GTAG_ID: process.env.GTAG_ID,
       META_ID: process.env.META_ID,
-      'google-adsense': {
+      /* 'google-adsense': {
         id: process.env.ADSENSE_ID,
         test: process.env.ADSENSE_TEST_MODE === 'true',
-      },
+      }, */
     },
   },
   modules: [
@@ -59,7 +60,8 @@ export default defineNuxtConfig({
     "@nuxtjs/algolia",
     "@nuxt/image-edge",
     "@dargmuesli/nuxt-cookie-control",
-    "@nuxtjs/google-adsense",
+    /* "@nuxtjs/google-adsense", */
+    '@nuxtjs/robots'
   ],
   nitro: {
     prerender: {
@@ -80,6 +82,9 @@ export default defineNuxtConfig({
       tailwindcss: {},
       autoprefixer: {},
     },
+  },
+  robots: {
+    config: robotsConfig
   },
   ssr: true,
 });

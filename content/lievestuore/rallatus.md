@@ -3,7 +3,7 @@ title: 'Koirametsä Rallatus'
 description: 'Turvallinen koirametsä tarjoaa 2 hehtaarin verran aidattua metsää koirien ulkoilutukseen erilaisilla leikkialueilla.'
 tags: 'Korkea aita, '
 address: 'Kelkkamäentie 176, 41400 Lievestuore'
-closeBy: 'Jyväskylä, Toivakka, Kangasniemi'
+closeBy: 'Jyväskylä, Toivakka, Kangasniemi, Muurame'
 ---
 
 ::HeaderPark
