@@ -1,11 +1,15 @@
 {
   "private": true,
   "scripts": {
+    "start": "node .output/server/index.mjs",
     "build": "node indexContentToAlgolia.js && nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
+  },
+  "engines": {
+    "node": "18.3.0"
   },
   "devDependencies": {
     "@dargmuesli/nuxt-cookie-control": "^5.1.0",
