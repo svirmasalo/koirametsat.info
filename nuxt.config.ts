@@ -51,12 +51,14 @@ export default defineNuxtConfig({
     "@nuxtjs/algolia",
     "@nuxt/image-edge",
     "@dargmuesli/nuxt-cookie-control",
-    '@nuxtjs/robots'
   ],
   nitro: {
     prerender: {
       routes: ["sitemap.xml"],
     },
+    routeRules: {
+      "/robots.txt": {headers: { "Content-Type": "text/plain" }},
+    }
   },
   cookieControl: {
     barPosition: "bottom-full",
@@ -72,9 +74,6 @@ export default defineNuxtConfig({
       tailwindcss: {},
       autoprefixer: {},
     },
-  },
-  robots: {
-    config: robotsConfig
   },
   ssr: true,
 });
