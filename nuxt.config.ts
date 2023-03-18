@@ -16,11 +16,10 @@ export default defineNuxtConfig({
       ],
       script: [
         {
-          src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4176977519112516",
+          src: `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.ADSENSE_ID}`,
           async: true,
           crossorigin: "anonymous",
-        }
-        // { src: "js/gtm.js", defer: true },
+        },
       ],
       noscript: [{ children: gtmNoscript }, { children: metaNoscript }],
     },
