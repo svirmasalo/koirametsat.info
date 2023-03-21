@@ -1,4 +1,5 @@
 <template>
   <ContentDoc />
+  <SchemaOrgWebPage />
 </template>
     

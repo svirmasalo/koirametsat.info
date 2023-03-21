@@ -52,5 +52,6 @@
       <ContentDoc />
     </div>
   </main>
+  <SchemaOrgWebPage />
 </template>
     

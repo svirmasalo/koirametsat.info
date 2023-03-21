@@ -71,5 +71,6 @@
             <ContentDoc :path="$route.path" />
         </div>
     </main>
+    <SchemaOrgWebPage />
 </template>
   

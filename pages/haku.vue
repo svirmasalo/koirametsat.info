@@ -96,5 +96,6 @@ const track = (string) => {
       <ContentDoc />
     </div>
   </main>
+  <SchemaOrgWebPage />
 </template>
   

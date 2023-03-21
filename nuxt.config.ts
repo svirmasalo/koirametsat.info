@@ -9,15 +9,17 @@ export default defineNuxtConfig({
   app: {
     head: {
       htmlAttrs: {
-        lang: 'fi'
+        lang: "fi",
       },
       meta: [
         {
-          name:"facebook-domain-verification", content:process.env.META_VERIFICATION
+          name: "facebook-domain-verification",
+          content: process.env.META_VERIFICATION,
         },
         {
-          name:"og:image", content: "/images/koirametsat-info-og-meta.jpg"
-        }
+          name: "og:image",
+          content: "/images/koirametsat-info-og-meta.jpg",
+        },
       ],
       script: [
         {
@@ -49,6 +51,7 @@ export default defineNuxtConfig({
     public: {
       GTAG_ID: process.env.GTAG_ID,
       META_ID: process.env.META_ID,
+      siteUrl: process.env.SITE_URL,
     },
   },
   modules: [
@@ -56,14 +59,15 @@ export default defineNuxtConfig({
     "@nuxtjs/algolia",
     "@nuxt/image-edge",
     "@dargmuesli/nuxt-cookie-control",
+    "nuxt-schema-org",
   ],
   nitro: {
     prerender: {
       routes: ["sitemap.xml"],
     },
     routeRules: {
-      "/robots.txt": {headers: { "Content-Type": "text/plain" }},
-    }
+      "/robots.txt": { headers: { "Content-Type": "text/plain" } },
+    },
   },
   cookieControl: {
     barPosition: "bottom-full",
@@ -81,4 +85,9 @@ export default defineNuxtConfig({
     },
   },
   ssr: true,
+  schemaOrg: { 
+    host: process.env.SITE_URL,
+    image: "/images/koirametsat-info-og-meta.jpg",
+    inLanguage: "fi",
+  },
 });

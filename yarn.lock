@@ -845,6 +845,30 @@
     unimport "^2.0.1"
     untyped "^1.2.2"
 
+"@nuxt/kit@3.2.2":
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.2.2.tgz#5b369122ce853f99ecaf8cddc950ad8c4ca47e58"
+  integrity sha512-T3UeLxGSNl7dQgKzmtBbPEkUiiBYgXI+KkemmpkYbQK/l+bWy2f9VQw/Rl0HkQLfRTE2fS8q8jhsOedFiEnHQQ==
+  dependencies:
+    "@nuxt/schema" "3.2.2"
+    c12 "^1.1.2"
+    consola "^2.15.3"
+    defu "^6.1.2"
+    globby "^13.1.3"
+    hash-sum "^2.0.0"
+    ignore "^5.2.4"
+    jiti "^1.17.1"
+    knitwork "^1.0.0"
+    lodash.template "^4.5.0"
+    mlly "^1.1.1"
+    pathe "^1.1.0"
+    pkg-types "^1.0.2"
+    scule "^1.0.0"
+    semver "^7.3.8"
+    unctx "^2.1.2"
+    unimport "^2.2.4"
+    untyped "^1.2.2"
+
 "@nuxt/kit@3.2.3", "@nuxt/kit@^3.0.0", "@nuxt/kit@^3.1.1", "@nuxt/kit@^3.2.0", "@nuxt/kit@^3.2.3":
   version "3.2.3"
   resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.2.3.tgz#97d8b4a4bedda4452ea18629c73c6301a964d492"
@@ -910,6 +934,25 @@
     std-env "^3.3.1"
     ufo "^1.0.1"
     unimport "^2.0.1"
+    untyped "^1.2.2"
+
+"@nuxt/schema@3.2.2":
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/@nuxt/schema/-/schema-3.2.2.tgz#61a305f83df266c02b4018d840421fcf84d4ee51"
+  integrity sha512-o3O2OqLAMKqb/DlGpK8eJq4tH29NA4OMaohknSSXl35+Nw/qHB5eOLDz+cFxNE+MKHoMj1rRVMCfi/Y/PrCN6g==
+  dependencies:
+    c12 "^1.1.2"
+    create-require "^1.1.1"
+    defu "^6.1.2"
+    hookable "^5.4.2"
+    jiti "^1.17.1"
+    pathe "^1.1.0"
+    pkg-types "^1.0.2"
+    postcss-import-resolver "^2.0.0"
+    scule "^1.0.0"
+    std-env "^3.3.2"
+    ufo "^1.1.0"
+    unimport "^2.2.4"
     untyped "^1.2.2"
 
 "@nuxt/schema@3.2.3":
@@ -1298,6 +1341,11 @@
   dependencies:
     "@unhead/schema" "1.1.14"
     "@unhead/shared" "1.1.14"
+
+"@unhead/schema-org-vue@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@unhead/schema-org-vue/-/schema-org-vue-0.5.0.tgz#9a2d4a03a0991e4872fd68462a6c89fe2b3b9e9e"
+  integrity sha512-UEB54jF2+HBoHKqyqdw7oNLqdhDfEX/FSImtPT3oTDTfGBWpc7RGUPe2RG/j4N78Kk3SsfnHxxJO0GKIGPJRwQ==
 
 "@unhead/schema@1.1.14", "@unhead/schema@^1.1.9":
   version "1.1.14"
@@ -4715,6 +4763,15 @@ nuxt-gtag@^0.2.2:
   dependencies:
     "@nuxt/kit" "^3.3.1"
     defu "^6.1.2"
+    pathe "^1.1.0"
+
+nuxt-schema-org@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/nuxt-schema-org/-/nuxt-schema-org-2.1.2.tgz#1d6cc8c65bcc0aac549a539afc1978f0a188fc65"
+  integrity sha512-2mao0slpJgR4vOaDjhVKHn1apQ4ZH6T9FmmOmFus9YI9wAD6X6Q4USKWWoYRqNIyMEF2WX26sGr4uSPrhp1U9A==
+  dependencies:
+    "@nuxt/kit" "3.2.2"
+    "@unhead/schema-org-vue" "^0.5.0"
     pathe "^1.1.0"
 
 nuxt@^3.2.3:
