@@ -146,6 +146,7 @@ const createImages = async () => {
     await fsp.writeFile(imagePath, buffer, {flag: 'wx'});
   }
 };
-
-createImages();
+if (process.env.STAGE === 'DEV') {
+  createImages();
+}
 saveObjectsToAlgolia();
