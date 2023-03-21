@@ -21,6 +21,8 @@ Koiranpuron suuri Koirametsä on kahdeksan hehtaarin metsäalue Joensuun Louhioj
 ---
 featureName: Osoite
 featureDescription: Loiranpurontie 35 81210 Louhioja
+descriptionLink: true
+maps: true
 ---
 ::
 ::ParkItem

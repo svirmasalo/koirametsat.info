@@ -21,6 +21,8 @@ Leponiemen koirametsä on aidattu metsäalue, jossa pääset liikkumaan koirasi 
 ---
 featureName: Osoite
 featureDescription: Tervalammentie 901, 03250 Vihti
+descriptionLink: true
+maps: true
 ---
 ::
 ::ParkItem

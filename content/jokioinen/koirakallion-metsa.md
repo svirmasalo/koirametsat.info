@@ -21,6 +21,8 @@ notificationLink: 'https://www.koirakallionmetsa.fi/'
 ---
 featureName: Osoite
 featureDescription: Varissaarentie 46 Latovainio Jokioinen
+descriptionLink: true
+maps: true
 ---
 ::
 ::ParkItem

@@ -21,6 +21,8 @@ Muhoksella sijaitseva Käpälämetsä on reilun hehtaarin kokoinen yksityinen ko
 ---
 featureName: Osoite
 featureDescription: Kalilantie 161, 91500 Muhos
+descriptionLink: true
+maps: true
 ---
 ::
 ::ParkItem

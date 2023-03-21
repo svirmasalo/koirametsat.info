@@ -4,15 +4,20 @@ import cookieUi from "./cookieUi";
 import cookieTexts from "./cookieTexts";
 import gtmNoscript from "./gtmNoscript";
 import metaNoscript from "./metaNoscript";
-import robotsConfig from "./robots.config";
 
 export default defineNuxtConfig({
   app: {
     head: {
+      htmlAttrs: {
+        lang: 'fi'
+      },
       meta: [
         {
           name:"facebook-domain-verification", content:process.env.META_VERIFICATION
         },
+        {
+          name:"og:image", content: "/images/koirametsat-info-og-meta.jpg"
+        }
       ],
       script: [
         {

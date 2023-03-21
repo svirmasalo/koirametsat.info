@@ -21,6 +21,8 @@ notificationLink: 'https://www.elometsa.fi/'
 ---
 featureName: Osoite
 featureDescription: Valtolantie 61, 37500 Lempäälä
+descriptionLink: true
+maps: true
 ---
 ::
 ::ParkItem

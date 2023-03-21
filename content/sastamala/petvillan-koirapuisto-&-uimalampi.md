@@ -21,6 +21,8 @@ Petvillan koirapuisto ja uimalampi on koirille suunniteltu aktiviteetti-, uima- 
 ---
 featureName: Osoite
 featureDescription: Nevanperäntie 265, 38360 Sastamala
+descriptionLink: true
+maps: true
 ---
 ::
 ::ParkItem

@@ -21,6 +21,8 @@ notificationLink: 'https://touhu-temmellys.fi/metsamonttu/'
 ---
 featureName: Osoite
 featureDescription: Vanha Hämeentie 418, 04390 Tuusula 
+descriptionLink: true
+maps: true
 ---
 ::
 ::ParkItem

@@ -21,6 +21,8 @@ Turvallinen koirametsä tarjoaa 2 hehtaarin verran aidattua metsää koirien ulk
 ---
 featureName: Osoite
 featureDescription: Kelkkamäentie 176, 41400 Lievestuore
+descriptionLink: true
+maps: true
 ---
 ::
 ::ParkItem

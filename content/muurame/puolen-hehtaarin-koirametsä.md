@@ -20,6 +20,8 @@ notificationLink: 'https://www.facebook.com/Puolen-hehtaarin-Koiramets%C3%A4-106
 ---
 featureName: Osoite
 featureDescription: Niittyahontie 60 40950 Muurame
+descriptionLink: true
+maps: true
 ---
 ::
 ::ParkItem

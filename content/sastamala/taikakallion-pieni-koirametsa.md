@@ -21,6 +21,8 @@ Taikakallion Pieni Koiramtesä on turvallinen ja rauhallinen paikka sinulle ja k
 ---
 featureName: Osoite
 featureDescription: Irriäistentie 360, Sastamala, Suomi
+descriptionLink: true
+maps: true
 ---
 ::
 ::ParkItem

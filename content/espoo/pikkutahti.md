@@ -21,6 +21,8 @@ Yksityinen koirapuisto Nuuksion Kansallispuiston kupeessa
 ---
 featureName: Osoite
 featureDescription: Kaitakorventie 18, 02820 Espoo
+descriptionLink: true
+maps: true
 ---
 ::
 ::ParkItem

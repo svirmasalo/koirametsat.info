@@ -21,6 +21,8 @@ Mäntsälän Nummisten idyllisissä maisemissa, istutetun kuusimetsän katveessa
 ---
 featureName: Osoite
 featureDescription: Nummensuontie 168, 04660 Mäntsälä
+descriptionLink: true
+maps: true
 ---
 ::
 ::ParkItem

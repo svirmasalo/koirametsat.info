@@ -21,6 +21,8 @@ Rekkumesta on kaikenkokoisille ja -rotuisille tarkoitettu, noin 1,5 hehtaarin ko
 ---
 featureName: Osoite
 featureDescription: Hanhilammentie 127, 14300 Renko
+descriptionLink: true
+maps: true
 ---
 ::
 ::ParkItem

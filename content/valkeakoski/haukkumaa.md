@@ -21,6 +21,8 @@ Koirametsä Haukkumaa on aidattu noin kahden hehtaarin kokoinen metsäalue, joka
 ---
 featureName: Osoite
 featureDescription: Pyörönmaantie 218, 37630 Valkeakoski
+descriptionLink: true
+maps: true
 ---
 ::
 ::ParkItem

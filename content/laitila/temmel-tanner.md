@@ -20,6 +20,8 @@ notificationLink: 'https://www.temmeltanner.com/'
 ---
 featureName: Osoite
 featureDescription: Ristimäentie 172, 23800 Laitila
+descriptionLink: true
+maps: true
 ---
 ::
 ::ParkItem

@@ -21,6 +21,8 @@ Koirametsä Tampereen ja Lempäälän rajalla.
 ---
 featureName: Osoite
 featureDescription: Koipitaipaleenkatu 20, 33890 Tampere
+descriptionLink: true
+maps: true
 ---
 ::
 ::ParkItem

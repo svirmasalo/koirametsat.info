@@ -35,6 +35,13 @@
 .ais-SearchBox-input {
     @apply py-2 text-primary w-full rounded rounded-r-none px-6 focus:outline-none;
 }
+/**
+* Remove the border image from the search input on iOS devices
+*/
+input[type="search"]{
+    border-image:none !important;
+    -webkit-appearance: none;
+}
 
 button.ais-SearchBox-submit {
     @apply bg-white text-white rounded rounded-l-none px-4 py-3 ml-0 border-0 focus:outline-none;

@@ -21,6 +21,8 @@ Koirametsä Seesteinen on koirien ja koiranomistajien ensimmäinen koirametsä V
 ---
 featureName: Osoite
 featureDescription: Karjunintie 178, 21270 Nousiainen
+descriptionLink: true
+maps: true
 ---
 ::
 ::ParkItem

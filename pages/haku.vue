@@ -90,11 +90,10 @@ const track = (string) => {
             </template>
           </AisHits>
         </div>
-        <ContentDoc />
       </div>
     </AisInstantSearch>
-    <div class="bg-cloud py-12">
-      <DisplayAd />
+    <div class="bg-secondary flex flex-col justify-start pb-12">
+      <ContentDoc />
     </div>
   </main>
 </template>

@@ -21,6 +21,8 @@ Koirapuisto Kouvolan Valkealassa. Sudenkuopan yksityinen liikuntapuisto tarjoaa 
 ---
 featureName: Osoite
 featureDescription: Pirttiahontie 118, 46230 Valkeala
+descriptionLink: true
+maps: true
 ---
 ::
 ::ParkItem

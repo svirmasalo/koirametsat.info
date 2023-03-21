@@ -21,6 +21,8 @@ Paimion Koirametsä on noin 2 hehtaaria yksityisomisteista, jykevästi aidattua 
 ---
 featureName: Osoite
 featureDescription: Sauvontie 108-2, 21510 Hevonpää
+descriptionLink: true
+maps: true
 ---
 ::
 ::ParkItem

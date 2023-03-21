@@ -147,5 +147,5 @@ const createImages = async () => {
   }
 };
 
-// createImages();
+createImages();
 saveObjectsToAlgolia();

@@ -21,6 +21,8 @@ Leikkilä on Aidattu koirametsä Lohjalla.
 ---
 featureName: Osoite
 featureDescription: Isometsäntie 40, 20660 Lieto
+link: true
+maps: true
 ---
 ::
 ::ParkItem

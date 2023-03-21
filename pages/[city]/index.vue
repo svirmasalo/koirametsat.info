@@ -55,9 +55,6 @@
                     </li>
                 </ul>
             </div>
-            <div class="prose text-center py-10" v-else>
-                <NoContentForCity />
-            </div>
             <div v-if="closeByQuery.length > 0" class="mx-auto prose mt-12">
                 <h2>Lähellä sijaitsevat koirametsät</h2>
             </div>
@@ -68,7 +65,9 @@
                     </li>
                 </ul>
             </div>
-            <DisplayAd />
+            <div class="prose text-center py-10" v-if="parkList.length === 0">
+                <NoContentForCity />
+            </div>
             <ContentDoc :path="$route.path" />
         </div>
     </main>

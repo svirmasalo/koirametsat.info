@@ -15,7 +15,7 @@ Löydä lähin koirametsä missä tahansa oletkin.
 
 ::BodyPage
 
-::CityList{:cities='["/helsinki", "/tampere", "/jyvaskyla"]'}
+::CityList{:cities='["/helsinki", "/tampere", "/jyvaskyla", "/oulu"]'}
 ## Suosituimmat kaupungit
 ::
 

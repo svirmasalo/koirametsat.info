@@ -21,6 +21,8 @@ Hunsvottila on hauska ja tunnelmallinen koirapuisto, jossa viihtyvät niin koira
 ---
 featureName: Osoite
 featureDescription: Pirttiahontie 118, 46230 Valkeala
+descriptionLink: true
+maps: true
 ---
 ::
 ::ParkItem

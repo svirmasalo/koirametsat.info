@@ -21,6 +21,8 @@ Aidoin rajattu kahden hehtaarin metsäalue, jossa lemmikin ulkoilu onnistuu huol
 ---
 featureName: Osoite
 featureDescription: Ruopingintie 53, 49490 Neuvoton
+descriptionLink: true
+maps: true
 ---
 ::
 ::ParkItem

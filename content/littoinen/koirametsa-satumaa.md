@@ -21,6 +21,8 @@ notificationLink: 'https://www.koirametsasatumaa.com/'
 ---
 featureName: Osoite
 featureDescription: Isometsäntie 40, 20660 Lieto
+descriptionLink: true
+maps: true
 ---
 ::
 ::ParkItem
