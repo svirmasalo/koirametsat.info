@@ -1,6 +1,6 @@
 ---
 title: 'Koirametsä Mustinmaa'
-description: 'Koirametsä Villi Piski on noin 2 hehtaarin kokoinen aidattu metsäalue, johon voit tulla nauttimaan luonnon rauhasta koirasi kanssa.'
+description: 'Mustinmaa on 1,4 hehtaarin kokoinen metsäalue, joka on suojattu 1,7 metriä korkealla panssariaidalla. Alueella on viihtyisä grillikota, joka tarjoaa istumapaikat jopa 12 hengelle.'
 tags: 'nuotiopaikka, parkkipaikka'
 address: 'Mudaistentie 25, 26820 Rauma'
 closeBy: 'Lappi, Eurajoki, Kolha'

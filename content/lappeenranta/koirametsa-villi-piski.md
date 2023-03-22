@@ -4,6 +4,7 @@ description: 'Koiramets√§ Villi Piski on noin 2 hehtaarin kokoinen aidattu mets√
 tags: 'parkkipaikka, korkea aita'
 address: 'Vihtolantie 301, 54300 Lappeenranta'
 closeBy: 'Jurvala, Joutseno, Taipalsaari'
+city: 'Lappeenranta'
 ---
 
 ::HeaderPark
