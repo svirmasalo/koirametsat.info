@@ -17,7 +17,7 @@ export default defineNuxtConfig({
           content: process.env.META_VERIFICATION,
         },
         {
-          name: "og:image",
+          property: "og:image",
           content: "/images/koirametsat-info-og-meta.jpg",
         },
       ],
