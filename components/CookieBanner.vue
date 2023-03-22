@@ -25,11 +25,9 @@ const {
   /* cookiesEnabled, */
   cookiesEnabledIds,
   /* isConsentGiven,
-  isModalActive, */
-  moduleOptions
+  isModalActive, 
+  moduleOptions */
 } = useCookieControl();
-
-const idsToWatch = moduleOptions.cookies?.optional.map((cookieId) => cookieId.id);
 
 watch(
   () => cookiesEnabledIds.value,
@@ -37,6 +35,20 @@ watch(
     if (
       !previous?.includes("AW") &&
       current?.includes("AW")
+    ) {
+      // cookie with id `google-analytics` got added
+      window.location.reload(); // placeholder for your custom change handler
+    }
+    if (
+      !previous?.includes("GA") &&
+      current?.includes("GA")
+    ) {
+      // cookie with id `google-analytics` got added
+      window.location.reload(); // placeholder for your custom change handler
+    }
+    if (
+      !previous?.includes("META") &&
+      current?.includes("META")
     ) {
       // cookie with id `google-analytics` got added
       window.location.reload(); // placeholder for your custom change handler
