@@ -67,6 +67,7 @@ export default defineNuxtConfig({
     },
     routeRules: {
       "/robots.txt": { headers: { "Content-Type": "text/plain" } },
+      "/sitemap.xml": { headers: { "Content-Type": "application/xml" } },
     },
   },
   cookieControl: {

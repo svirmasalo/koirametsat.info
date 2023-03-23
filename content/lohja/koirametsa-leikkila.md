@@ -13,14 +13,14 @@ notificationText: 'Verkkosivusto osoitteessa: https://www.hyvinvointiolotila.fi/
 notificationLink: 'https://www.hyvinvointiolotila.fi/leikkila/'
 ---
 # Leikkilä
-Leikkilä on Aidattu koirametsä Lohjalla.
+Leikkilä on koirien ulkoilutusta ja aktivointia varten aidattu vajaan hehtaarin kokoinen metsäalue. 
 ::
 
 ::BodyPage
 ::ParkItem
 ---
 featureName: Osoite
-featureDescription: Isometsäntie 40, 20660 Lieto
+featureDescription: Puistontie 1, 09220 Sammatti
 link: true
 maps: true
 ---
