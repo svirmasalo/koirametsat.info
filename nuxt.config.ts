@@ -63,10 +63,9 @@ export default defineNuxtConfig({
   ],
   nitro: {
     prerender: {
-      routes: ["sitemap.xml", "robots.txt", "ads.txt"],
+      routes: ["sitemap.xml", "ads.txt"],
     },
     routeRules: {
-      "/robots.txt": { headers: { "Content-Type": "text/plain" } },
       "/ads.txt": { headers: { "Content-Type": "text/plain" } },
       "/sitemap.xml": { headers: { "Content-Type": "application/xml" } }
     },
