@@ -36,7 +36,7 @@ maps: true
 ::ParkItem
 ---
 featureName: Alueiden kuvaus
-featureDescription: Molemmat koirametsät ovat monipuolisesti varustettuja ja aktivoivia. Ei valaistusta. Kameravalmvonta.
+featureDescription: Molemmat koirametsät ovat monipuolisia ja aktivoivia. Ei valaistusta.
 ---
 ::
 ::ParkItem
