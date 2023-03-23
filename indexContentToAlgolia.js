@@ -123,13 +123,6 @@ const createImages = async () => {
   const openai = new OpenAIApi(configuration);
 
   for (const content of contentObjectsFiltered) {
-    const prompt = `Lämmin, kirkas ja värikäs kuva koirista ympäristössä jota kuvaillaan näin: ${content.title} - ${content.city} - ${content.description}`;
-    const responseOAI = await openai.createImage({
-      prompt,
-      n: 1,
-      size: "512x512",
-    });
-    image_url = responseOAI.data.data[0].url;
     const imagePath = `${__dirname}/public/images/${content.path.split('/')[1]}.png`;
 
     // Check if file exists
@@ -137,6 +130,13 @@ const createImages = async () => {
       // file exists - skip iteration
       continue;
     }
+    const prompt = `Lämmin, kirkas ja värikäs kuva koirista ympäristössä jota kuvaillaan näin: ${content.title} - ${content.city} - ${content.description}`;
+    const responseOAI = await openai.createImage({
+      prompt,
+      n: 1,
+      size: "512x512",
+    });
+    image_url = responseOAI.data.data[0].url;
 
 
     const responseIU = await fetch(image_url);
