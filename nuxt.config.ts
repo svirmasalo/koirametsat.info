@@ -18,7 +18,15 @@ export default defineNuxtConfig({
         },
         {
           property: "og:image",
-          content: "/images/koirametsat-info-og-meta.jpg",
+          content: `${process.env.SITE_URL}/images/koirametsat-info-og-meta.jpg`,
+        },
+        {
+          property: "og:image:width",
+          content: `1200`,
+        },
+        {
+          property: "og:image:height",
+          content: `630`,
         },
         {
           name: 'robots',
