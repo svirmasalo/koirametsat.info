@@ -1,5 +1,4 @@
 import consola from "consola";
-import algoliasearch from "algoliasearch";
 
 import { serverQueryContent } from '#content/server'
 import { SitemapStream, streamToPromise } from 'sitemap'
