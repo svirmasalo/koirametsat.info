@@ -20,6 +20,14 @@ export default defineNuxtConfig({
           property: "og:image",
           content: "/images/koirametsat-info-og-meta.jpg",
         },
+        {
+          name: 'robots',
+          content: 'index, follow'
+        },
+        {
+          name: 'googlebot',
+          content: 'index, follow'
+        }
       ],
       script: [
         {

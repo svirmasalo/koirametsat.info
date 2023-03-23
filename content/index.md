@@ -3,6 +3,16 @@ navigation:
   title: 'Etusivu'
 title: 'Löydä koirametsä lähelläsi - Koirametsät.info'
 description: 'Koirametsät.info-sivusto on suunniteltu helpottamaan koiranomistajien arkea tarjoamalla kattavan tietokannan koirametsistä ympäri Suomen. Meiltä löydät tietoa koirametsistä, joissa voit käydä rauhallisin mielin koirasi kanssa ulkoilemassa ja nauttimassa luonnosta.'
+head:
+  meta:
+    - name: 'keywords'
+      content: 'koirametsä, koirametsät'
+    - name: 'robots'
+      content: 'index, follow'
+    - name: 'author'
+      content: 'Koirametsät.info / Tmi S. Virmasalo'
+    - name: 'copyright'
+      content: '© 2023 Tmi S. Virmasalo'
 ---
 
 ::HeaderPage

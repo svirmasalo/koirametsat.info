@@ -37,7 +37,30 @@
     parkList = parkList.sort((a, b) => {
         return a.title.localeCompare(b.title);
     });
-
+    useHead({
+        meta: [
+            {
+            name: 'keywords',
+            content: `koirametsät ${cityQuery.title}, koirametsä ${cityQuery.title}`
+            },
+            {
+            name: 'author',
+            content: 'Koirametsät.info'
+            },
+            {
+            name: 'robots',
+            content: 'index, follow'
+            },
+            {
+            name: 'googlebot',
+            content: 'index, follow'
+            },
+            {
+                name: 'og:title',
+                content: `${cityQuery.title} - Koirametsät.info`
+            },
+        ]
+    });
 </script>
 <template>
     <header>
