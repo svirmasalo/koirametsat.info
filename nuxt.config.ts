@@ -29,6 +29,10 @@ export default defineNuxtConfig({
           content: `630`,
         },
         {
+          property: "og:type",
+          content: `website`,
+        },
+        {
           name: 'robots',
           content: 'index, follow'
         },
@@ -78,12 +82,13 @@ export default defineNuxtConfig({
     "nuxt-schema-org",
   ],
   nitro: {
+    preset: process.env.NITRO_PRESET,
     /* prerender: {
       routes: ["/sitemap.xml", "/robots.txt"],
     }, */
-    /* routeRules: {
+    routeRules: {
       "/sitemap.xml": { headers: { "Content-Type": "application/xml" }, static: true }
-    }, */
+    },
   },
   cookieControl: {
     barPosition: "bottom-full",

@@ -2,7 +2,7 @@
 navigation:
   title: 'Haku'
 title: 'Löydä koirametsä lähelläsi - Koirametsät.info'
-description: 'Hae koirametsää nimellä, kaupungilla, avainsanalla tai osoitteella. Tehokas haku koirametsiin.'
+description: 'Ilmainen palvelu lähimmän koirametsän löytämiseksi. Hae koirametsää nimellä, kaupungilla, avainsanalla tai osoitteella. Tehokas haku koirametsiin.'
 ---
 
 ::BodyPage{skipMain="true"}

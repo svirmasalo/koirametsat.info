@@ -1,6 +1,6 @@
 {
-  "date": "2023-03-31T12:03:31.722Z",
-  "preset": "node-server",
+  "date": "2023-03-31T13:47:37.597Z",
+  "preset": "digital-ocean",
   "commands": {
     "preview": "node ./server/index.mjs"
   }
