@@ -78,12 +78,12 @@ export default defineNuxtConfig({
     "nuxt-schema-org",
   ],
   nitro: {
-    prerender: {
-      routes: ["/sitemap.xml"],
-    },
-    routeRules: {
+    /* prerender: {
+      routes: ["/sitemap.xml", "/robots.txt"],
+    }, */
+    /* routeRules: {
       "/sitemap.xml": { headers: { "Content-Type": "application/xml" }, static: true }
-    },
+    }, */
   },
   cookieControl: {
     barPosition: "bottom-full",

@@ -4,7 +4,6 @@ title: 'Espoo'
 titleIn: 'Espoossa'
 description: 'Täältä löydät kaikki Espoon koirametsät'
 ---
-# Espoon kaikki koirametsät
 
 ::BodyPage
 ## Tietoa Espoosta

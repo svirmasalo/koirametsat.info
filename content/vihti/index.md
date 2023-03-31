@@ -4,7 +4,6 @@ title: 'Vihti'
 titleIn: 'Vihdissä'
 description: 'Täältä löydät kaikki Vihdin koirametsät'
 ---
-# Vihdin kaikki koirametsät
 
 ::BodyPage
 ## Tietoa Vihdistä

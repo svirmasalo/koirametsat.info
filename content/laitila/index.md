@@ -4,7 +4,6 @@ title: 'Laitila'
 titleIn: 'Laitilassa'
 description: 'Täältä löydät kaikki Laitilan koirametsät'
 ---
-# Laitilan kaikki koirametsät
 
 ::BodyPage
 ## Tietoa Laitilasta

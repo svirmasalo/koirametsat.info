@@ -4,7 +4,6 @@ title: 'Muurame'
 titleIn: 'Muuramessa'
 description: 'Täältä löydät kaikki Muuramen koirametsät'
 ---
-# Muuramen kaikki koirametsät
 
 ::BodyPage
 ## Tietoa

@@ -2,9 +2,8 @@
 navigation: false
 title: 'Tampere'
 titleIn: 'Tampereella'
-description: 'Täältä löydät kaikki Tampereen koirametsät'
+description: 'Täältä löydät kaikki Tampereen koirametsät ja Tampereen lähellä sijaitsevat koirametsät.'
 ---
-# Tampereen kaikki koirametsät
 
 ::BodyPage
 ## Tietoa Tampereesta

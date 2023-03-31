@@ -4,7 +4,6 @@ title: 'Sastamala'
 titleIn: 'Sastamalassa'
 description: 'Täältä löydät kaikki Sastamalan koirametsät'
 ---
-# Sastamalan kaikki koirametsät
 
 ::BodyPage
 ## Tietoa Sastamalasta

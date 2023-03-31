@@ -4,7 +4,6 @@ title: 'Valkeala'
 titleIn: 'Valkealassa'
 description: 'Täältä löydät kaikki Valkealan koirametsät'
 ---
-# Valkealan kaikki koirametsät
 
 ::BodyPage
 ## Tietoa Valkealasta

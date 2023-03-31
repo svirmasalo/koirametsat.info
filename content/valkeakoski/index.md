@@ -4,7 +4,6 @@ title: 'Valkeakoski'
 titleIn: 'Valkeakoskella'
 description: 'Täältä löydät kaikki Valkeakosken koirametsät'
 ---
-# Valkeakosken kaikki koirametsät
 
 ::BodyPage
 ## Tietoa Valkeakoskesta

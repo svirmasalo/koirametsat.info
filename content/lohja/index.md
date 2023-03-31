@@ -4,7 +4,6 @@ title: 'Lohja'
 titleIn: 'Lohjalla'
 description: 'Täältä löydät kaikki Lohjan koirametsät'
 ---
-# Lohjan kaikki koirametsät
 
 ::BodyPage
 ## Tietoa Lohjasta

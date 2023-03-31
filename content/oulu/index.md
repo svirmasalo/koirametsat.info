@@ -2,9 +2,8 @@
 navigation: false
 title: 'Oulu'
 titleIn: 'Oulussa'
-description: 'Täältä löydät kaikki Oulun koirametsät'
+description: 'Täältä löydät kaikki Oulun koirametsät ja Oulun lähellä sijaitsevat koirametsät.'
 ---
-# Oulun kaikki koirametsät
 
 ::BodyPage
 ## Tietoa Oulusta

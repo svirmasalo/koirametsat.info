@@ -4,7 +4,6 @@ title: 'Jokioinen'
 titleIn: 'Jokioisessa'
 description: 'Täältä löydät kaikki Jokioisten koirametsät'
 ---
-# Jokioisten kaikki koirametsät
 
 ::BodyPage
 ## Tietoa Jokioisesta

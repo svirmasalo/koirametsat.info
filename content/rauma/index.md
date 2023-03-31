@@ -4,7 +4,6 @@ title: 'Rauma'
 titleIn: 'Raumalla'
 description: 'Täältä löydät kaikki Rauman koirametsät.'
 ---
-# Rauman kaikki koirametsät
 
 ::BodyPage
 ## Tietoa Raumasta

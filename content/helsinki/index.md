@@ -2,9 +2,8 @@
 navigation: false
 title: 'Helsinki'
 titleIn: 'Helsingissä'
-description: 'Täältä löydät kaikki Helsingin koirametsät'
+description: 'Täältä löydät kaikki Helsingin koirametsät ja Helsingin lähellä sijaitsevat koirametsät.'
 ---
-# Helsingin kaikki koirametsät
 
 ::BodyPage
 ## Tietoa Helsingistä

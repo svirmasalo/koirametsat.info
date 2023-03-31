@@ -4,7 +4,6 @@ title: 'Muhos'
 titleIn: 'Muhoksella'
 description: 'Täältä löydät kaikki Muhoksen koirametsät'
 ---
-# Muhoksen kaikki koirametsät
 
 ::BodyPage
 ## Tietoa Muhoksesta

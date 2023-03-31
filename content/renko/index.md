@@ -4,7 +4,6 @@ title: 'Renko'
 titleIn: 'Rengolla'
 description: 'Täältä löydät kaikki Rengon koirametsät'
 ---
-# Rengon kaikki koirametsät
 
 ::BodyPage
 ## Tietoa Rengosta

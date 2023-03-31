@@ -2,9 +2,8 @@
 navigation: false
 title: 'Joensuu'
 titleIn: 'Joensuussa'
-description: 'Täältä löydät kaikki Joensuun koirametsät'
+description: 'Täältä löydät kaikki Joensuun koirametsät ja Joensuun lähellä sijaitsevat koirametsät.'
 ---
-# Joensuun kaikki koirametsät
 
 ::BodyPage
 ## Tietoa Joensuusta

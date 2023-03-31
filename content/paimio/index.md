@@ -4,7 +4,6 @@ title: 'Paimio'
 titleIn: 'Paimiolla'
 description: 'Täältä löydät kaikki Paimion koirametsät'
 ---
-# Paimion kaikki koirametsät
 
 ::BodyPage
 ## Tietoa Paimiosta

@@ -4,7 +4,6 @@ title: 'Littoinen'
 titleIn: 'Littoisissa'
 description: 'Täältä löydät kaikki Littoisen koirametsät'
 ---
-# Littoisen kaikki koirametsät
 
 ::BodyPage
 ## Tietoa Littoisesta

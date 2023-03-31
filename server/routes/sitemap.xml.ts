@@ -8,7 +8,12 @@ export default defineEventHandler(async (event) => {
   const docs = await serverQueryContent(event).find();
 
   const sitemap = new SitemapStream({
-    hostname: process.env.SITE_URL
+    hostname: process.env.SITE_URL,
+    xmlns: {
+      image: false,
+      video: false,
+      news: false,
+    }
   });
 
   for (const doc of docs) {

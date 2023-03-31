@@ -1,4 +1,7 @@
 User-agent: *
-Disallow:
+Disallow: _nuxt/
+Disallow: api/
+Disallow: js/
+Allow: /
 
 Sitemap: https://koirametsat.info/sitemap.xml

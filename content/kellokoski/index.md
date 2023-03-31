@@ -4,7 +4,6 @@ title: 'Kellokoski'
 titleIn: 'Kellokoskella'
 description: 'Täältä löydät kaikki Kellokosken koirametsät'
 ---
-# Kellokosken kaikki koirametsät
 
 ::BodyPage
 ## Tietoa Kellokoskesta

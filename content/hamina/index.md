@@ -4,7 +4,6 @@ title: 'Hamina'
 titleIn: 'Haminassa'
 description: 'Täältä löydät kaikki Haminan koirametsät'
 ---
-# Haminan kaikki koirametsät
 
 ::BodyPage
 ## Tietoa Haminasta

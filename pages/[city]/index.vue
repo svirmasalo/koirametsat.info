@@ -57,7 +57,7 @@
             },
             {
                 name: 'og:title',
-                content: `${cityQuery.title} - Koirametsät.info`
+                content: `${cityQuery.title} - Koirametsät kaupungeittain - Koirametsät.info`
             },
         ]
     });

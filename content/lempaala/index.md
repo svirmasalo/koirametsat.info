@@ -4,7 +4,6 @@ title: 'Lempäälä'
 titleIn: 'Lempäälässä'
 description: 'Täältä löydät kaikki Lempäälän koirametsät'
 ---
-# Lempäälän kaikki koirametsät
 
 ::BodyPage
 ## Tietoa Lempäälästä

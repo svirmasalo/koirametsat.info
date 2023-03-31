@@ -4,7 +4,6 @@ title: 'Lappeenranta'
 titleIn: 'Lappeenrannassa'
 description: 'Täältä löydät kaikki Lappeenrannan koirametsät'
 ---
-# Lappeenrannan kaikki koirametsät
 
 ::BodyPage
 ## Tietoa Lappeenrannasta

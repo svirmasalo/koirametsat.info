@@ -4,7 +4,6 @@ title: 'Mynämäki'
 titleIn: 'Mynämäelä'
 description: 'Täältä löydät kaikki Mynämäen koirametsät.'
 ---
-# Mynämäen kaikki koirametsät
 
 ::BodyPage
 ## Tietoa Mynämäestä

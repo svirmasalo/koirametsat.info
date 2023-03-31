@@ -2,7 +2,6 @@
 navigation: false
 title: 'Kuusamo'
 ---
-# Kuusamon kaikki koirametsät
 
 ::BodyPage
 ## Tietoa Kuusamosta

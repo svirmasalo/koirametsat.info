@@ -4,7 +4,6 @@ title: 'Numminen'
 titleIn: 'Nummisessa'
 description: 'Täältä löydät kaikki Nummisen koirametsät'
 ---
-# Nummisen kaikki koirametsät
 
 ::BodyPage
 ## Tietoa Nummisesta

@@ -4,7 +4,6 @@ title: 'Vesilahti'
 titleIn: 'Vesilahdella'
 description: 'Täältä löydät kaikki Vesialahden koirametsät'
 ---
-# Vesilahden kaikki koirametsät
 
 ::BodyPage
 ## Tietoa Vesilahdesta
