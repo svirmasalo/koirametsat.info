@@ -5,3 +5,4 @@ Disallow: js/
 Allow: /
 
 Sitemap: https://koirametsat.info/sitemap.xml
+Sitemap: https://koirametsat.info/sitemap-static.xml
