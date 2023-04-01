@@ -4,7 +4,7 @@ description: 'Koirametsä Leikkilän aidattu alue on pääasiassa rinnemäistä 
 tags: 'vesipiste, grilli, katos, piknik, ulko-WC'
 address: 'Puistontie 1, 09220 Sammatti'
 city: 'Lohja'
-closeBy: 'Espoo, Helsinki'
+closeBy: 'Espoo, Helsinki, Vantaa'
 ---
 
 ::HeaderPark

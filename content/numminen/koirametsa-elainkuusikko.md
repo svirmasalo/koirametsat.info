@@ -4,7 +4,7 @@ description: 'Mäntsälän Nummisten idyllisissä maisemissa, istutetun kuusimet
 tags: 'Nuotiopaikka, Hajutyöskentely'
 address: 'Nummensuontie 168, 04660 Mäntsälä'
 city: 'Mäntsälä'
-closeBy: 'Helsinki, Lahti'
+closeBy: 'Helsinki, Lahti, Vantaa'
 ---
 
 ::HeaderPark

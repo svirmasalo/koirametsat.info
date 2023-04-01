@@ -4,7 +4,7 @@ description: 'Mahtava noin 5 hehtaarin kokoinen kokonaan aidattu vanha sorakuopp
 tags: 'pöytä, katos, helppokulkuinen, soramonttu, metsämonttu, männikkö, ulko-wc'
 address: 'Vanha Hämeentie 418, 04390 Tuusula'
 city: 'Tuusula'
-closeBy: 'Helsinki, Kellokoski, Jäniksenlinna'
+closeBy: 'Helsinki, Kellokoski, Jäniksenlinna, Vantaa'
 ---
 
 ::HeaderPark

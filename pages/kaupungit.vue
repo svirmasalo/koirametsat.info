@@ -31,11 +31,15 @@
     cityList = cityList.sort((a, b) => {
         return a.title.localeCompare(b.title);
     });
+    // Count cities where there are dog parks
+    const cityCount = cityList.filter((city) => {
+        return city.dogForests > 0;
+    }).length;
 </script>
 <template>
   <header class="pt-16 pb-12 text-center">
     <h1 class="text-4xl font-bold text-secondary leading-tight">Kaupungit</h1>
-    <p class="text-sm leading-relaxed">Koirametsiä jo <span>{{ cityList.length }}</span> kaupungissa</p>
+    <p class="text-sm leading-relaxed">Koirametsiä jo <span>{{ cityCount }}</span> kaupungissa</p>
   </header>
   <main class="bg-secondary flex flex-col justify-start pb-12 min-h-screen">
     <div class="w-full max-w-lg mx-auto pt-10">
