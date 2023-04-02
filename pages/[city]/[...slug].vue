@@ -9,6 +9,8 @@ const parkQuery = await queryContent({
 // Capitalize city name for meta tags. City name = route.params.city
 const city = route.params.city.charAt(0).toUpperCase() + route.params.city.slice(1);
 
+const slug = route.params.slug;
+
 if (parkQuery) {
   useHead({
     meta: [
@@ -46,5 +48,8 @@ if (parkQuery) {
 </script>
 <template>
   <ContentDoc />
+  <div class="bg-secondary">
+    <Review :collection="slug" />
+  </div>
   <SchemaOrgWebPage />
 </template>

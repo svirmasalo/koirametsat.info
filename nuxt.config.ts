@@ -80,6 +80,7 @@ export default defineNuxtConfig({
     "@nuxt/image-edge",
     "@dargmuesli/nuxt-cookie-control",
     "nuxt-schema-org",
+    "nuxt-vuefire",
   ],
   nitro: {
     preset: process.env.NITRO_PRESET,
@@ -110,5 +111,16 @@ export default defineNuxtConfig({
     host: process.env.SITE_URL,
     image: "/images/koirametsat-info-og-meta.jpg",
     inLanguage: "fi",
+  },
+  vuefire: {
+    config: {
+      apiKey: 'AIzaSyBVatfNJ41DfA6_DQPiBgFw04ThfEWKMVg',
+      authDomain: 'koirametsat-reviews.firebaseapp.com',
+      projectId: 'koirametsat-reviews',
+      appId: '1:476822098751:web:0c6f696acceb24bd80b98a',
+      storageBucket: 'koirametsat-reviews.appspot.com',
+      messagingSenderId: '476822098751',
+      measurementId: 'G-TCYS7E97QD'
+    },
   },
 });
