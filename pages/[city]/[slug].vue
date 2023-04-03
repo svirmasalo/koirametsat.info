@@ -1,4 +1,9 @@
 <script setup>
+
+definePageMeta({
+  key: route => route.fullPath
+})
+
 const route = useRoute();
 const parkQuery = await queryContent({
   where: {
@@ -39,7 +44,17 @@ if (parkQuery) {
       {
         name: "description",
         content: `${parkQuery.description} Koirametsän sijainti: ${city}.`,
+      },
+      {
+        name: "og:description",
+        content: `${parkQuery.description} Koirametsän sijainti: ${city}.`,
       }
+    ],
+    link: [
+      {
+        rel: "canonical",
+        href: `https://koirametsat.info${route.fullPath}`,
+      },
     ],
   });
 }
