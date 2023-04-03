@@ -66,6 +66,7 @@ const osDate = formatDateToOS(reviewDate);
 
 // Function that returns initials from a name string
 const getInitials = (name) => {
+  if (!name) return "";
   const nameArray = name.split(" ");
   // Reduce the array to two items
   if (nameArray.length > 2) {

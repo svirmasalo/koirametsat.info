@@ -35,18 +35,18 @@
     <div v-else>
         <p class="italic">Tätä koirametsää ei vielä ole arvosteltu.</p>
     </div>
-    
+    <ReviewForm :slug="slug" />
   </section>
 </template>
 <script setup>
 import { collection } from 'firebase/firestore'
 import { useFirestore, useCollection } from 'vuefire'
 // Get props "collection" from the parent component
-const props = defineProps(['collection']);
+const props = defineProps(['slug']);
 
 const db = useFirestore()
 // automatically waits for the data to be loaded on the server
-const reviews = useCollection(collection(db, props.collection[0]));
+const reviews = useCollection(collection(db, props.slug[0]));
 
 // Get an average rating from an array of ratings
 const getAverageRating = (ratings) => {

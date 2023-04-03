@@ -8,7 +8,6 @@ closeBy: 'Hamina'
 
 ::HeaderPark
 ---
-image: 'https://www.koirametsareviiri.fi/wp-content/uploads/2022/08/DSC_1258-2048x1365.jpg'
 notificationText: 'Verkkosivusto osoitteessa: https://www.koirametsareviiri.fi/.'
 notificationLink: 'https://www.koirametsareviiri.fi/'
 ---

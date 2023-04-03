@@ -1,5 +1,6 @@
 <script setup>
 const route = useRoute();
+console.log(route.fullPath);
 const parkQuery = await queryContent({
   where: {
     _path: route.fullPath,
@@ -49,7 +50,7 @@ if (parkQuery) {
 <template>
   <ContentDoc />
   <div class="bg-secondary">
-    <Review :collection="slug" />
+    <Review :slug="slug" />
   </div>
   <SchemaOrgWebPage />
 </template>
