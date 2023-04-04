@@ -7,7 +7,7 @@ definePageMeta({
 const route = useRoute();
 const parkQuery = await queryContent({
   where: {
-    _path: route.fullPath,
+    _path: route.path,
   },
 }).findOne();
 
@@ -39,7 +39,7 @@ if (parkQuery) {
       },
       {
         name: "og:url",
-        content: `https://koirametsat.info${route.fullPath}`,
+        content: `https://koirametsat.info${route.path}`,
       },
       {
         name: "description",
