@@ -1,5 +1,5 @@
 {
-  "date": "2023-04-03T20:17:25.452Z",
+  "date": "2023-04-04T20:26:26.506Z",
   "preset": "digital-ocean",
   "commands": {
     "preview": "node ./server/index.mjs"

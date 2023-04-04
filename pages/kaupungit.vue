@@ -15,7 +15,7 @@
         }
     }).find();
     // List of paths that are not cities
-    const nonCities = ['/haku', '/tietoa-palvelusta', '/kaupungit', '/tietosuojaseloste', '/'];
+    const nonCities = ['/haku', '/tietoa-palvelusta', '/kaupungit', '/tietosuojaseloste', '/', '/kommentoinnin-ehdot'];
     // Filter out non-cities and paths that are not direct children of root
     let cityList = cityQuery.filter((item) => {
         return !nonCities.includes(item._path) && item._path.split('/').length === 2;
