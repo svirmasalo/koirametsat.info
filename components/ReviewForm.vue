@@ -96,8 +96,17 @@ const addReview = async (fields: any) => {
     setTimeout(() => {
       reviewSent.value = true;
     }, 2000);
+    formSent.value=true;
   }
   reset('reviewForm');
-  formSent.value=true;
 };
+
+// Reset form data on unmount
+onUnmounted(() => {
+  reset('reviewForm');
+  formSent.value = false;
+  reviewSent.value = false;
+  error.value = false;
+});
+
 </script>
