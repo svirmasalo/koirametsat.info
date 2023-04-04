@@ -2,6 +2,8 @@ User-agent: *
 Disallow: _nuxt/
 Disallow: api/
 Disallow: js/
+Disallow: /tietosuojaseloste
+Disallow: /kommentoinnin-ehdot
 Allow: /
 
 Sitemap: https://koirametsat.info/sitemap.xml

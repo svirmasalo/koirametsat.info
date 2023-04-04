@@ -2,7 +2,7 @@ export default {
   necessary: [
     {
       description: {
-        en: "Käytetään sivuston toiminnallisuuteen",
+        en: "Käytetään sivuston toiminnallisuuteen, kuten evästeiden hallintaan.",
       },
       id: "functional",
       name: {
@@ -33,6 +33,16 @@ export default {
     },
     {
       description: {
+        en: "Käytetään Googlen tarjoamien mainosten näyttämiseen.",
+      },
+      id: "ADS",
+      name: {
+        en: "Google Adsense",
+      },
+      targetCookieIds: ["__gads", "__gpi"],
+    },
+    {
+      description: {
         en: "Käytetään Metan (Facebookin ja Instagram) mainonnan kohdistamiseen.",
       },
       id: "META",
@@ -40,6 +50,16 @@ export default {
         en: "Meta",
       },
       targetCookieIds: ["_fbp"],
+    },
+    {
+      description: {
+        en: "Käytetään koirametsien kommentointiin / arvosteluun.",
+      },
+      id: "COM",
+      name: {
+        en: "Kommentointi / arvostelu",
+      },
+      targetCookieIds: ["_kmcom", "_kmcom_consent"],
     },
   ],
 };

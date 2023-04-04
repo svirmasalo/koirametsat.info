@@ -1,6 +1,7 @@
 <script setup>
 // Props
 const props = defineProps(['city']);
+const label = `Ilmoitus: Palvelusta ei vielä löydy tietoja kaupungin ${props.city} koirametsistä.`;
 </script>
 <template>
     <aside class="mx-auto md:-mx-2 bg-primary-active p-4 w-full" :aria-label="label">
