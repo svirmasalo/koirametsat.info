@@ -43,10 +43,16 @@ export default defineNuxtPlugin((NuxtApp) => {
         "https://connect.facebook.net/en_US/fbevents.js"
         );
         try {
-            fbq("init", config.public.META_ID);
-            fbq("track", "PageView");
+            if (config.public.META_ID) {
+                fbq("init", config.public.META_ID);
+                fbq("track", "PageView");
+            }
         } catch (e) {
             console.warn(e);
         }
+    }
+    if (cookiesEnabledIds.value?.includes("COM")) {
+      // set cookie for comments / reviews to true. Cookie name is _kmcom_consent
+        document.cookie = "_kmcom_consent=true; path=/; expires=Fri, 31 Dec 9999 23:59:59 GMT";
     }
 });

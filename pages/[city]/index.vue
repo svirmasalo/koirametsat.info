@@ -89,7 +89,7 @@
                 </ul>
             </div>
             <div class="prose text-center py-10" v-if="parkList.length === 0">
-                <NoContentForCity />
+                <NoContentForCity :city="cityQuery.title" />
             </div>
             <ContentDoc :path="$route.path" />
         </div>

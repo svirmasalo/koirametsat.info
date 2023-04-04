@@ -35,7 +35,7 @@
     <div v-else>
         <p class="italic">Tätä koirametsää ei vielä ole arvosteltu.</p>
     </div>
-    <ReviewForm :slug="slug" />
+    <ReviewForm :slug="slug" v-if="comCookieBase" />
   </section>
 </template>
 <script setup>
@@ -46,7 +46,7 @@ const props = defineProps(['slug']);
 
 const db = useFirestore()
 // automatically waits for the data to be loaded on the server
-const reviews = useCollection(collection(db, props.slug[0]));
+const reviews = useCollection(collection(db, props.slug));
 
 // Get an average rating from an array of ratings
 const getAverageRating = (ratings) => {
@@ -58,6 +58,8 @@ const getAverageRating = (ratings) => {
 
 const averageRating = getAverageRating(reviews._value.map((r) => r.rating));
 
+// Check if "_kmcom_consent" cookie exists;
+const comCookieBase = useCookie("_kmcom_consent");
 
 // const averageRating = 5;
 </script>

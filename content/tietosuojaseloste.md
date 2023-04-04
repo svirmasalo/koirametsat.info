@@ -18,13 +18,14 @@ Rekisterinpitäjä koirametsät.info on sitoutunut varmistamaan, että käyttäj
 
 ## Mitä henkilötietoja keräämme?
 Käyttäjistä kerätään seuraavia henkilötietoja:
-- Käyttäjästä ei kerätä henkilötietoja, kuten nimeä, sähköpostia, puhelinnumeroa tai vastaavaa henkilöivää tietoa
+- Käyttäjästä kerätään mahdollisesti henkilöivää tietoa ainoastaan palautelomakkeen lähetyksen yhteydessä. Tieto henkilöi käyttäjän vain siinä tapauksessa, mikäli käyttäjä syöttää "Nimi/Nimimerkki" kenttään oman nimensä.
 - Verkkosivuston automaattisesti keräämät tiedot: Verkkosivusto kerää tietoa käyttäjän päätelaitteesta, selaimesta, IP-osoitteesta, verkkosivuston käyttöajasta ja -tavasta, evästeiden avulla.
 
 ## Mihin tarkoituksiin käytämme henkilötietojasi?
 
 Käsittelemme henkilötietojasi seuraaviin tarkoituksiin:
 - Markkinointi: Verkkosivuston markkinointitarkoitukseen käytetään ainoastaan niitä henkilötietoja, jotka käyttäjä on itse antanut suostumuksensa mukaisesti.
+- Verkkosivuston ominaisuudet: Verkkosivuston kommentointiin vaaditaan nimi tai nimimerkki.
 
 ## Kenelle luovutamme henkilötietojasi?
 

@@ -1,16 +1,16 @@
 <script setup>
 const route = useRoute();
-console.log(route.fullPath);
 const parkQuery = await queryContent({
   where: {
-    _path: route.fullPath,
+    _path: route.path,
   },
 }).findOne();
 
+
 // Capitalize city name for meta tags. City name = route.params.city
 const city = route.params.city.charAt(0).toUpperCase() + route.params.city.slice(1);
-
-const slug = route.params.slug;
+// Slug is used for review collection name in firebase
+const slug = `${route.params.slug}-${useSlugify(route.params.city)}`;
 
 if (parkQuery) {
   useHead({
@@ -48,9 +48,11 @@ if (parkQuery) {
 }
 </script>
 <template>
-  <ContentDoc />
-  <div class="bg-secondary">
-    <Review :slug="slug" />
+  <div>
+    <ContentDoc />
+    <div class="bg-secondary">
+      <Review :slug="slug" />
+    </div>
+    <SchemaOrgWebPage />
   </div>
-  <SchemaOrgWebPage />
 </template>
