@@ -49,13 +49,6 @@ export default defineNuxtConfig({
           content: 'Koirametsät.info'
         }
       ],
-      script: [
-        {
-          src: `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.ADSENSE_ID}`,
-          async: true,
-          crossorigin: "anonymous",
-        },
-      ],
       noscript: [{ children: gtmNoscript }, { children: metaNoscript }],
     },
   },
@@ -123,13 +116,13 @@ export default defineNuxtConfig({
   },
   vuefire: {
     config: {
-      apiKey: "AIzaSyBVatfNJ41DfA6_DQPiBgFw04ThfEWKMVg",
-      authDomain: "koirametsat-reviews.firebaseapp.com",
-      projectId: "koirametsat-reviews",
-      appId: "1:476822098751:web:0c6f696acceb24bd80b98a",
-      storageBucket: "koirametsat-reviews.appspot.com",
-      messagingSenderId: "476822098751",
-      measurementId: "G-TCYS7E97QD",
+      apiKey: process.env.AIzaSyBVatfNJ41DfA6_DQPiBgFw04ThfEWKMVg,
+      authDomain: process.env.VF_AUTHDOMAIN,
+      projectId: process.env.VF_PROJECTID,
+      appId: process.env.VF_APPID,
+      storageBucket: process.env.VF_STORAGEBUCKET,
+      messagingSenderId: process.env.VF_MESSAGINGSENDERID,
+      measurementId: process.env.VF_MEASUREMENTID,
     },
   },
 });

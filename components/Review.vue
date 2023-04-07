@@ -1,6 +1,7 @@
 <template>
   <section id="koirametsat-reviews">
-    <header class="kmi-reviews-header">
+    <header class="kmi-reviews-header" itemprop="aggregateRating" itemtype="https://schema.org/AggregateRating" itemscope>
+      <meta itemprop="reviewCount" :content="reviews.length" />
       <h2>Arvostelut</h2>
       <p class="kmi-reviews-header--rating">
         <svg
@@ -16,7 +17,7 @@
             fill-rule="evenodd"
           ></path>
         </svg>
-        {{ averageRating }}
+        <span itemprop="ratingValue" :content="averageRating">{{ averageRating }}</span>
       </p>
     </header>
     <div role="list" class="kmi-reviews-wrapper" v-if="reviews.length > 0">
@@ -39,24 +40,10 @@
   </section>
 </template>
 <script setup>
-import { collection } from 'firebase/firestore'
-import { useFirestore, useCollection } from 'vuefire'
 // Get props "collection" from the parent component
 const props = defineProps(['slug']);
 
-const db = useFirestore()
-// automatically waits for the data to be loaded on the server
-const reviews = useCollection(collection(db, props.slug));
-
-// Get an average rating from an array of ratings
-const getAverageRating = (ratings) => {
-    if (!ratings.length) return 'Ei arvosteluja.';
-  const sum = ratings.reduce((a, b) => a + b, 0);
-  const avg = (sum / ratings.length).toFixed(2) || 0;
-  return avg;
-};
-
-const averageRating = getAverageRating(reviews._value.map((r) => r.rating));
+const {reviews, averageRating} = useReviews(props.slug);
 
 // Check if "_kmcom_consent" cookie exists;
 const comCookieBase = useCookie("_kmcom_consent");

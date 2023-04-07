@@ -63,7 +63,12 @@ if (parkQuery) {
 }
 </script>
 <template>
-  <div>
+  <div itemscope itemtype="https://schema.org/LocalBusiness">
+    <meta itemprop="name" :content="parkQuery.title" />
+    <meta itemprop="description" :content="parkQuery.description" />
+    <meta itemprop="addressLocality" :content="city" />
+    <meta itemprop="addressRegion" content="FI" />
+    <meta itemprop="url" :content="`https://koirametsat.info${route.path}`" />
     <ContentDoc />
     <div class="bg-secondary">
       <Review :slug="slug" />

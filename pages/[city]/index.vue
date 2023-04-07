@@ -70,7 +70,7 @@
         </header>
     </header>
     <main class="bg-secondary flex flex-col justify-start pb-12 min-h-screen">
-        <div class="container pt-10">
+        <div class="container pt-10 park-list-container">
             <div v-if="parkList.length > 0" class="w-full max-w-lg mx-auto">
                 <ul class="flex flex-col gap-4 justify-center">
                     <li v-for="park in parkList" :key="park._path" class="bg-white shadow text-primary rounded p-5 hover:shadow-md transition-shadow">
@@ -84,7 +84,7 @@
             <div v-if="closeByQuery.length > 0" class="w-full max-w-lg mx-auto pt-8">
                 <ul class="flex flex-col gap-4 justify-center">
                     <li v-for="item in closeByQuery" :key="item._path" class="bg-white shadow text-primary rounded p-5 hover:shadow-md transition-shadow">
-                        <ListItem :to="item._path" :title="item.title" :substring="item.address" />
+                        <ListItem :to="item._path" :title="item.title" :substring="item.address" :city="item.city" />
                     </li>
                 </ul>
             </div>
@@ -96,4 +96,9 @@
     </main>
     <SchemaOrgWebPage />
 </template>
+<style scoped>
+    .park-list-container > div:first-of-type {
+        margin-top: 0;
+    }
+</style>
   

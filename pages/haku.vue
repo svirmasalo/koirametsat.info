@@ -6,10 +6,6 @@ import {
   AisHighlight,
 } from "vue-instantsearch/vue3/es/index.js";
 
-useHead({
-  title: "Haku",
-  description: "Etsitkö täydellistä koirametsää? Käytä koirametsät.info huippunopeaa hakutoimintoa löytääksesi laajan valikoiman erilaisia koirametsiä ympäri Suomen alueen, koon, sijainnin tai palveluiden perusteella. Löydä unelmiesi koirametsä hetkessä - tutustu nyt!",
-});
 const indexName = "dev_koirametsat";
 const algolia = useAlgoliaRef();
 
@@ -22,21 +18,21 @@ const searchString = ref(initialSearch);
 // Tracking event for Facebook and Google. Send event only after search input is blurred.
 const track = (string) => {
   try {
-    fbq('track', 'Search', {
-      search_string: string
+    fbq("track", "Search", {
+      search_string: string,
     });
   } catch (e) {
     console.warn("Facebook Pixel not loaded");
   }
   try {
     dataLayer.push({
-      'event': 'Search',
-      'searchTerm': string, // Replace with the actual search term entered by the user
+      event: "Search",
+      searchTerm: string, // Replace with the actual search term entered by the user
     });
-  } catch(error) {
+  } catch (error) {
     console.warn("Datalayer not defined");
   }
-}
+};
 
 </script>
 
@@ -63,14 +59,19 @@ const track = (string) => {
         <div class="max-w-lg mx-auto w-full">
           <AisHits>
             <template v-slot:item="{ item }">
-              <NuxtLink :to="item.path">
+              <NuxtLink :to="item.path" class="flex flex-row justify-between items-center">
                 <div>
-                  <p class="text-lg font-bold">
-                    <AisHighlight attribute="title" :hit="item"></AisHighlight>
-                  </p>
-                  <p class="text-sm">
-                    <AisHighlight attribute="city" :hit="item"></AisHighlight>
-                  </p>
+                  <div class="">
+                    <p class="text-lg font-bold">
+                      <AisHighlight
+                        attribute="title"
+                        :hit="item"
+                      ></AisHighlight>
+                    </p>
+                    <p class="text-sm">
+                      <AisHighlight attribute="city" :hit="item"></AisHighlight>
+                    </p>
+                  </div>
                 </div>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -98,4 +99,15 @@ const track = (string) => {
   </main>
   <SchemaOrgWebPage />
 </template>
-  
+<style scoped>
+.kmi-reviews-header--rating {
+  @apply flex items-center text-sm;
+}
+.kmi-reviews-header--star {
+  display: block;
+  height: 12px;
+  width: 12px;
+  fill: currentcolor;
+  margin-right: 0.25rem;
+}
+</style>
