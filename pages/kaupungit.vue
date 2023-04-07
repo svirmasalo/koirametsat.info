@@ -42,10 +42,11 @@
     <p class="text-sm leading-relaxed">Koirametsiä jo <span>{{ cityCount }}</span> kaupungissa</p>
   </header>
   <main class="bg-secondary flex flex-col justify-start pb-12 min-h-screen">
-    <div class="w-full max-w-lg mx-auto pt-10">
-        <h2 class="text-primary mb-4 px-4 font-bold">Koirametsät kaupungeittain</h2>
+    <div class="w-full max-w-lg mx-auto pt-10" itemscope itemtype="https://schema.org/ItemList">
+        <h2 class="text-primary mb-4 px-4 font-bold" itemprop="name">Koirametsät kaupungeittain</h2>
         <ul class="flex flex-col gap-4 justify-center px-4">
-            <li v-for="city in cityList" :key="city._path" class="bg-white shadow text-primary rounded p-5 hover:shadow-md transition-shadow">
+            <link itemprop="itemListOrder" href="https://schema.org/ItemListOrderDescending" />
+            <li v-for="city in cityList" :key="city._path" class="bg-white shadow text-primary rounded p-5 hover:shadow-md transition-shadow" itemprop="itemListElement">
                 <nuxt-link class="flex flex-row justify-between items-center" :to="city._path">
                     <div class="">
                         <p class="text-lg font-bold">{{ city.title }}</p>

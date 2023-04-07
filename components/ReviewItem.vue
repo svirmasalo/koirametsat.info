@@ -1,10 +1,11 @@
 <template>
   <div class="kmi-reviews-review--header">
     <div class="kmi-reviews-review--header-icon">
-      <span itemprop="name">{{ getInitials(review.user) }}</span>
+      <span>{{ getInitials(review.user) }}</span>
     </div>
     <div class="kmi-reviews-review--header-data">
-      <h3 itemprop="author">{{ review.user }}</h3>
+      <meta itemprop="name" :content="review.user">
+      <h3 itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">{{ review.user }}</span></h3>
       <meta itemprop="datePublished" :content="osDate" />
       <p>{{ humanDate }}</p>
       <meta itemprop="worstRating" content="1" />

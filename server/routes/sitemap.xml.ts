@@ -17,10 +17,29 @@ export default defineEventHandler(async (event) => {
   });
 
   for (const doc of docs) {
+    let priority = 0.8;
+    try {
+      if (doc._path) {
+        const depth = doc._path.split('/');
+        priority = depth.length > 2 ? 1 : 0.8;
+      }
+      if (doc._path === '/kaupungit') {
+        priority = 0.9;
+      }
+      if (doc._path === '/haku') {
+        priority = 0.9;
+      }
+    } catch (e) {
+      consola.error(e)
+    }
+    // consola.info(doc._file, priority);
     try {
       sitemap.write({
         url: doc._path,
-        changefreq: 'monthly'
+        changefreq: 'weekly',
+        priority: priority,
+        lastmodfile: `content/${doc._file}`,
+        lastmodrealtime: true
       })
     } catch (e) {
       consola.error(e)
