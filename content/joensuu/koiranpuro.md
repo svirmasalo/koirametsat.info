@@ -1,5 +1,5 @@
 ---
-title: 'Koiranpuro'
+title: 'Koiranpuro  - Koirametsät, Joensuu - Koirametsät.info'
 description: 'Koiranpuro on paikka, jossa koirat saavat olla koiria. Koiranpuron alue sijaitsee Joensuun Enossa ja muodostuu valtavasta metsäaitauksesta.'
 tags: 'Joensuu, Louhioja, Eno, Online varaus'
 address: 'Loiranpurontie 35 81210 Louhioja'

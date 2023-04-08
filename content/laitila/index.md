@@ -1,6 +1,6 @@
 ---
 navigation: false
-title: 'Laitila'
+title: 'Laitila - Koirametsät kaupungeittain - Koirametsät.info'
 titleIn: 'Laitilassa'
 description: 'Täältä löydät kaikki Laitilan koirametsät'
 ---

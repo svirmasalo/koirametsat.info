@@ -1,5 +1,5 @@
 ---
-title: 'Koirametsä Rallatus'
+title: 'Koirametsä Rallatus - Koirametsät, Lievestuore - Koirametsät.info'
 description: 'Turvallinen koirametsä tarjoaa 2 hehtaarin verran aidattua metsää koirien ulkoilutukseen erilaisilla leikkialueilla.'
 tags: 'Korkea aita, '
 address: 'Kelkkamäentie 176, 41400 Lievestuore'

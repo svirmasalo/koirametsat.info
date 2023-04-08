@@ -1,5 +1,5 @@
 ---
-title: 'Rengon Rekkumesta'
+title: 'Rengon Rekkumesta - Koirametsät, Renko - Koirametsät.info'
 description: 'Rekkumesta on kaikenkokoisille ja -rotuisille tarkoitettu, noin 1,5 hehtaarin kokoinen aidattu puuhamaa. Meillä koiruudet pääsevät kaivamaan, juoksemaan sekä nauttimaan koiramaisista puuhista.'
 tags: 'Nuotiopaikka, Kota, ulko-WC, pesupaikka'
 address: 'Hanhilammentie 127, 14300 Renko'

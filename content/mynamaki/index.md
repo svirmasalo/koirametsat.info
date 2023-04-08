@@ -1,6 +1,6 @@
 ---
 navigation: false
-title: 'Mynämäki'
+title: 'Mynämäki - Koirametsät kaupungeittain - Koirametsät.info'
 titleIn: 'Mynämäelä'
 description: 'Täältä löydät kaikki Mynämäen koirametsät.'
 ---

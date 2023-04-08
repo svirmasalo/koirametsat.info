@@ -1,10 +1,10 @@
-import { collection } from 'firebase/firestore';
+import { collection as collectionRef, addDoc } from 'firebase/firestore';
 import { useFirestore, useCollection } from 'vuefire';
+import { ReviewPost } from "types/review.post";
 
 export const useReviews = (slug: string) => { 
     const db = useFirestore()
-    // automatically waits for the data to be loaded on the server
-    const reviews = useCollection(collection(db, slug));    
+    const reviews = useCollection(collectionRef(db, slug));    
 
     // Get an average rating from an array of ratings
     const calclulateAverageRating = (ratings: any) => {
@@ -16,4 +16,11 @@ export const useReviews = (slug: string) => {
 
     const averageRating = calclulateAverageRating(reviews.value.map((r) => r.rating));
     return { reviews, averageRating };
+}
+
+export const usePostReview = async (slug: string, data: ReviewPost) => {
+    const db = useFirestore()
+    const parkCollection = collectionRef(db, slug);    
+
+    return await addDoc(parkCollection, data);
 }

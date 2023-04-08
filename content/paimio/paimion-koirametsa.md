@@ -1,5 +1,5 @@
 ---
-title: 'Paimion Koirametsä'
+title: 'Paimion Koirametsä - Koirametsät, Paimio - Koirametsät.info'
 description: 'Paimion Koirametsä on noin 2 hehtaaria yksityisomisteista, jykevästi aidattua suomalaista sekametsää. Koirametsän voi vuokrata yhdelle tai useammalle koiralle vapaata juoksemista ja olemista varten.'
 tags: 'Nuotiopaikka, Kota, ulko-WC, pesupaikka'
 address: 'Sauvontie 108-2, 21510 Hevonpää'

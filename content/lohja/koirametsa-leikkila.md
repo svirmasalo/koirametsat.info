@@ -1,5 +1,5 @@
 ---
-title: 'Leikkilä'
+title: 'Leikkilä - Koirametsät, Lohja - Koirametsät.info'
 description: 'Koirametsä Leikkilän aidattu alue on pääasiassa rinnemäistä metsämaastoa ja tarjoaa vaihtelevuudellaan erilaisia luonnollisia virikkeitä koirille!'
 tags: 'vesipiste, grilli, katos, piknik, ulko-WC'
 address: 'Puistontie 1, 09220 Sammatti'

@@ -1,6 +1,6 @@
 ---
 navigation: false
-title: 'Kuusamo'
+title: 'Kuusamo - Koirametsät kaupungeittain - Koirametsät.info'
 ---
 
 ::BodyPage

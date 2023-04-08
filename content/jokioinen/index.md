@@ -1,6 +1,6 @@
 ---
 navigation: false
-title: 'Jokioinen'
+title: 'Jokioinen - Koirametsät kaupungeittain - Koirametsät.info'
 titleIn: 'Jokioisessa'
 description: 'Täältä löydät kaikki Jokioisten koirametsät'
 ---

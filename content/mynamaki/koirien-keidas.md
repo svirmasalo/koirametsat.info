@@ -1,5 +1,5 @@
 ---
-title: 'Koirien keidas'
+title: 'Koirien keidas - Koirametsät, Mynämäki - Koirametsät.info'
 description: 'Koirien keidas on noin 2 hehtaarin kokoinen aidattu alue, joka sopii monenlaiseen vapaaseen harrastamiseen koiran kanssa. Alue on käytettävissä nettiajanvarauksella ympäri vuorokauden.'
 tags: 'nuotiopaikka, wc, kenttä, uimalampi'
 address: 'Ampumaradantie 17, 23100 Mynämäki'

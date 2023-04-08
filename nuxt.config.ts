@@ -116,7 +116,7 @@ export default defineNuxtConfig({
   },
   vuefire: {
     config: {
-      apiKey: process.env.AIzaSyBVatfNJ41DfA6_DQPiBgFw04ThfEWKMVg,
+      apiKey: process.env.VF_APIKEY,
       authDomain: process.env.VF_AUTHDOMAIN,
       projectId: process.env.VF_PROJECTID,
       appId: process.env.VF_APPID,

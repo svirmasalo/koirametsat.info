@@ -1,5 +1,5 @@
 ---
-title: 'Puolen Hehtaarin Koirametsä'
+title: 'Puolen Hehtaarin Koirametsä - Koirametsät, Muurame - Koirametsät.info'
 description: 'Yksityinen 1,5 ha koirapuisto, jossa 0,5 ha metsää, loput nurmea. Alueella makkaranpaistopaikka puineen, sekä ulko wc ja vesipiste. Talvikaudella myös valaistus.'
 tags: 'wc, vesipiste, nuotiopaikka, valaistus, Niittyahon tila'
 address: 'Niittyahontie 60 40950 Muurame'

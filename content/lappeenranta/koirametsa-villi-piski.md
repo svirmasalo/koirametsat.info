@@ -1,5 +1,5 @@
 ---
-title: 'Koirametsä Villi Piski'
+title: 'Koirametsä Villi Piski - Koirametsät, Lappeenranta - Koirametsät.info'
 description: 'Koirametsä Villi Piski on noin 2 hehtaarin kokoinen aidattu metsäalue, johon voit tulla nauttimaan luonnon rauhasta koirasi kanssa.'
 tags: 'parkkipaikka, korkea aita'
 address: 'Vihtolantie 301, 54300 Lappeenranta'

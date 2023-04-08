@@ -1,5 +1,5 @@
 ---
-title: 'Touhu & Temmellys Metsämonttu ja Männikkö'
+title: 'Touhu & Temmellys Metsämonttu ja Männikkö - Koirametsät, Tuusula - Koirametsät.info'
 description: 'Mahtava noin 5 hehtaarin kokoinen kokonaan aidattu vanha sorakuoppa, jossa on tilaa juosta niin vinttikoirille kuin tanskandogeille ja kaikille muillekkin.'
 tags: 'pöytä, katos, helppokulkuinen, soramonttu, metsämonttu, männikkö, ulko-wc'
 address: 'Vanha Hämeentie 418, 04390 Tuusula'

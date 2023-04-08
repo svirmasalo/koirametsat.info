@@ -1,5 +1,5 @@
 ---
-title: 'Taikakallion Pieni Koirametsä'
+title: 'Taikakallion Pieni Koirametsä - Koirametsät, Sastamala - Koirametsät.info'
 description: 'Taikakallion Pieni Koiramtesä on turvallinen ja rauhallinen paikka sinulle ja koirillesi.'
 tags: 'Nuotiopaikka, ulko-WC, uinti, agility, picnic, valjakkoajelu'
 address: 'Irriäistentie 360, Sastamala, Suomi'

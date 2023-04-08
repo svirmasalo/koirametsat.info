@@ -1,6 +1,6 @@
 ---
 navigation: false
-title: 'Hamina'
+title: 'Hamina - Koirametsät kaupungeittain - Koirametsät.info'
 titleIn: 'Haminassa'
 description: 'Täältä löydät kaikki Haminan koirametsät'
 ---

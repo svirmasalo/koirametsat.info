@@ -1,6 +1,6 @@
 ---
 navigation: false
-title: 'Paimio'
+title: 'Paimio - Koirametsät kaupungeittain - Koirametsät.info'
 titleIn: 'Paimiolla'
 description: 'Täältä löydät kaikki Paimion koirametsät'
 ---

@@ -1,6 +1,8 @@
 <template>
-  <SchemaOrgWebSite name="Koirametsät.info" />
-  <SchemaOrgWebPage />
-  <ContentDoc />
+  <div>
+    <SchemaOrgWebSite name="Koirametsät.info" />
+    <SchemaOrgWebPage />
+    <ContentDoc />
+  </div>
 </template>
   

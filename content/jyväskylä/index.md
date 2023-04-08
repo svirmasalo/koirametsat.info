@@ -1,6 +1,6 @@
 ---
 navigation: false
-title: 'Jyväskylä'
+title: 'Jyväskylä - Koirametsät kaupungeittain - Koirametsät.info'
 titleIn: 'Jyväskylässä'
 description: 'Täältä löydät kaikki Jyväskylän koirametsät ja Jyväskylän lähellä sjaitsevat koirametsät.'
 ---
