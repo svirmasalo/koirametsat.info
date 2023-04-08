@@ -1,5 +1,5 @@
 ---
-title: 'Leponiemen Koirametsä'
+title: 'Leponiemen Koirametsä - Koirametsät, Vihti - Koirametsät.info'
 description: 'Leponiemen koirametsä on aidattu metsäalue, jossa pääset liikkumaan koirasi kanssa luonnossa'
 tags: 'Nuotiopaikka, Parkkipaikka, ulko-WC'
 address: 'Tervalammentie 901, 03250 Vihti'

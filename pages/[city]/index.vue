@@ -63,38 +63,40 @@
     });
 </script>
 <template>
-    <header>
-        <header class="pt-16 pb-12 text-center">
-            <h1 class="text-4xl font-bold text-secondary leading-tight">{{ cityQuery.title }}</h1>
-            <p class="text-sm leading-relaxed">{{cityQuery.titleIn}} on yhteensä <span>{{ parkList.length }}</span> koirametsää.</p>
+    <div>
+        <header>
+            <header class="pt-16 pb-12 text-center">
+                <h1 class="text-4xl font-bold text-secondary leading-tight">{{ cityQuery.title }}</h1>
+                <p class="text-sm leading-relaxed">{{cityQuery.titleIn}} on yhteensä <span>{{ parkList.length }}</span> koirametsää.</p>
+            </header>
         </header>
-    </header>
-    <main class="bg-secondary flex flex-col justify-start pb-12 min-h-screen">
-        <div class="container pt-10 park-list-container">
-            <div v-if="parkList.length > 0" class="w-full max-w-lg mx-auto">
-                <ul class="flex flex-col gap-4 justify-center">
-                    <li v-for="park in parkList" :key="park._path" class="bg-white shadow text-primary rounded p-5 hover:shadow-md transition-shadow">
-                        <ListItem :to="park._path" :title="park.title" :substring="park.address" />
-                    </li>
-                </ul>
+        <main class="bg-secondary flex flex-col justify-start pb-12 min-h-screen">
+            <div class="container pt-10 park-list-container">
+                <div v-if="parkList.length > 0" class="w-full max-w-lg mx-auto">
+                    <ul class="flex flex-col gap-4 justify-center">
+                        <li v-for="park in parkList" :key="park._path" class="bg-white shadow text-primary rounded p-5 hover:shadow-md transition-shadow">
+                            <ListItem :to="park._path" :title="useParseTitle(park.title)" :substring="park.address" />
+                        </li>
+                    </ul>
+                </div>
+                <div v-if="closeByQuery.length > 0" class="mx-auto prose mt-12">
+                    <h2>Lähellä sijaitsevat koirametsät</h2>
+                </div>
+                <div v-if="closeByQuery.length > 0" class="w-full max-w-lg mx-auto pt-8">
+                    <ul class="flex flex-col gap-4 justify-center">
+                        <li v-for="item in closeByQuery" :key="item._path" class="bg-white shadow text-primary rounded p-5 hover:shadow-md transition-shadow">
+                            <ListItem :to="item._path" :title="useParseTitle(item.title)" :substring="item.address" :city="item.city" />
+                        </li>
+                    </ul>
+                </div>
+                <div class="prose text-center py-10" v-if="parkList.length === 0">
+                    <NoContentForCity :city="useParseTitle(cityQuery.title)" />
+                </div>
+                <ContentDoc :path="$route.path" />
             </div>
-            <div v-if="closeByQuery.length > 0" class="mx-auto prose mt-12">
-                <h2>Lähellä sijaitsevat koirametsät</h2>
-            </div>
-            <div v-if="closeByQuery.length > 0" class="w-full max-w-lg mx-auto pt-8">
-                <ul class="flex flex-col gap-4 justify-center">
-                    <li v-for="item in closeByQuery" :key="item._path" class="bg-white shadow text-primary rounded p-5 hover:shadow-md transition-shadow">
-                        <ListItem :to="item._path" :title="item.title" :substring="item.address" :city="item.city" />
-                    </li>
-                </ul>
-            </div>
-            <div class="prose text-center py-10" v-if="parkList.length === 0">
-                <NoContentForCity :city="cityQuery.title" />
-            </div>
-            <ContentDoc :path="$route.path" />
-        </div>
-    </main>
-    <SchemaOrgWebPage />
+        </main>
+        <SchemaOrgWebPage />
+    </div>
 </template>
 <style scoped>
     .park-list-container > div:first-of-type {

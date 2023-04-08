@@ -1,5 +1,5 @@
 ---
-title: 'Koirametsä Eläinkuusikko'
+title: 'Koirametsä Eläinkuusikko - Koirametsät, Numminen - Koirametsät.info'
 description: 'Mäntsälän Nummisten idyllisissä maisemissa, istutetun kuusimetsän katveessa, saat nauttia omasta rauhasta koirasi kanssa, treenaten tai ulkoillen.'
 tags: 'Nuotiopaikka, Hajutyöskentely'
 address: 'Nummensuontie 168, 04660 Mäntsälä'

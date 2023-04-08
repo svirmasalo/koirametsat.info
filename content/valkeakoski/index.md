@@ -1,6 +1,6 @@
 ---
 navigation: false
-title: 'Valkeakoski'
+title: 'Valkeakoski - Koirametsät kaupungeittain - Koirametsät.info'
 titleIn: 'Valkeakoskella'
 description: 'Täältä löydät kaikki Valkeakosken koirametsät'
 ---

@@ -1,6 +1,6 @@
 ---
 navigation: false
-title: 'Helsinki'
+title: 'Helsinki - Koirametsät kaupungeittain - Koirametsät.info'
 titleIn: 'Helsingissä'
 description: 'Täältä löydät kaikki Helsingin koirametsät ja Helsingin lähellä sijaitsevat koirametsät.'
 ---

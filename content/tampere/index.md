@@ -1,6 +1,6 @@
 ---
 navigation: false
-title: 'Tampere'
+title: 'Tampere - Koirametsät kaupungeittain - Koirametsät.info'
 titleIn: 'Tampereella'
 description: 'Täältä löydät kaikki Tampereen koirametsät ja Tampereen lähellä sijaitsevat koirametsät.'
 ---

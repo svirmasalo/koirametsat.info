@@ -1,5 +1,5 @@
 ---
-title: 'Koirametsä Reviiri'
+title: 'Koirametsä Reviiri - Koirametsät, Hamina - Koirametsät.info'
 description: 'Aidoin rajattu kahden hehtaarin metsäalue, jossa lemmikin ulkoilu onnistuu huolettomasti ja turvallisesti.'
 tags: 'Neuvoton, Hamina'
 address: 'Ruopingintie 53, 49490 Neuvoton'

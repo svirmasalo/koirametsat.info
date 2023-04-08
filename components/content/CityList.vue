@@ -34,7 +34,7 @@
                 <li v-for="city in cityList" :key="city._path" class="bg-white shadow text-primary rounded p-5 hover:shadow-md transition-shadow">
                     <nuxt-link class="flex flex-row justify-between items-center" :to="city._path">
                         <div class="">
-                            <p class="text-lg font-bold">{{ city.title }}</p>
+                            <p class="text-lg font-bold">{{ useParseTitle(city.title) }}</p>
                         </div>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />

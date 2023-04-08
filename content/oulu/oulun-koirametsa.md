@@ -1,5 +1,5 @@
 ---
-title: 'Oulun Koirametsä'
+title: 'Oulun Koirametsä - Koirametsät, Oulu - Koirametsät.info'
 description: 'Oulun koiramtesä käsittää kaksi eri neljän hehtaarin kokoista aidattua koirametsää. Molemmista koirametsistä löytyy mm. laavu, huussi sekä jätepisteitä.'
 tags: 'nuotiopaikka, laavu, ulko-WC, parkkipaikka, lenkkipolku'
 address: 'Lintumaansuontie 411, 90820 Kello & Topinperäntie 101, 90820 Kello'

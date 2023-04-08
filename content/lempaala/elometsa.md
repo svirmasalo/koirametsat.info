@@ -1,5 +1,5 @@
 ---
-title: 'Elometsä'
+title: 'Elometsä - Koirametsät, Lempäälä - Koirametsät.info'
 description: 'Elometsä on 1,1 hehtaarin kokoinen monivivahteinen luonnollinen metsäalue Lempäälässä, puolisen tuntia Tampereelta etelään.'
 tags: 'vesipiste, nuotiopaikka, valaistus, laavu, parkkipaikka, ulko WC'
 address: 'Valtolantie 61, 37500 Lempäälä'

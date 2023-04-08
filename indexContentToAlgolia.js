@@ -85,9 +85,13 @@ const contentObjects = contentFilesFlat.map((file) => {
       // console.log(item);
       // Get tite, description, tags and city from the frontmatter. Default to empty string if not found
       const { title, description, tags, city, address, closeBy } = item.data;
+      // Split title to strip out the city and Koirametsät.info
+      const titleSplit = title.split(" - ");
+
+
       const object = {
         objectID: file.objectID,
-        title: title || "",
+        title: titleSplit[0] || "",
         description: description || "",
         path: file.path,
         tags: tags.split(",") || [],

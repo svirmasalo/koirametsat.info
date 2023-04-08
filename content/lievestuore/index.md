@@ -1,6 +1,6 @@
 ---
 navigation: false
-title: 'Lievestuore'
+title: 'Lievestuore - Koirametsät kaupungeittain - Koirametsät.info'
 titleIn: 'Lievestuoreella'
 description: 'Täältä löydät kaikki Lievestuoreen koirametsät'
 ---

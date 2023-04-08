@@ -1,5 +1,5 @@
 ---
-title: 'Touhu & Temmellys Puuhamaa'
+title: 'Touhu & Temmellys Puuhamaa  - Koirametsät, Kellokoski - Koirametsät.info'
 description: 'Syksyllä 2016 avattu Touhu & Temmellys Puuhamaa on koiraväelle suunniteltu virikkeellistämis-, treeni- ja ulkoilualue Kellokoskella, reilun puolen tunnin ajomatkan päässä Helsingistä.'
 tags: 'grillilaavu, leluja, touhu, temmellys, tempo, agility, allas, uinti, wc'
 address: 'Jyväläntie 25, 04500 Kellokoski'

@@ -1,5 +1,5 @@
 ---
-title: 'Muhoksen käpälämetsä'
+title: 'Muhoksen käpälämetsä - Koirametsät, Muhos - Koirametsät.info'
 description: 'Muhoksella sijaitseva Käpälämetsä on reilun hehtaarin kokoinen yksityinen koirametsä, jossa voit ulkoiluttaa koiraasi turvallisesti ja stressittömästi vapaana ympäri vuoden.'
 tags: 'Laavu, nuotiopaikka, ulko-WC, vesipiste, parkkipaikka'
 address: 'Kalilantie 161, 91500 Muhos'

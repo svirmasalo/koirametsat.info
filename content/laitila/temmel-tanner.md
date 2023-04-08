@@ -1,5 +1,5 @@
 ---
-title: 'Temmel Tanner'
+title: 'Temmel Tanner - Koirametsät, Laitila - Koirametsät.info'
 description: 'Temmel Tanner sijaitsee Laitilassa, Lukujärvellä. Temmel Tanner ei ole puisto eikä metsä vaan todellakin tanner, jossa koira saa temmeltää vapaasti ja turvallisesti kaksimetrisen panssariverkkoaidan sisällä.'
 tags: 'vesipiste, nuotiopaikka, valaistus, laavu'
 address: 'Ristimäentie 172, 23800 Laitila'

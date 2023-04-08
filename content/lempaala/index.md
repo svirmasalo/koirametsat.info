@@ -1,6 +1,6 @@
 ---
 navigation: false
-title: 'Lempäälä'
+title: 'Lempäälä - Koirametsät kaupungeittain - Koirametsät.info'
 titleIn: 'Lempäälässä'
 description: 'Täältä löydät kaikki Lempäälän koirametsät'
 ---

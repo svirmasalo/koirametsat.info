@@ -1,9 +1,9 @@
 ---
-title: 'Pikkutähti'
+title: 'Pikkutähti - Koirametsät, Espoo - Koirametsät.info'
 description: 'Koirapuisto Pikkutähti on luonnonhelmassa Nuuksion Kansallispuiston kupeessa sijaitseva tunnelmallinen metsäpuisto.'
 tags: 'Nuuksio'
 address: 'Kaitakorventie 18, 02820 Espoo'
-closeBy: 'Helsinki, Vihti, Mäntsälä, Nurmijärvi, Vantaa'
+closeBy: 'Helsinki, Vihti, Mäntsälä, Nurmijärvi, Vantaa, Sipoo'
 ---
 
 ::HeaderPark

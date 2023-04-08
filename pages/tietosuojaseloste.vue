@@ -1,5 +1,7 @@
 <template>
-  <ContentDoc />
-  <SchemaOrgWebPage />
+  <div>
+    <ContentDoc />
+    <SchemaOrgWebPage />
+  </div>
 </template>
       
