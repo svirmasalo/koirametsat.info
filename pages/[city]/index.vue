@@ -15,7 +15,7 @@
     // Query all documents that have a closeBy array including current city
     const closeByQuery = await queryContent({
         where: {
-            closeBy: {$contains: [cityQuery.title]},
+            closeBy: {$contains: [useParseTitle(cityQuery.title)]},
         }
     }).find();
 
@@ -66,7 +66,7 @@
     <div>
         <header>
             <header class="pt-16 pb-12 text-center">
-                <h1 class="text-4xl font-bold text-secondary leading-tight">{{ cityQuery.title }}</h1>
+                <h1 class="text-4xl font-bold text-secondary leading-tight">{{ useParseTitle(cityQuery.title) }}</h1>
                 <p class="text-sm leading-relaxed">{{cityQuery.titleIn}} on yhteensä <span>{{ parkList.length }}</span> koirametsää.</p>
             </header>
         </header>
