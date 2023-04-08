@@ -79,20 +79,12 @@
 import "@formkit/themes/genesis";
 import { reset } from "@formkit/core";
 
-import { ReviewPost } from "types/review.post";
-
-import { addDoc, collection as collectionRef } from "firebase/firestore";
-import { useFirestore } from "vuefire";
-
 import { ref } from "vue";
 
 const route = useRoute();
 
 const props = defineProps(["slug"]);
 const formRating = ref(undefined);
-
-const db = useFirestore();
-const parkCollection = collectionRef(db, props.slug);
 
 const error = useState("error", () => false);
 const reviewSent = useState("reviewSent", () => false);
@@ -104,7 +96,6 @@ const comCookie = useCookie("_kmcom", {
   sameSite: "strict",
   secure: true,
 });
-
 
 // Set form sent if comCookie value is the same as slug
 if (comCookie.value && comCookie.value === props.slug) {
@@ -119,7 +110,7 @@ const addReview = async (fields: any) => {
   // Turn the rating into a number
   const rating = Number(formRating.value);
 
-  const data: ReviewPost = {
+  const data = {
     user: fields.name,
     review: fields.review,
     rating: rating,
@@ -127,13 +118,12 @@ const addReview = async (fields: any) => {
   };
   // Add a new document with automatically generated id.
   try {
-    const res = await addDoc(parkCollection, data);
+    const res = await usePostReview(props.slug, data);
   } catch (e) {
     console.error("Error adding document: ", e);
     error.value = true;
   }
   if (!error.value) {
-    // Set timeout to show success message. This helps user with bouncing screen.
     reviewSent.value = true;
     formSent.value = true;
     comCookie.value = props.slug;
