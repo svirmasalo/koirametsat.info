@@ -17,7 +17,7 @@
             fill-rule="evenodd"
           ></path>
         </svg>
-        <span itemprop="ratingValue" :content="averageRating">{{ averageRating }}</span>
+        <span itemprop="ratingValue" :content="averageRating">{{ averageRating }} <span class="sr-only">/</span> <span class="sr-only" itemprop="bestRating">5</span></span>
       </p>
     </header>
     <div role="list" class="kmi-reviews-wrapper" v-if="reviews.length > 0">
