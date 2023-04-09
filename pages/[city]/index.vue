@@ -64,6 +64,7 @@
 </script>
 <template>
     <div>
+        <Breadcrumbs :path="route.path" :curPageTitle="cityQuery.title"/>
         <header>
             <header class="pt-16 pb-12 text-center">
                 <h1 class="text-4xl font-bold text-secondary leading-tight">{{ useParseTitle(cityQuery.title) }}</h1>

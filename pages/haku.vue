@@ -44,6 +44,7 @@ const track = (string) => {
         Hae koirametsää nimellä, kaupungilla, avainsanalla...
       </p>
     </header>
+    <Breadcrumbs path="/haku" curPageTitle="Haku"/>
     <main>
       <AisInstantSearch :index-name="indexName" :search-client="algolia">
         <div class="max-w-sm mx-auto">

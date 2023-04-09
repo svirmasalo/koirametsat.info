@@ -69,6 +69,7 @@ if (parkQuery) {
     <meta itemprop="addressLocality" :content="city" />
     <meta itemprop="addressRegion" content="FI" />
     <meta itemprop="url" :content="`https://koirametsat.info${route.path}`" />
+    <Breadcrumbs :path="route.path" :curPageTitle="parkQuery.title"/>
     <ContentDoc />
     <div class="bg-secondary">
       <Review :slug="slug" />

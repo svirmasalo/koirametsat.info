@@ -42,6 +42,7 @@
       <h1 class="text-4xl font-bold text-secondary leading-tight">Kaupungit</h1>
       <p class="text-sm leading-relaxed">Koirametsiä jo <span>{{ cityCount }}</span> kaupungissa</p>
     </header>
+    <Breadcrumbs path="/kaupungit" curPageTitle="Kaupungit"/>
     <main class="bg-secondary flex flex-col justify-start pb-12 min-h-screen">
       <div class="w-full max-w-lg mx-auto pt-10" itemscope itemtype="https://schema.org/ItemList">
           <h2 class="text-primary mb-4 px-4 font-bold" itemprop="name">Koirametsät kaupungeittain</h2>
