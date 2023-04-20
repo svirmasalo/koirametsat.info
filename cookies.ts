@@ -33,16 +33,6 @@ export default {
     },
     {
       description: {
-        en: "Käytetään Googlen tarjoamien mainosten näyttämiseen.",
-      },
-      id: "ADS",
-      name: {
-        en: "Google Adsense",
-      },
-      targetCookieIds: ["__gads", "__gpi"],
-    },
-    {
-      description: {
         en: "Käytetään Metan (Facebookin ja Instagram) mainonnan kohdistamiseen.",
       },
       id: "META",
