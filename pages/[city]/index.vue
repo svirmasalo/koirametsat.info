@@ -40,10 +40,6 @@
     useHead({
         meta: [
             {
-            name: 'keywords',
-            content: `koirametsät ${cityQuery.title}, koirametsä ${cityQuery.title}`
-            },
-            {
             name: 'author',
             content: 'Koirametsät.info'
             },
@@ -57,9 +53,15 @@
             },
             {
                 name: 'og:title',
-                content: `${cityQuery.title} - Koirametsät kaupungeittain - Koirametsät.info`
+                content: `${cityQuery.title}`
             },
-        ]
+        ],
+        link: [
+            {
+                rel: "canonical",
+                href: `https://koirametsat.info${route.fullPath}`,
+            },
+        ],
     });
 </script>
 <template>

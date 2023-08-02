@@ -3,6 +3,10 @@ navigation:
   title: 'Tietoa palvelusta'
 title: 'Tietoa palvelusta - Koirametsät.info'
 description: 'Koirametsät.info on palvelu lähelläsi olevan koirametsän löytämiseen.'
+head:
+  link:
+    - rel: canonical
+      href: 'https://koirametsat.info/tietoa-palvelusta'
 ---
 
 ::HeaderPage

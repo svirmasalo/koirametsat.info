@@ -13,6 +13,9 @@ head:
       content: 'Koirametsät.info / Tmi S. Virmasalo'
     - name: 'copyright'
       content: '© 2023 Tmi S. Virmasalo'
+  link:
+    - rel: canonical
+      href: 'https://koirametsat.info'
 ---
 
 ::HeaderPage
