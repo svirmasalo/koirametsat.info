@@ -60,6 +60,8 @@ if (parkQuery) {
 </script>
 <template>
   <div itemscope itemtype="https://schema.org/LocalBusiness">
+    <!-- Skip to main content link -->
+    <a class="sr-only" href="#main">Siirry sisältöön</a>
     <meta itemprop="name" :content="parkQuery.title" />
     <meta itemprop="description" :content="parkQuery.description" />
     <meta itemprop="addressLocality" :content="city" />
