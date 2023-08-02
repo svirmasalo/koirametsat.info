@@ -1,7 +1,7 @@
 ---
 navigation:
   title: 'Etusivu'
-title: 'Löydä koirametsä lähelläsi - Koirametsät.info'
+title: 'Koirametsät - Löydä koirametsä lähelläsi'
 description: 'Koirametsät.info-sivusto on suunniteltu helpottamaan koiranomistajien arkea tarjoamalla kattavan tietokannan koirametsistä ympäri Suomen. Meiltä löydät tietoa koirametsistä, joissa voit käydä rauhallisin mielin koirasi kanssa ulkoilemassa ja nauttimassa luonnosta.'
 head:
   meta:
@@ -25,8 +25,8 @@ Löydä lähin koirametsä missä tahansa oletkin.
 
 ::BodyPage
 
-::CityList{:cities='["/helsinki", "/tampere", "/jyvaskyla", "/oulu"]'}
-## Suosituimmat kaupungit
+::CityList{:cities='["/paimio", "/tampere", "/muurame", "/espoo", "/hamina", "/lievestuore"]'}
+## Suosituimmat alueet
 ::
 
 [Tervetuloa Koirametsät.info-sivustolle! Meidän tavoitteemme on auttaa sinua löytämään lähin koirametsä missä tahansa oletkin.]{.text-lg}
@@ -41,6 +41,12 @@ Käyttäjänämme voit hakea lähimmän koirametsän sijainnin kätevästi sivus
 
 Voit myös selata sivustoamme alueittain ja löytää uusia mielenkiintoisia koirametsiä.
 ::CtaPage{type="primary" to="/kaupungit" label="Kaupungit"}
+::
+
+## Mikä on koirametsä?
+Koirametsä on kaupallinen palvelu, joka tarjoaa koiranomistajille turvallisen ja rauhallisen ympäristön ulkoiluttaa koiriaan vapaana ilman hihnaa ja aikarajoituksia. Koirametsä toimii usein yksityisomisteisena alueena, joka vuokrataan yhdelle henkilölle tai ryhmälle kerrallaan. Tämä takaa sen, että alueella ei ole yhtäaikaisesti muita koiria, jolloin koirat voivat liikkua vapaasti ilman häiriötekijöitä...
+
+::CtaPage{type="alt" to="/mika-on-koirametsa" label="Lue lisää"}
 ::
 ## Tavoitteena helppokäyttöisyys
 Meidän tavoitteemme on tarjota sinulle helpoin kokemus ja siksi päivitämme jatkuvasti tietokantamme uusilla koirametsillä. Haluamme varmistaa, että löydät aina uusimmat tiedot koirametsistä, jotta voit suunnitella retkesi mahdollisimman helposti ja turvallisesti.
