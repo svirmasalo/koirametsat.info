@@ -1,13 +1,13 @@
 ---
 navigation:
   title: 'Tietoa palvelusta'
-title: 'Tietoa palvelusta'
-description: 'Koirametsät.info on palvelu lähelläsi olevan koirametsän löytämiseen'
+title: 'Tietoa palvelusta - Koirametsät.info'
+description: 'Koirametsät.info on palvelu lähelläsi olevan koirametsän löytämiseen.'
 ---
 
 ::HeaderPage
 # Tietoa koirametsät.info palvelusta
-Koirametsät.info on palvelu lähelläsi olevan koirametsän löytämiseen
+Koirametsät.info on palvelu lähelläsi olevan koirametsän löytämiseen.
 ::
 
 ::BodyPage

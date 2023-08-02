@@ -1,6 +1,6 @@
 ---
 navigation: false
-title: 'Mikä on koirametsä?'
+title: 'Mikä on koirametsä - Koirametsät.info'
 description: 'Mikä on koirametsä ja miten se eroaa koirapuistosta? Koirametsä on usein yksityisomisteinen, vuokrattavissa oleva aidattu alue koirien ulkoiluttamiseen vapaana.'
 ---
 

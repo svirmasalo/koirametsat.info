@@ -1,5 +1,5 @@
 ---
-title: 'Petvillan Koirapuisto & uimalampi - Koirametsät, Sastamala - Koirametsät.info'
+title: 'Petvillan Koirapuisto & uimalampi - Sastamala'
 description: 'Petvillan koirapuisto ja uimalampi on koirille suunniteltu aktiviteetti-, uima- ja ulkoilualue Sastamalassa, reilun puolen tunnin ajomatkan päässä Porista ja noin tunnin Tampereelta.'
 tags: 'Nuotiopaikka, ulko-WC, uinti, agility, picnic'
 address: 'Nevanperäntie 265, 38360 Sastamala'

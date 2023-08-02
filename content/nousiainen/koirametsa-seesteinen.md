@@ -1,5 +1,5 @@
 ---
-title: 'Koirametsä Seesteinen - Koirametsät, Nousiainen - Koirametsät.info'
+title: 'Koirametsä Seesteinen - Nousiainen'
 description: 'Seesteinen koirametsä Varsinais-Suomessa on ensimmäinen laatuaan, tarjoten omistajalleen stressivapaan ympäristön, jossa nauttia maaseudun rauhasta yhdessä parhaan ystävänsä kanssa.'
 tags: 'Laavu, nuotiopaikka, ulko-WC, vesipiste, parkkipaikka'
 address: 'Karjunintie 178, 21270 Nousiainen'

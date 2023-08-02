@@ -1,5 +1,5 @@
 ---
-title: 'Koirametsä Haukkumaa - Koirametsät, Valkeakoski - Koirametsät.info'
+title: 'Koirametsä Haukkumaa - Valkeakoski'
 description: 'Koirametsä Haukkumaa on aidattu noin kahden hehtaarin kokoinen metsäalue, joka on varattavissa omaan käyttöön.'
 tags: 'Nuotiopaikka, katos, ulko-WC'
 address: 'Pyörönmaantie 218, 37630 Valkeakoski'

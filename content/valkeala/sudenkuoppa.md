@@ -1,5 +1,5 @@
 ---
-title: 'Koirapuisto Sudenkuoppa - Koirametsät, Valkeala - Koirametsät.info'
+title: 'Koirapuisto Sudenkuoppa - Valkeala'
 description: 'Sudenkuopan yksityinen liikuntapuisto tarjoaa Sinulle ja koirallesi mahdollisuuden liikuntaan luonnon helmassa.'
 tags: 'Nuotiopaikka, Parkkipaikka,'
 address: 'Pirttiahontie 118, 46230 Valkeala'

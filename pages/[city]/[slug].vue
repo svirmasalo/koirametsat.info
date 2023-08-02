@@ -21,10 +21,6 @@ if (parkQuery) {
   useHead({
     meta: [
       {
-        name: "keywords",
-        content: `koirametsä ${parkQuery.title}, ${parkQuery.title}`,
-      },
-      {
         name: "author",
         content: "Koirametsät.info",
       },
@@ -38,7 +34,7 @@ if (parkQuery) {
       },
       {
         name: "og:title",
-        content: `${parkQuery.title} - ${city} - Koirametsät.info`,
+        content: `${parkQuery.title}`,
       },
       {
         name: "og:url",
