@@ -1,13 +1,7 @@
 <script setup>
     useHead({
-      title: 'Kaupungit',
+      title: 'Kaupungit - Koirametsät.info',
       description: 'Koirametsät lajiteltuna kaupungeittain. Koirametsät.info-palvelusta löydät kätevästi Suomen koirametsät.',
-      meta: [
-        {
-        name: 'keywords',
-        content: 'koirametsät kaupungeittain'
-        }
-      ]
     });
     const cityQuery = await queryContent({
         where: {

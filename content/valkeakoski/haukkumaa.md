@@ -1,5 +1,5 @@
 ---
-title: 'Koirametsä Haukkumaa - Koirametsät, Valkeakoski - Koirametsät.info'
+title: 'Koirametsä Haukkumaa - Valkeakoski'
 description: 'Koirametsä Haukkumaa on aidattu noin kahden hehtaarin kokoinen metsäalue, joka on varattavissa omaan käyttöön.'
 tags: 'Nuotiopaikka, katos, ulko-WC'
 address: 'Pyörönmaantie 218, 37630 Valkeakoski'
@@ -9,14 +9,15 @@ closeBy: 'Tampere'
 
 ::HeaderPark
 ---
-notificationText: 'Verkkosivusto osoitteessa: https://www.petvilla.fi/koirapuisto/'
-notificationLink: 'https://www.petvilla.fi/koirapuisto/'
+notificationText: 'Verkkosivusto osoitteessa: https://www.haukkumaa.fi/'
+notificationLink: 'https://www.haukkumaa.fi/'
 ---
-# Petvillan Koirapuisto & uimalampi
+# Koirametsä Haukkumaa
 Koirametsä Haukkumaa on aidattu noin kahden hehtaarin kokoinen metsäalue, joka on varattavissa omaan käyttöön.
 ::
 
 ::BodyPage
+## Tiedot
 ::ParkItem
 ---
 featureName: Osoite

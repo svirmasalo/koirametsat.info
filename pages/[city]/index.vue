@@ -40,8 +40,8 @@
     useHead({
         meta: [
             {
-            name: 'keywords',
-            content: `koirametsät ${cityQuery.title}, koirametsä ${cityQuery.title}`
+                name: 'description',
+                content: `${cityQuery.titleIn} on yhteensä ${parkList.length} paikallista ja ${closeByQuery.length} lähellä sijaitsevaa koirametsää.`
             },
             {
             name: 'author',
@@ -57,9 +57,19 @@
             },
             {
                 name: 'og:title',
-                content: `${cityQuery.title} - Koirametsät kaupungeittain - Koirametsät.info`
+                content: `${cityQuery.title}`
             },
-        ]
+            {
+                name: 'og:description',
+                content: `${cityQuery.titleIn} on yhteensä ${parkList.length} paikallista ja ${closeByQuery.length} lähellä sijaitsevaa koirametsää.`
+            },
+        ],
+        link: [
+            {
+                rel: "canonical",
+                href: `https://koirametsat.info${route.fullPath}`,
+            },
+        ],
     });
 </script>
 <template>

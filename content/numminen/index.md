@@ -2,7 +2,6 @@
 navigation: false
 title: 'Numminen - Koirametsät kaupungeittain - Koirametsät.info'
 titleIn: 'Nummisessa'
-description: 'Täältä löydät kaikki Nummisen koirametsät'
 ---
 
 ::BodyPage

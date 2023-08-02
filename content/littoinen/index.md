@@ -2,7 +2,6 @@
 navigation: false
 title: 'Littoinen - Koirametsät kaupungeittain - Koirametsät.info'
 titleIn: 'Littoisissa'
-description: 'Täältä löydät kaikki Littoisen koirametsät'
 ---
 
 ::BodyPage

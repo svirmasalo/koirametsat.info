@@ -39,6 +39,8 @@ const trackClick = () => {
         format="webp"
         loading="lazy"
         alt="AI:n luoma kuvituskuva koirametsästä"
+        width="176"
+        height="176"
       />
     </div>
     <div class="max-w-lg mx-auto">

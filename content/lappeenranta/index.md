@@ -2,7 +2,6 @@
 navigation: false
 title: 'Lappeenranta - Koirametsät kaupungeittain - Koirametsät.info'
 titleIn: 'Lappeenrannassa'
-description: 'Täältä löydät kaikki Lappeenrannan koirametsät'
 ---
 
 ::BodyPage

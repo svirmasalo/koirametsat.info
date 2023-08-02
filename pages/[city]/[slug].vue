@@ -21,10 +21,6 @@ if (parkQuery) {
   useHead({
     meta: [
       {
-        name: "keywords",
-        content: `koirametsä ${parkQuery.title}, ${parkQuery.title}`,
-      },
-      {
         name: "author",
         content: "Koirametsät.info",
       },
@@ -38,7 +34,7 @@ if (parkQuery) {
       },
       {
         name: "og:title",
-        content: `${parkQuery.title} - ${city} - Koirametsät.info`,
+        content: `${parkQuery.title}`,
       },
       {
         name: "og:url",
@@ -64,6 +60,8 @@ if (parkQuery) {
 </script>
 <template>
   <div itemscope itemtype="https://schema.org/LocalBusiness">
+    <!-- Skip to main content link -->
+    <a class="sr-only" href="#main">Siirry sisältöön</a>
     <meta itemprop="name" :content="parkQuery.title" />
     <meta itemprop="description" :content="parkQuery.description" />
     <meta itemprop="addressLocality" :content="city" />

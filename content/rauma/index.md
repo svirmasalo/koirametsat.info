@@ -2,7 +2,6 @@
 navigation: false
 title: 'Rauma - Koirametsät kaupungeittain - Koirametsät.info'
 titleIn: 'Raumalla'
-description: 'Täältä löydät kaikki Rauman koirametsät.'
 ---
 
 ::BodyPage

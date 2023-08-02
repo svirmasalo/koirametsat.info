@@ -1,5 +1,5 @@
 ---
-title: 'Koirametsä Hunsvottila - Koirametsät, Vesilahti - Koirametsät.info'
+title: 'Koirametsä Hunsvottila - Vesilahti'
 description: 'Hunsvottila on hauska ja tunnelmallinen koirapuisto, jossa viihtyvät niin koira kuin sen omistajatkin! Alue tarjoaa monipuolisia aktiviteetteja koirille ja niiden omistajille'
 tags: 'Nuotiopaikka, Parkkipaikka, ulko-WC'
 address: 'Kontinmaantie 29, 37420 Vesilahti'
@@ -17,6 +17,7 @@ Hunsvottila on hauska ja tunnelmallinen koirapuisto, jossa viihtyvät niin koira
 ::
 
 ::BodyPage
+## Tiedot
 ::ParkItem
 ---
 featureName: Osoite

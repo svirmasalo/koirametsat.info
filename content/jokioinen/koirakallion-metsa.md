@@ -1,5 +1,5 @@
 ---
-title: 'Koirakallion Metsä  - Koirametsät, Jokioinen - Koirametsät.info'
+title: 'Koirakallion Metsä - Jokioinen'
 description: 'Koirakallion Metsä on aidattu, noin hehtaarin kokoinen koirametsä, jossa voit ulkoiluttaa koiraasi vapaana turvallisesti ja Suomen lain mukaisesti.'
 tags: 'Forssa, Kanta-Häme, laavu, grillikota, wc'
 address: 'Varissaarentie 46 Latovainio Jokioinen'
@@ -17,6 +17,7 @@ notificationLink: 'https://www.koirakallionmetsa.fi/'
 ::
 
 ::BodyPage
+## Tiedot
 ::ParkItem
 ---
 featureName: Osoite

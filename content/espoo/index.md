@@ -2,7 +2,6 @@
 navigation: false
 title: 'Espoo - Koirametsät kaupungeittain - Koirametsät.info'
 titleIn: 'Espoossa'
-description: 'Täältä löydät kaikki Espoon koirametsät'
 ---
 
 ::BodyPage

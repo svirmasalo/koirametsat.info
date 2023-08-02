@@ -1,5 +1,5 @@
 ---
-title: 'Koirametsä Satumaa - Koirametsät, Littoinen - Koirametsät.info'
+title: 'Koirametsä Satumaa - Littoinen'
 description: 'Koirametsä Satumaa on Littoisiin syksyllä 2022 avattu 2 hehtaarin aidattu vehreä metsä, jonka voit vuokrata yksityiskäyttöösi.'
 tags: 'vesipiste, nuotiopaikka, katos, WC'
 address: 'Isometsäntie 40, 20660 Lieto'
@@ -17,6 +17,7 @@ notificationLink: 'https://www.koirametsasatumaa.com/'
 ::
 
 ::BodyPage
+## Tiedot
 ::ParkItem
 ---
 featureName: Osoite

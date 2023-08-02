@@ -2,7 +2,6 @@
 navigation: false
 title: 'Seinäjoki - Koirametsät kaupungeittain - Koirametsät.info'
 titleIn: 'Seinäjoella'
-description: 'Täältä löydät kaikki Seinäjoella sijaitsevat koirametsät ja Seinäjoen lähellä sijaitsevat koirametsät.'
 ---
 
 ::BodyPage

@@ -2,7 +2,6 @@
 navigation: false
 title: 'Vesilahti - Koirametsät kaupungeittain - Koirametsät.info'
 titleIn: 'Vesilahdella'
-description: 'Täältä löydät kaikki Vesialahden koirametsät'
 ---
 
 ::BodyPage

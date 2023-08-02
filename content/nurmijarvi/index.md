@@ -2,7 +2,6 @@
 navigation: false
 title: 'Nurmijärjvi - Koirametsät kaupungeittain - Koirametsät.info'
 titleIn: 'Nurmijärvellä'
-description: 'Täältä löydät kaikki Nurmijärven koirametsät'
 ---
 
 ::BodyPage

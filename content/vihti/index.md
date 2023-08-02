@@ -2,7 +2,6 @@
 navigation: false
 title: 'Vihti - Koirametsät kaupungeittain - Koirametsät.info'
 titleIn: 'Vihdissä'
-description: 'Täältä löydät kaikki Vihdin koirametsät'
 ---
 
 ::BodyPage

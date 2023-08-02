@@ -2,7 +2,6 @@
 navigation: false
 title: 'Nousiainen - Koirametsät kaupungeittain - Koirametsät.info'
 titleIn: 'Nousiaisessa'
-description: 'Täältä löydät kaikki Nousiaisen koirametsät'
 ---
 
 ::BodyPage

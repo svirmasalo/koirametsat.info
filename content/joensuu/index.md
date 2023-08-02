@@ -2,7 +2,6 @@
 navigation: false
 title: 'Joensuu - Koirametsät kaupungeittain - Koirametsät.info'
 titleIn: 'Joensuussa'
-description: 'Täältä löydät kaikki Joensuun koirametsät ja Joensuun lähellä sijaitsevat koirametsät.'
 ---
 
 ::BodyPage
