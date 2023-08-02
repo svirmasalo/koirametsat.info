@@ -2,7 +2,6 @@
 navigation: false
 title: 'Lohja - Koirametsät kaupungeittain - Koirametsät.info'
 titleIn: 'Lohjalla'
-description: 'Täältä löydät kaikki Lohjan koirametsät'
 ---
 
 ::BodyPage

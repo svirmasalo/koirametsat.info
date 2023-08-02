@@ -2,7 +2,6 @@
 navigation: false
 title: 'Kuopio - Koirametsät kaupungeittain - Koirametsät.info'
 titleIn: 'Kuopiossa'
-description: 'Täältä löydät kaikki Kuopion koirametsät ja Kuopion lähellä sjaitsevat koirametsät.'
 ---
 
 ::BodyPage

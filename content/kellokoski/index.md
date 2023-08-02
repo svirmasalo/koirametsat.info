@@ -2,7 +2,6 @@
 navigation: false
 title: 'Kellokoski - Koirametsät.info'
 titleIn: 'Kellokoskella'
-description: 'Täältä löydät kaikki Kellokosken koirametsät.'
 ---
 
 ::BodyPage

@@ -40,6 +40,10 @@
     useHead({
         meta: [
             {
+                name: 'description',
+                content: `${cityQuery.titleIn} on yhteensä ${parkList.length} paikallista ja ${closeByQuery.length} lähellä sijaitsevaa koirametsää.`
+            },
+            {
             name: 'author',
             content: 'Koirametsät.info'
             },
@@ -54,6 +58,10 @@
             {
                 name: 'og:title',
                 content: `${cityQuery.title}`
+            },
+            {
+                name: 'og:description',
+                content: `${cityQuery.titleIn} on yhteensä ${parkList.length} paikallista ja ${closeByQuery.length} lähellä sijaitsevaa koirametsää.`
             },
         ],
         link: [

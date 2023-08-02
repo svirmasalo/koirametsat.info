@@ -2,7 +2,6 @@
 navigation: false
 title: 'Renko - Koirametsät kaupungeittain - Koirametsät.info'
 titleIn: 'Rengolla'
-description: 'Täältä löydät kaikki Rengon koirametsät'
 ---
 
 ::BodyPage

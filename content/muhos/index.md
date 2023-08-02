@@ -2,7 +2,6 @@
 navigation: false
 title: 'Muhos - Koirametsät kaupungeittain - Koirametsät.info'
 titleIn: 'Muhoksella'
-description: 'Täältä löydät kaikki Muhoksen koirametsät'
 ---
 
 ::BodyPage

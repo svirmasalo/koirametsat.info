@@ -2,7 +2,6 @@
 navigation: false
 title: 'Tuusula - Koirametsät kaupungeittain - Koirametsät.info'
 titleIn: 'Tuusulassa'
-description: 'Täältä löydät kaikki Tuusulan koirametsät'
 ---
 
 ::BodyPage

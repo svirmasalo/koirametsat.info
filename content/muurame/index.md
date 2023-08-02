@@ -2,7 +2,6 @@
 navigation: false
 title: 'Muurame - Koirametsät kaupungeittain - Koirametsät.info'
 titleIn: 'Muuramessa'
-description: 'Täältä löydät kaikki Muuramen koirametsät'
 ---
 
 ::BodyPage

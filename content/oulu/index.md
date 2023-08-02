@@ -2,7 +2,6 @@
 navigation: false
 title: 'Oulu - Koirametsät kaupungeittain - Koirametsät.info'
 titleIn: 'Oulussa'
-description: 'Täältä löydät kaikki Oulun koirametsät ja Oulun lähellä sijaitsevat koirametsät.'
 ---
 
 ::BodyPage

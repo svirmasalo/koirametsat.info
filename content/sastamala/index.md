@@ -2,7 +2,6 @@
 navigation: false
 title: 'Sastamala - Koirametsät kaupungeittain - Koirametsät.info'
 titleIn: 'Sastamalassa'
-description: 'Täältä löydät kaikki Sastamalan koirametsät'
 ---
 
 ::BodyPage
