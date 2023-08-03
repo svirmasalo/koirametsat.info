@@ -37,6 +37,26 @@
     parkList = parkList.sort((a, b) => {
         return a.title.localeCompare(b.title);
     });
+
+    const localText = list => {
+        if (list.length === 1) {
+            return `on ${list.length} paikallinen koirametsä`;
+        } else if (list.length > 1) {
+            return `on ${list.length} paikallista koirametsää`;
+        } else {
+            return `ei ole paikallisia koirametsiä`;
+        }
+    }
+    const closeByText = list => {
+        if (list.length === 1) {
+            return `${list.length} lähellä sijaitseva koirametsä`;
+        } else if (list.length > 1) {
+            return `${list.length} lähellä sijaitsevaa koirametsää`;
+        } else {
+            return '';
+        }
+    }
+
     useHead({
         meta: [
             {
@@ -75,26 +95,31 @@
 <template>
     <div>
         <Breadcrumbs :path="route.path" :curPageTitle="cityQuery.title"/>
-        <header>
-            <header class="pt-16 pb-12 text-center">
-                <h1 class="text-4xl font-bold text-secondary leading-tight">{{ useParseTitle(cityQuery.title) }}</h1>
-                <p class="text-sm leading-relaxed">{{cityQuery.titleIn}} on yhteensä <span>{{ parkList.length }}</span> koirametsää.</p>
-            </header>
+        <header class="pt-16 pb-12 text-center max-w-sm mx-auto">
+            <h1 class="text-4xl font-bold text-secondary leading-tight mb-2">{{ useParseTitle(cityQuery.title) }}</h1>
+            <p class="leading-relaxed">
+                {{cityQuery.titleIn}} 
+                <span>{{ localText(parkList) }}</span>
+                <span v-if="closeByQuery.length > 0"> ja {{ closeByText(closeByQuery) }} </span>
+            </p>
         </header>
         <main class="bg-secondary flex flex-col justify-start pb-12 min-h-screen">
             <div class="container pt-10 park-list-container">
-                <div v-if="parkList.length > 0" class="w-full max-w-lg mx-auto">
-                    <ul class="flex flex-col gap-4 justify-center">
+                <div v-if="parkList.length > 0" class="mx-auto prose mt-12">
+                    <h2 id="city-parks">{{ cityQuery.titleIn }} sijaitsevat koirametsät</h2>
+                </div>
+                <div v-if="parkList.length > 0" class="w-full max-w-lg mx-auto pt-8">
+                    <ul aria-labelledby="city-parks" class="flex flex-col gap-4 justify-center">
                         <li v-for="park in parkList" :key="park._path" class="bg-white shadow text-primary rounded p-5 hover:shadow-md transition-shadow">
                             <ListItem :to="park._path" :title="useParseTitle(park.title)" :substring="park.address" />
                         </li>
                     </ul>
                 </div>
                 <div v-if="closeByQuery.length > 0" class="mx-auto prose mt-12">
-                    <h2>Lähellä sijaitsevat koirametsät</h2>
+                    <h2 id="close-by-parks">Lähellä sijaitsevat koirametsät</h2>
                 </div>
                 <div v-if="closeByQuery.length > 0" class="w-full max-w-lg mx-auto pt-8">
-                    <ul class="flex flex-col gap-4 justify-center">
+                    <ul aria-labelledby="close-by-parks" class="flex flex-col gap-4 justify-center">
                         <li v-for="item in closeByQuery" :key="item._path" class="bg-white shadow text-primary rounded p-5 hover:shadow-md transition-shadow">
                             <ListItem :to="item._path" :title="useParseTitle(item.title)" :substring="item.address" :city="item.city" />
                         </li>
