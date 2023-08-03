@@ -1,7 +1,9 @@
 ---
 navigation: false
-title: 'Paimio - Koirametsät kaupungeittain - Koirametsät.info'
+title: 'Paimio'
 titleIn: 'Paimiolla'
+head:
+    title: 'Paimion koirametsät - Koirametsat.info'
 ---
 
 ::BodyPage

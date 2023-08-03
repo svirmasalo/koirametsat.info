@@ -1,7 +1,9 @@
 ---
 navigation: false
-title: 'Hamina - Koirametsät kaupungeittain - Koirametsät.info'
+title: 'Hamina'
 titleIn: 'Haminassa'
+head:
+    title: 'Haminan koirametsät - Koirametsat.info'
 ---
 
 ::BodyPage

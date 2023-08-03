@@ -1,7 +1,9 @@
 ---
 navigation: false
-title: 'Jokioinen - Koirametsät kaupungeittain - Koirametsät.info'
+title: 'Jokioinen'
 titleIn: 'Jokioisessa'
+head:
+    title: 'Jokioisen koirametsät - Koirametsat.info'
 ---
 
 ::BodyPage

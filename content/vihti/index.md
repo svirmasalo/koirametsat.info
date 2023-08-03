@@ -1,7 +1,9 @@
 ---
 navigation: false
-title: 'Vihti - Koirametsät kaupungeittain - Koirametsät.info'
+title: 'Vihti'
 titleIn: 'Vihdissä'
+head:
+    title: 'Vihdin koirametsät - Koirametsat.info'
 ---
 
 ::BodyPage

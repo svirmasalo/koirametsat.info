@@ -1,7 +1,9 @@
 ---
 navigation: false
-title: 'Joensuu - Koirametsät kaupungeittain - Koirametsät.info'
+title: 'Joensuu'
 titleIn: 'Joensuussa'
+head:
+    title: 'Joensuun koirametsät - Koirametsat.info'
 ---
 
 ::BodyPage

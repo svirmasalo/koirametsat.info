@@ -1,7 +1,9 @@
 ---
 navigation: false
-title: 'Tuusula - Koirametsät kaupungeittain - Koirametsät.info'
+title: 'Tuusula'
 titleIn: 'Tuusulassa'
+head:
+    title: 'Tuusulan koirametsät - Koirametsat.info'
 ---
 
 ::BodyPage

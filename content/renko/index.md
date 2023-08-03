@@ -1,7 +1,9 @@
 ---
 navigation: false
-title: 'Renko - Koirametsät kaupungeittain - Koirametsät.info'
+title: 'Renko'
 titleIn: 'Rengolla'
+head:
+    title: 'Rengon koirametsät - Koirametsat.info'
 ---
 
 ::BodyPage

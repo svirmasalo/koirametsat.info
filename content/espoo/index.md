@@ -1,7 +1,9 @@
 ---
 navigation: false
-title: 'Espoo - Koirametsät kaupungeittain - Koirametsät.info'
+title: 'Espoo'
 titleIn: 'Espoossa'
+head:
+    title: 'Espoon koirametsät - Koirametsat.info'
 ---
 
 ::BodyPage

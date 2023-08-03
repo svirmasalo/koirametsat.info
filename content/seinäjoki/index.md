@@ -1,7 +1,9 @@
 ---
 navigation: false
-title: 'Seinäjoki - Koirametsät kaupungeittain - Koirametsät.info'
+title: 'Seinäjoki'
 titleIn: 'Seinäjoella'
+head:
+    title: 'Seinäjoen koirametsät - Koirametsat.info'
 ---
 
 ::BodyPage

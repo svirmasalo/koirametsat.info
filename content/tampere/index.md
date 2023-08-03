@@ -1,7 +1,9 @@
 ---
 navigation: false
-title: 'Tampere - Koirametsät kaupungeittain - Koirametsät.info'
+title: 'Tampere'
 titleIn: 'Tampereella'
+head:
+    title: 'Tampereen koirametsät - Koirametsat.info'
 ---
 
 ::BodyPage

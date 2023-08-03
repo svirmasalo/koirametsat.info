@@ -1,7 +1,9 @@
 ---
 navigation: false
-title: 'Valkeala - Koirametsät kaupungeittain - Koirametsät.info'
+title: 'Valkeala'
 titleIn: 'Valkealassa'
+head:
+    title: 'Valkealan koirametsät - Koirametsat.info'
 ---
 
 ::BodyPage

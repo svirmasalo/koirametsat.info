@@ -1,7 +1,9 @@
 ---
 navigation: false
-title: 'Jyväskylä - Koirametsät kaupungeittain - Koirametsät.info'
+title: 'Jyväskylä'
 titleIn: 'Jyväskylässä'
+head:
+    title: 'Jyväskylän koirametsät - Koirametsat.info'
 ---
 
 ::BodyPage

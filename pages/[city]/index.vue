@@ -56,8 +56,8 @@
             return '';
         }
     }
-
     useHead({
+        title: `${cityQuery.title} - Koirametsät.info`,
         meta: [
             {
                 name: 'description',
@@ -77,7 +77,7 @@
             },
             {
                 name: 'og:title',
-                content: `${cityQuery.title}`
+                content: `${cityQuery.title} - Koirametsät.info`
             },
             {
                 name: 'og:description',
@@ -95,7 +95,7 @@
 <template>
     <div>
         <Breadcrumbs :path="route.path" :curPageTitle="cityQuery.title"/>
-        <header class="pt-16 pb-12 text-center max-w-sm mx-auto">
+        <header class="pt-16 pb-12 text-center max-w-sm mx-auto px-4 md:px-0">
             <h1 class="text-4xl font-bold text-secondary leading-tight mb-2">{{ useParseTitle(cityQuery.title) }}</h1>
             <p class="leading-relaxed">
                 {{cityQuery.titleIn}} 

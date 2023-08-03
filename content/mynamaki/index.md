@@ -1,7 +1,9 @@
 ---
 navigation: false
-title: 'Mynämäki - Koirametsät kaupungeittain - Koirametsät.info'
-titleIn: 'Mynämäelä'
+title: 'Mynämäki'
+titleIn: 'Mynämäellä'
+head:
+    title: 'Mynämäen koirametsät - Koirametsat.info'
 ---
 
 ::BodyPage

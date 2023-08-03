@@ -1,7 +1,9 @@
 ---
 navigation: false
-title: 'Oulu - Koirametsät kaupungeittain - Koirametsät.info'
+title: 'Oulu'
 titleIn: 'Oulussa'
+head:
+    title: 'Oulun koirametsät - Koirametsat.info'
 ---
 
 ::BodyPage

@@ -1,7 +1,9 @@
 ---
 navigation: false
-title: 'Nousiainen - Koirametsät kaupungeittain - Koirametsät.info'
+title: 'Nousiainen'
 titleIn: 'Nousiaisessa'
+head:
+    title: 'Nousiaisen koirametsät - Koirametsat.info'
 ---
 
 ::BodyPage

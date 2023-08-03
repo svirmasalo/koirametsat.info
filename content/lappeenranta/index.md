@@ -1,7 +1,9 @@
 ---
 navigation: false
-title: 'Lappeenranta - Koirametsät kaupungeittain - Koirametsät.info'
+title: 'Lappeenranta'
 titleIn: 'Lappeenrannassa'
+head:
+    title: 'Lappeenrannan koirametsät - Koirametsat.info'
 ---
 
 ::BodyPage

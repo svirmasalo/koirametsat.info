@@ -1,7 +1,9 @@
 ---
 navigation: false
-title: 'Muhos - Koirametsät kaupungeittain - Koirametsät.info'
+title: 'Muhos'
 titleIn: 'Muhoksella'
+head:
+    title: 'Muhoksen koirametsät - Koirametsat.info'
 ---
 
 ::BodyPage

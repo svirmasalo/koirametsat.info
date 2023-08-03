@@ -1,7 +1,9 @@
 ---
 navigation: false
-title: 'Lempäälä - Koirametsät kaupungeittain - Koirametsät.info'
+title: 'Lempäälä'
 titleIn: 'Lempäälässä'
+head:
+    title: 'Lempäälän koirametsät - Koirametsat.info'
 ---
 
 ::BodyPage

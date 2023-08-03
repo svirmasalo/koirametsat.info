@@ -1,7 +1,9 @@
 ---
 navigation: false
-title: 'Valkeakoski - Koirametsät kaupungeittain - Koirametsät.info'
+title: 'Valkeakoski'
 titleIn: 'Valkeakoskella'
+head:
+    title: 'Valkeakosken koirametsät - Koirametsat.info'
 ---
 
 ::BodyPage
