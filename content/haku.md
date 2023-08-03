@@ -3,6 +3,10 @@ navigation:
   title: 'Haku'
 title: 'Haku - Löydä koirametsä lähelläsi - Koirametsät.info'
 description: 'Ilmainen palvelu lähimmän koirametsän löytämiseksi. Hae koirametsää nimellä, kaupungilla, avainsanalla tai osoitteella. Tehokas haku koirametsiin.'
+head:
+  link:
+    - rel: canonical
+      href: 'https://koirametsat.info/haku'
 ---
 
 ::BodyPage{skipMain="true"}
