@@ -1,7 +1,9 @@
 ---
 navigation: false
-title: 'Rauma - Koirametsät kaupungeittain - Koirametsät.info'
+title: 'Rauma'
 titleIn: 'Raumalla'
+head:
+    title: 'Rauman koirametsät - Koirametsat.info'
 ---
 
 ::BodyPage

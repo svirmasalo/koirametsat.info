@@ -4,7 +4,7 @@ description: 'Syksyllä 2016 avattu Touhu & Temmellys Puuhamaa on koiraväelle s
 tags: 'grillilaavu, leluja, touhu, temmellys, tempo, agility, allas, uinti, wc'
 address: 'Jyväläntie 25, 04500 Kellokoski'
 city: 'Kellokoski'
-closeBy: 'Helsinki, Tuusula, Vantaa'
+closeBy: 'Helsinki, Tuusula, Vantaa, Vihti, Nurmijärvi, Hyvinkää, Kerava'
 ---
 
 ::HeaderPark

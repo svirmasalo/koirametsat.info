@@ -1,7 +1,9 @@
 ---
 navigation: false
-title: 'Lohja - Koirametsät kaupungeittain - Koirametsät.info'
+title: 'Lohja'
 titleIn: 'Lohjalla'
+head:
+    title: 'Lohjan koirametsät - Koirametsat.info'
 ---
 
 ::BodyPage

@@ -1,10 +1,18 @@
 ---
 navigation: false
-title: 'Nurmijärjvi - Koirametsät kaupungeittain - Koirametsät.info'
+title: 'Nurmijärvi'
 titleIn: 'Nurmijärvellä'
+head:
+    title: 'Nurmijärven koirametsät - Koirametsat.info'
 ---
 
 ::BodyPage
 ## Tietoa Nurmijärvestä
-Nurmijärvi on kunta Uudenmaan maakunnassa Etelä-Suomessa. Se sijaitsee noin 35 kilometrin päässä Helsingistä pohjoiseen. Nurmijärven alueella on runsaasti metsiä, järviä ja peltoaukeita, mikä tekee siitä suositun kohteen ulkoilijoille ja luonnossa liikkujille. Kunnassa on myös useita kulttuurihistoriallisesti merkittäviä kohteita, kuten Vanhankylänniemi, joka oli jo rautakaudella asuttu alue, sekä Rajamäen kartano, joka on yksi Suomen vanhimmista kartanoista. Nurmijärvellä on myös kehittyvä liike-elämä, ja se houkuttelee yhä enemmän asukkaita, jotka arvostavat luonnonläheistä asuinympäristöä lähellä pääkaupunkiseutua.
+Nurmijärvi sijaitsee Etelä-Suomessa, Uudenmaan maakunnassa, noin 30 kilometriä pääkaupunki Helsingistä pohjoiseen. Se on maantieteellisesti merkittävä kunta, joka tarjoaa asukkailleen luonnonläheisen ympäristön ja samalla helpon ja nopean yhteyden pääkaupunkiseudulle.
+
+Nurmijärven lähikunnat ja pitäjät muodostavat osan Nurmijärven seutukuntaa ja ovat osa Uudenmaan maakuntaa. Lähikuntiin kuuluu muun muassa Tuusula, Kerava, Järvenpää ja Vihti, jotka ympäröivät Nurmijärveä ja muodostavat tiiviin asutusalueen.
+
+Tuusula sijaitsee Nurmijärven eteläpuolella ja sen alue on tunnettu kauniista järvimaisemistaan ja taiteellisesta ilmapiiristään. Kerava sijaitsee Nurmijärven kaakkoispuolella ja sen alueella yhdistyvät kaupungin palvelut ja luonnonläheinen ympäristö. Järvenpää sijaitsee Nurmijärven lounaispuolella ja sen kaupunki tarjoaa monipuolisia kulttuuritapahtumia ja viehättävää järvimaisemaa. Vihti sijaitsee Nurmijärven länsipuolella ja sen alueella on runsaasti luontoa, järviä ja mahdollisuuksia ulkoiluun ja retkeilyyn.
+
+Nurmijärven maantieteellinen sijainti ja sen lähikunnat ja pitäjät muodostavat monipuolisen ja viihtyisän alueen, jossa yhdistyvät luonnonläheinen ympäristö ja kaupungin palvelut. Tämä tekee Nurmijärvestä houkuttelevan asuinpaikan, jossa voi nauttia rauhallisesta maalaiselämästä samalla kun pääsee hyödyntämään pääkaupunkiseudun monipuolisia mahdollisuuksia.
 ::

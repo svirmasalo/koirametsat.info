@@ -1,7 +1,9 @@
 ---
 navigation: false
-title: 'Kuopio - Koirametsät kaupungeittain - Koirametsät.info'
+title: 'Kuopio'
 titleIn: 'Kuopiossa'
+head:
+    title: 'Kuopion koirametsät - Koirametsat.info'
 ---
 
 ::BodyPage

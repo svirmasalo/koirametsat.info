@@ -1,7 +1,9 @@
 ---
 navigation: false
-title: 'Lievestuore - Koirametsät kaupungeittain - Koirametsät.info'
+title: 'Lievestuore'
 titleIn: 'Lievestuoreella'
+head:
+    title: 'Lievestuoren koirametsät - Koirametsat.info'
 ---
 
 ::BodyPage

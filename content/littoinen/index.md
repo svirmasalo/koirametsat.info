@@ -1,7 +1,9 @@
 ---
 navigation: false
-title: 'Littoinen - Koirametsät kaupungeittain - Koirametsät.info'
+title: 'Littoinen'
 titleIn: 'Littoisissa'
+head:
+    title: 'Littoisen koirametsät - Koirametsat.info'
 ---
 
 ::BodyPage

@@ -1,7 +1,9 @@
 ---
 navigation: false
-title: 'Helsinki - Koirametsät kaupungeittain - Koirametsät.info'
+title: 'Helsinki'
 titleIn: 'Helsingissä'
+head:
+    title: 'Helsingin koirametsät - Koirametsat.info'
 ---
 
 ::BodyPage

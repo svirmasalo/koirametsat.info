@@ -1,7 +1,9 @@
 ---
 navigation: false
-title: 'Sastamala - Koirametsät kaupungeittain - Koirametsät.info'
+title: 'Sastamala'
 titleIn: 'Sastamalassa'
+head:
+    title: 'Sastamalan koirametsät - Koirametsat.info'
 ---
 
 ::BodyPage

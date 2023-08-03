@@ -8,7 +8,7 @@ export const useReviews = (slug: string) => {
 
     // Get an average rating from an array of ratings
     const calclulateAverageRating = (ratings: any) => {
-        if (!ratings.length) return 'Ei arvosteluja.';
+        if (!ratings.length) return '0 arvostelua';
         const sum = ratings.reduce((a : number, b: number) => a + b, 0);
         const avg = (sum / ratings.length).toFixed(2) || 0;
         return avg;

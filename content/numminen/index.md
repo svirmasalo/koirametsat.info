@@ -1,7 +1,9 @@
 ---
 navigation: false
-title: 'Numminen - Koirametsät kaupungeittain - Koirametsät.info'
+title: 'Numminen'
 titleIn: 'Nummisessa'
+head:
+    title: 'Nummisen koirametsät - Koirametsat.info'
 ---
 
 ::BodyPage

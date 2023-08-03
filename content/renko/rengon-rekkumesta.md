@@ -4,7 +4,7 @@ description: 'Rekkumesta on kaikenkokoisille ja -rotuisille tarkoitettu, noin 1,
 tags: 'Nuotiopaikka, Kota, ulko-WC, pesupaikka'
 address: 'Hanhilammentie 127, 14300 Renko'
 city: 'Renko'
-closeBy: 'Turku, Salo'
+closeBy: 'Hämeenlinna, Turenki, Loppi, Sammalisto, Toijala, Jokioinen, Riihimäki, Hyvinkää'
 ---
 
 ::HeaderPark

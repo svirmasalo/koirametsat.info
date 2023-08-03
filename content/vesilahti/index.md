@@ -1,7 +1,9 @@
 ---
 navigation: false
-title: 'Vesilahti - Koirametsät kaupungeittain - Koirametsät.info'
+title: 'Vesilahti'
 titleIn: 'Vesilahdella'
+head:
+    title: 'Vesilahden koirametsät - Koirametsat.info'
 ---
 
 ::BodyPage

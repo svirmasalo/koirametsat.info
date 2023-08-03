@@ -1,7 +1,9 @@
 ---
 navigation: false
-title: 'Muurame - Koirametsät kaupungeittain - Koirametsät.info'
+title: 'Muurame'
 titleIn: 'Muuramessa'
+head:
+    title: 'Muuramen koirametsät - Koirametsat.info'
 ---
 
 ::BodyPage
