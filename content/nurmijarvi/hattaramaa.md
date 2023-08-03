@@ -1,6 +1,6 @@
 ---
 title: 'Koirametsä Hattaramaa - Nurmijärvi'
-description: 'Mäntsälän Nummisten idyllisissä maisemissa, istutetun kuusimetsän katveessa, saat nauttia omasta rauhasta koirasi kanssa, treenaten tai ulkoillen.'
+description: 'Hattaramaa on noin hehtaarin kokoinen aidattu ruohikkoinen ja heinäinen laidunalue koirien turvalliseen ulkoiluttamiseen. Sijanti: Nurmijärvi'
 tags: 'agility'
 address: 'Nummensuontie 168, 04660 Mäntsälä'
 city: 'Mäntsälä'
@@ -13,7 +13,7 @@ notificationText: 'Verkkosivusto osoitteessa: https://www.elainkouluvisio.com/ha
 notificationLink: 'https://www.elainkouluvisio.com/hattaramaa.html'
 ---
 # Hattaramaa
-Mäntsälän Nummisten idyllisissä maisemissa, istutetun kuusimetsän katveessa, saat nauttia omasta rauhasta koirasi kanssa, treenaten tai ulkoillen.
+Nurmijärvellä sijaitseva Hattaramaa on noin hehtaarin kokoinen aidattu ruohikkoinen ja heinäinen laidunalue koirien turvalliseen ulkoiluttamiseen. 
 ::
 
 ::BodyPage

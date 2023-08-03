@@ -1,9 +1,10 @@
 ---
 navigation:
   title: 'Etusivu'
-title: 'Koirametsät - Löydä koirametsä lähelläsi'
-description: 'Koirametsät.info-sivusto on suunniteltu helpottamaan koiranomistajien arkea tarjoamalla kattavan tietokannan koirametsistä ympäri Suomen. Meiltä löydät tietoa koirametsistä, joissa voit käydä rauhallisin mielin koirasi kanssa ulkoilemassa ja nauttimassa luonnosta.'
+title: 'Koirametsät.info'
+description: 'Kaikki Suomen koiramtetsät. Suomen monipuolisin ja helppokäyttöisin palvelu koirametsän löytämiseksi. Palvelun käyttö on ilmaista.'
 head:
+  title: 'Kaikki Suomen koirametsät - Koirametsät.info'
   meta:
     - name: 'keywords'
       content: 'koirametsä, koirametsät'
