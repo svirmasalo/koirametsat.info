@@ -4,7 +4,7 @@ description: 'Leponiemen koirametsä on aidattu metsäalue, jossa pääset liikk
 tags: 'Nuotiopaikka, Parkkipaikka, ulko-WC'
 address: 'Tervalammentie 901, 03250 Vihti'
 city: 'Vesilahti'
-closeBy: 'Tampere'
+closeBy: 'Nummela, Espoo, Helsinki, Nurmijärvi, Hyvinkää, Vantaa'
 ---
 
 ::HeaderPark

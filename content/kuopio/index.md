@@ -3,7 +3,7 @@ navigation: false
 title: 'Kuopio'
 titleIn: 'Kuopiossa'
 head:
-    title: 'Kuopiom koirametsät - Koirametsat.info'
+    title: 'Kuopion koirametsät - Koirametsat.info'
 ---
 
 ::BodyPage
