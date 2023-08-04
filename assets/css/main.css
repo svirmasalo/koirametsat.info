@@ -8,21 +8,29 @@
     }
 }
 @tailwind components;
-@layer components {
-    #mobile-nav li a {
-        @apply text-center px-2 block;
-    }
-    #mobile-nav li a.router-link-active {
-        @apply text-primary-active;
-    }
-    #mobile-nav li svg {
-        @apply mx-auto;
-    }
-    a.body-cta-link {
-        @apply my-2 text-center hover:bg-primary-active text-white py-4 leading-none px-12 rounded no-underline;
-    }
-}
 @tailwind utilities;
+
+.nuxt-loading-indicator{
+    @apply bg-accent bg-gradient-to-br from-accent to-primary-active;
+    opacity: 1 !important;
+}
+
+#mobile-nav li {
+    @apply flex-1;
+}
+#mobile-nav li a {
+    @apply transition-colors text-center px-2 block pb-1 border-b-[.25rem] border-b-transparent;
+}
+#mobile-nav li a.router-link-exact-active {
+    @apply border-b-accent text-accent;
+}
+
+#mobile-nav li svg {
+    @apply mx-auto;
+}
+a.body-cta-link {
+    @apply my-2 text-center hover:bg-primary-active text-white py-4 leading-none px-12 rounded no-underline;
+}
 
 .ais-SearchBox {
     @apply px-4 pt-2 pb-6 mx-auto;

@@ -51,6 +51,7 @@ const track = (string) => {
           <AisSearchBox
             placeholder="Hae nimellä, paikkakunnalla..."
             submit-title="Hae"
+            submit-name="Hae"
             reset-title="Tyhjennä"
             autofocus
             v-model="searchString"

@@ -33,7 +33,7 @@ module.exports = {
       colors: {
         primary: "#354E57",
         secondary: "#EEF2F4",
-        accent: "#5B8595",
+        accent: "#007F5F",
         cloud: "#F7F7F7",
         "primary-active": '#547665'
       },
