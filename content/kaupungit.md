@@ -1,7 +1,7 @@
 ---
 navigation:
   title: 'Kaupungit'
-title: 'Hae koirametsää kaupungeittain - Koirametsät.info'
+title: 'Koirametsät kaupungeittain - Koirametsät.info'
 description: 'Koirametsiä listattuna jo yli 20:ssä kaupungissa. Koirametsät Helsingissä, Jyväskylässä, Tampereella ja ympäri suomen kätevästi yhden palevelun kautta.'
 image: '/images/koirametsat-info-og-meta.jpg'
 head:
