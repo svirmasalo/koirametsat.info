@@ -33,7 +33,7 @@ function search() {
         v-model="searchString"
         @keyup.enter="search()"
       />
-      <button class="ais-SearchBox-submit" @click="search()">
+      <button class="ais-SearchBox-submit" @click="search()" name="Klikkaa hakeaksesi" title="Klikkaa hakeaksesi">
         <svg
           role="img"
           xmlns="http://www.w3.org/2000/svg"

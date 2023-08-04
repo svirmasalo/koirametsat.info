@@ -76,6 +76,7 @@ export default defineNuxtConfig({
     },
   },
   modules: [
+    "nuxt-security",
     "@nuxt/content",
     "@nuxtjs/algolia",
     "@nuxt/image-edge",
@@ -86,11 +87,8 @@ export default defineNuxtConfig({
   ],
   nitro: {
     preset: process.env.NITRO_PRESET,
-    prerender: {
-      routes: ["/sitemap.xml"],
-    },
     routeRules: {
-      "/sitemap.xml": { headers: { "Content-Type": "application/xml" } },
+      "/sitemap.xml": { headers: { "Content-Type": "application/xml" } }
     },
   },
   cookieControl: {
@@ -108,12 +106,28 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  ssr: true,
   schemaOrg: {
     host: process.env.SITE_URL,
     image: "/images/koirametsat-info-og-meta.jpg",
     inLanguage: "fi",
   },
+  security: {
+    headers: {
+      contentSecurityPolicy: {
+        'base-uri': ["'self'"],
+        'font-src': ["'self'", 'https:', 'data:'],
+        'form-action': ["'self'"],
+        'frame-ancestors': ["'self'", "https:"],
+        'img-src': ["'self'", "data:", "https://www.facebook.com/", "https://googleads.g.doubleclick.net", "https://www.google.com", "https://www.google.fi"],
+        'object-src': ["'none'", "https:"],
+        'script-src-attr': ["'none'", "https:"],
+        'style-src': ["'self'", 'https:', "'unsafe-inline'"],
+        'upgrade-insecure-requests': process.env.STAGE === 'DEV' ? false : true
+      },
+      crossOriginEmbedderPolicy: process.env.STAGE === 'DEV' ? 'unsafe-none' : 'require-corp',
+    }
+  },
+  ssr: true,
   vuefire: {
     config: {
       apiKey: process.env.VF_APIKEY,

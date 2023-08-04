@@ -1,7 +1,7 @@
 User-agent: *
-Disallow: _nuxt/
-Disallow: api/
-Disallow: js/
+Disallow: /_nuxt/*
+Disallow: /api/*
+Disallow: /js/*
 Disallow: /tietosuojaseloste
 Disallow: /kommentoinnin-ehdot
 Allow: /
