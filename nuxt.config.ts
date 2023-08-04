@@ -119,8 +119,8 @@ export default defineNuxtConfig({
         'form-action': ["'self'"],
         'frame-ancestors': ["'self'", "https:"],
         'img-src': ["'self'", "data:", "https://www.facebook.com/", "https://googleads.g.doubleclick.net", "https://www.google.com", "https://www.google.fi"],
-        'object-src': ["'none'", "https:"],
-        'script-src-attr': ["'none'", "https:"],
+        'object-src': ["'none'"],
+        'script-src-attr': ["'none'"],
         'style-src': ["'self'", 'https:', "'unsafe-inline'"],
         'upgrade-insecure-requests': process.env.STAGE === 'DEV' ? false : true
       },
