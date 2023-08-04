@@ -4,6 +4,7 @@ Disallow: /api/*
 Disallow: /js/*
 Disallow: /tietosuojaseloste
 Disallow: /kommentoinnin-ehdot
+Disallow: /cdn-cgi/*
 Allow: /
 
 Sitemap: https://koirametsat.info/sitemap.xml
