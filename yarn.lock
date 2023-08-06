@@ -1651,7 +1651,7 @@
     unimport "^2.2.4"
     untyped "^1.2.2"
 
-"@nuxt/kit@^3.1.0", "@nuxt/kit@^3.2.2":
+"@nuxt/kit@^3.1.0", "@nuxt/kit@^3.2.2", "@nuxt/kit@^3.4.2":
   version "3.6.5"
   resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.6.5.tgz#208777acdc2a09109fbe4209aad736874eb9a3f5"
   integrity sha512-uBI5I2Zx6sk+vRHU+nBmifwxg/nyXCGZ1g5hUKrUfgv1ZfiKB8JkN5T9iRoduDOaqbwM6XSnEl1ja73iloDcrw==
@@ -2043,6 +2043,28 @@
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/@socket.io/component-emitter/-/component-emitter-3.1.0.tgz#96116f2a912e0c02817345b3c10751069920d553"
   integrity sha512-+9jVqKhRSpsc591z5vX+X5Yyw+he/HCB4iQ/RYxw35CEPaY1gnsNE43nf9n9AaYjAQrTiI/mOwKUKdUs9vf7Xg==
+
+"@storyblok/js@^2.2.6", "@storyblok/js@^2.2.7":
+  version "2.2.7"
+  resolved "https://registry.yarnpkg.com/@storyblok/js/-/js-2.2.7.tgz#2fde596be88ed6207eafb88b3f127f4d0223b5d7"
+  integrity sha512-bQYcIhrP3GSbVE1d7pry5g9d58tqwxOIi6sNB6a75vlVXpcuXF0zVg3x1gJwjTZoKTVX9N868V0bAAA/0CmfZQ==
+  dependencies:
+    storyblok-js-client "^5.12.1"
+
+"@storyblok/nuxt@^5.5.2":
+  version "5.5.2"
+  resolved "https://registry.yarnpkg.com/@storyblok/nuxt/-/nuxt-5.5.2.tgz#928e1b081860ea651081afeb5f11e5a68bfaf619"
+  integrity sha512-N3MFZX9ISm+lnQ2YclLLDl4HRtKZZM7Xa5f36/lIkD9SYf3Adl/WJVtEKxEQfoxDVXxzqJLwvrLQuG1+WZd3HA==
+  dependencies:
+    "@nuxt/kit" "^3.4.2"
+    "@storyblok/vue" "^7.1.11"
+
+"@storyblok/vue@^7.1.11":
+  version "7.1.13"
+  resolved "https://registry.yarnpkg.com/@storyblok/vue/-/vue-7.1.13.tgz#6602cdda391cbc5cb637bd1c4ab2a01e24b98eab"
+  integrity sha512-x7xmECOWVaskG0olbmVJPGY9+mVXK+otGTDY/xMrWoc/4NEcMdYdkiJY1QTJCZ/6eVfqQv/vGgYb4EsLXh5jww==
+  dependencies:
+    "@storyblok/js" "^2.2.6"
 
 "@szmarczak/http-timer@^4.0.5":
   version "4.0.6"
@@ -6372,7 +6394,7 @@ nuxi@3.2.3:
   optionalDependencies:
     fsevents "~2.3.2"
 
-nuxt-csurf@^1.1.0:
+nuxt-csurf@^1.1.0, nuxt-csurf@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/nuxt-csurf/-/nuxt-csurf-1.2.0.tgz#b4aa4f19693dea39dfda65bf686c57d486aafdf2"
   integrity sha512-sO8Hm3fR+GB3DMc0y1Slzt+f9LiUKpvF/qvUUZBWz1ZknfTRTYemZkfSNcoYf0/hoL2Wb9O0c8pFtzj0hs8Spw==
@@ -7820,6 +7842,11 @@ storyblok-js-client@^4.2.0:
   version "4.5.8"
   resolved "https://registry.yarnpkg.com/storyblok-js-client/-/storyblok-js-client-4.5.8.tgz#862f67d4f25b6c50334e6965bf27f6b6a755ccae"
   integrity sha512-0Wp7Kn4RdKaKRgMmNDu8c6OC81x1mgeri4ziKDY9BsUZEIGLTNw8KFIWlHYACgMnJQn/6qZaV9kGo8IY4hv6GA==
+
+storyblok-js-client@^5.12.1:
+  version "5.12.1"
+  resolved "https://registry.yarnpkg.com/storyblok-js-client/-/storyblok-js-client-5.12.1.tgz#6ef1961e2456be2b6ae5c96aec5c58b28e6c4a58"
+  integrity sha512-8GH09+0TaZ7KgaMkYWMoI+ZgvYSgZUUq0P6UyDmEUrlmJZBmexPKCyKUtAyy6B6Re0uF29VZtl5E7x8ztcFlJw==
 
 stream-events@^1.0.5:
   version "1.0.5"

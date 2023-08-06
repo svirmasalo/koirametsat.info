@@ -68,11 +68,18 @@ export default defineNuxtConfig({
     },
   },
   css: ["~/assets/css/main.css"],
+  devServer: {
+    https: {
+      key: 'localhost-key.pem',
+      cert: 'localhost.pem'
+    }
+  },
   runtimeConfig: {
     public: {
       GTAG_ID: process.env.GTAG_ID,
       META_ID: process.env.META_ID,
       siteUrl: process.env.SITE_URL,
+      storyblokVersion: 'draft',
     },
   },
   modules: [
@@ -84,6 +91,8 @@ export default defineNuxtConfig({
     "nuxt-schema-org",
     "nuxt-vuefire",
     "@formkit/nuxt",
+    "@storyblok/nuxt",
+    "nuxt-csurf"
   ],
   nitro: {
     preset: process.env.NITRO_PRESET,
@@ -128,6 +137,18 @@ export default defineNuxtConfig({
     }
   },
   ssr: true,
+  storyblok: {
+    accessToken: process.env.STORYBLOK_TOKEN,
+    devtools: process.env.MODE === 'development' ? true : false,
+    apiOptions: {
+      region: "eu"
+    },
+    enableSudoMode: true,
+  },
+  vite: {
+    //...
+    optimizeDeps: { exclude: ["fsevents"] },
+  },
   vuefire: {
     config: {
       apiKey: process.env.VF_APIKEY,
