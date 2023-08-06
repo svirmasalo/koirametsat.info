@@ -90,6 +90,10 @@ export default defineNuxtConfig({
     routeRules: {
       "/sitemap.xml": { headers: { "Content-Type": "application/xml" } }
     },
+    prerender: {
+      crawlLinks: true,
+      routes: ['/sitemap.xml']
+    }
   },
   cookieControl: {
     barPosition: "bottom-full",
