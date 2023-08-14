@@ -61,5 +61,7 @@ Kiitos, että valitsit Koirametsät.info-sivuston. Toivomme, että nautit käytt
 
 Lisää tietoa :PageLink{to="/tietoa-palvelusta" label="Täältä" }
 
+Lue myös: :PageLink{to="/koirametsa-havu-ja-muut-suomen-koirametsat" label="Koirametsä Havu ja muut Suomen koirametsät"}
+
 _Huom! Koirametsät.info ei vastaa yhdenkään koirametsän tilasta tai toiminnasta._
 ::
