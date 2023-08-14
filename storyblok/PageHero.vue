@@ -1,10 +1,8 @@
 <template>
-    <header class="pt-16 pb-12 px-4" v-editable="blok" data-test="page-hero">
-        <div class="container text-center">
-            <h1 class="text-lg">{{ blok.title }}</h1>
-            <p>{{ blok.subtitle }}</p>
-        </div>
-    </header>
+    <div class="container text-center" v-editable="blok" data-test="page-hero">
+        <h1 class="text-lg">{{ blok.title }}</h1>
+        <p>{{ blok.subtitle }}</p>
+    </div>
 </template>
 <script setup>
     defineProps({ blok: Object });

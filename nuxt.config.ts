@@ -1,4 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+const path = require('path');
 import cookieSettings from "./cookies";
 import cookieUi from "./cookieUi";
 import cookieTexts from "./cookieTexts";
@@ -66,6 +67,16 @@ export default defineNuxtConfig({
     markdown: {
       anchorLinks: false,
     },
+    ignores: [
+      'storyblok',
+      'index.md'
+    ],
+    sources: {
+      content: {
+        driver: 'fs',
+        base: path.resolve(__dirname, 'content')
+      }
+    }
   },
   css: ["~/assets/css/main.css"],
   devServer: {
