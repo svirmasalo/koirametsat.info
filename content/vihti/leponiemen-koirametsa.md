@@ -1,9 +1,9 @@
 ---
-title: 'Leponiemen Koirametsä - Vihti'
-description: 'Leponiemen koirametsä on aidattu metsäalue, jossa pääset liikkumaan koirasi kanssa luonnossa'
+title: 'Leponiemen koirametsä - Vihti'
+description: 'Leponiemen koirametsä on puolen hehtaarin kokoinen aidattu metsäalue, jossa koiraa on mahdollista pitää vapaana.'
 tags: 'Nuotiopaikka, Parkkipaikka, ulko-WC'
-address: 'Tervalammentie 901, 03250 Vihti'
-city: 'Vesilahti'
+address: 'Tervalammentie 901, 03250 Ojakkala'
+city: 'Vihti'
 closeBy: 'Nummela, Espoo, Helsinki, Nurmijärvi, Hyvinkää, Vantaa'
 ---
 
@@ -13,7 +13,7 @@ notificationText: 'Verkkosivusto osoitteessa: https://www.facebook.com/leponieme
 notificationLink: 'https://www.facebook.com/leponiemenkoirametsa/'
 ---
 # Leponeimen Koirametsä
-Leponiemen koirametsä on aidattu metsäalue, jossa pääset liikkumaan koirasi kanssa luonnossa
+Leponiemen koirametsä on puolen hehtaarin kokoinen aidattu metsäalue, jossa koiraa on mahdollista pitää vapaana.
 ::
 
 ::BodyPage
@@ -21,15 +21,21 @@ Leponiemen koirametsä on aidattu metsäalue, jossa pääset liikkumaan koirasi 
 ::ParkItem
 ---
 featureName: Osoite
-featureDescription: Tervalammentie 901, 03250 Vihti
+featureDescription: Tervalammentie 901, 03250 Ojakkala
 descriptionLink: true
 maps: true
 ---
 ::
 ::ParkItem
 ---
+featureName: Alueen kuvaus
+featureDescription: Maastoltaan monipuolinen ja hallittavan kokoinen aidattu metsäalue.
+---
+::
+::ParkItem
+---
 featureName: Alueen koko
-featureDescription: "?"
+featureDescription: 0,5ha
 ---
 ::
 ::ParkItem
@@ -40,7 +46,5 @@ descriptionLink: true
 ---
 ::
 ## Kuvaus
-"Leponiemen koirametsä on aidattu metsäalue, jossa pääset liikkumaan koirasi kanssa luonnossa."
-
-Leponiemen Koirametsästä ei vielä ole palvelussa tarkempaa kuvausta.
+Leponiemen koirametsä on yksityinen koirapuisto Vihdin Ojakkalassa. Leponiemen koirametsä on puolen hehtaarin kokoinen aidattu metsäalue, jossa koiraa on mahdollista pitää vapaana. Alue on koiran vapaaseen ulkoiluttamiseen ja kouluttamiseen soveltuva, maastoltaan monipuolinen ja hallittavan kokoinen. Koirametsässä koiran on mahdollista toteuttaa luontaisia vaistojaan, kuten juoksemista, haistelua ja kaivamista. Koirametsä sopii myös mm. luoksetulon ja noutamisen harjoitteluun. Leponiemen koirametsässä voit myös järjestää pentutreffejä tai kaverikoirien tapaamisia. Aluetta rajaava aita on 2 metriä korkea hitsattu teräsverkkoaita, johon on kiinnitetty myös maaverkko estämään aidan ali kaivautumista.
 ::
