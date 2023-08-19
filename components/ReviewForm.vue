@@ -36,7 +36,7 @@
       <div class="terms">
         <FormKit type="checkbox" label="Hyväksyn ehdot" validation="accepted" />
         <NuxtLink
-          to="/kommentoinnin-ehdot"
+          to="/tietoa-palvelusta/kommentoinnin-ehdot"
           title="Kommentoinnin ehdot"
           class="text-xs"
           >Kommentoinnin ehdot.</NuxtLink

@@ -1,9 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+const path = require('path');
 import cookieSettings from "./cookies";
 import cookieUi from "./cookieUi";
 import cookieTexts from "./cookieTexts";
 import gtmNoscript from "./gtmNoscript";
 import metaNoscript from "./metaNoscript";
+import redirects from "./redirects";
 
 export default defineNuxtConfig({
   app: {
@@ -66,13 +68,30 @@ export default defineNuxtConfig({
     markdown: {
       anchorLinks: false,
     },
+    ignores: [
+      'storyblok',
+      './index.md'
+    ],
+    sources: {
+      content: {
+        driver: 'fs',
+        base: path.resolve(__dirname, 'content')
+      }
+    }
   },
   css: ["~/assets/css/main.css"],
+  devServer: {
+    https: {
+      key: 'localhost-key.pem',
+      cert: 'localhost.pem'
+    }
+  },
   runtimeConfig: {
     public: {
       GTAG_ID: process.env.GTAG_ID,
       META_ID: process.env.META_ID,
       siteUrl: process.env.SITE_URL,
+      storyblokVersion: 'draft',
     },
   },
   modules: [
@@ -84,11 +103,13 @@ export default defineNuxtConfig({
     "nuxt-schema-org",
     "nuxt-vuefire",
     "@formkit/nuxt",
+    "@storyblok/nuxt",
+    "nuxt-csurf"
   ],
   nitro: {
     preset: process.env.NITRO_PRESET,
     routeRules: {
-      "/sitemap.xml": { headers: { "Content-Type": "application/xml" } }
+      "/sitemap.xml": { headers: { "Content-Type": "application/xml" } },
     },
     prerender: {
       crawlLinks: true,
@@ -110,6 +131,9 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  routeRules: {
+    ...redirects,
+  },
   schemaOrg: {
     host: process.env.SITE_URL,
     image: "/images/koirametsat-info-og-meta.jpg",
@@ -122,7 +146,7 @@ export default defineNuxtConfig({
         'font-src': ["'self'", 'https:', 'data:'],
         'form-action': ["'self'"],
         'frame-ancestors': ["'self'", "https:"],
-        'img-src': ["'self'", "data:", "https://www.facebook.com/", "https://googleads.g.doubleclick.net", "https://www.google.com", "https://www.google.fi"],
+        'img-src': ["'self'", "https://a.storyblok.com/", "data:", "https://www.facebook.com/", "https://googleads.g.doubleclick.net", "https://www.google.com", "https://www.google.fi"],
         'object-src': ["'none'"],
         'script-src-attr': ["'none'"],
         'style-src': ["'self'", 'https:', "'unsafe-inline'"],
@@ -132,6 +156,18 @@ export default defineNuxtConfig({
     }
   },
   ssr: true,
+  storyblok: {
+    accessToken: process.env.STORYBLOK_TOKEN,
+    devtools: process.env.MODE === 'development' ? true : false,
+    apiOptions: {
+      region: "eu"
+    },
+    enableSudoMode: true,
+  },
+  vite: {
+    //...
+    optimizeDeps: { exclude: ["fsevents"] },
+  },
   vuefire: {
     config: {
       apiKey: process.env.VF_APIKEY,

@@ -3,9 +3,9 @@
       id="mobile-nav"
       class="fixed inset-x-0 bottom-0 z-30 bg-secondary border-t border-t-primary/50 pt-2 pb-0 shadow-inner"
     >
-      <ul class="flex flex-row justify-around text-primary max-w-lg mx-auto">
-        <li>
-          <NuxtLink to="/" >
+      <ul class="flex flex-row justify-around text-primary max-w-lg mx-auto" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+        <li itemprop="name">
+          <NuxtLink to="/" itemprop="url">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -23,8 +23,8 @@
             <span class="text-xs font-bold">Etusivu</span>
           </NuxtLink>
         </li>
-        <li>
-          <NuxtLink to="/tietoa-palvelusta" >
+        <li itemprop="name">
+          <NuxtLink to="/tietoa-palvelusta" itemprop="url">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -42,8 +42,8 @@
             <span class="text-xs font-bold">Info</span>
           </NuxtLink>
         </li>
-        <li>
-          <NuxtLink to="/kaupungit" >
+        <li itemprop="name">
+          <NuxtLink to="/kaupungit" itemprop="url">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -61,8 +61,8 @@
             <span class="text-xs font-bold">Kaupungit</span>
           </NuxtLink>
         </li>
-        <li>
-          <NuxtLink to="/haku" >
+        <li itemprop="name">
+          <NuxtLink to="/haku" itemprop="url">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
