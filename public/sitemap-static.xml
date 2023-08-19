@@ -1,427 +1,433 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://localhost:3000/espoo</loc>
-        <lastmod>2023-08-03T13:15:00.604Z</lastmod>
+        <loc>https://koirametsat.info/espoo</loc>
+        <lastmod>2023-08-04T07:48:38.763Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/espoo/pikkutahti</loc>
-        <lastmod>2023-08-02T14:58:49.987Z</lastmod>
+        <loc>https://koirametsat.info/espoo/pikkutahti</loc>
+        <lastmod>2023-08-04T07:48:38.763Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/haku</loc>
-        <lastmod>2023-04-08T17:47:49.743Z</lastmod>
+        <loc>https://koirametsat.info/haku</loc>
+        <lastmod>2023-08-04T07:48:38.764Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/hameenlinna</loc>
-        <lastmod>2023-08-03T12:55:02.324Z</lastmod>
+        <loc>https://koirametsat.info/hameenlinna</loc>
+        <lastmod>2023-08-04T07:48:38.764Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/hamina</loc>
-        <lastmod>2023-08-03T09:22:15.381Z</lastmod>
+        <loc>https://koirametsat.info/hamina</loc>
+        <lastmod>2023-08-04T07:48:38.765Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/hamina/koirametsa-reviiri</loc>
-        <lastmod>2023-08-02T14:58:49.905Z</lastmod>
+        <loc>https://koirametsat.info/hamina/koirametsa-reviiri</loc>
+        <lastmod>2023-08-04T07:48:38.765Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/helsinki</loc>
-        <lastmod>2023-08-03T09:22:09.480Z</lastmod>
+        <loc>https://koirametsat.info/helsinki</loc>
+        <lastmod>2023-08-04T07:48:38.766Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/</loc>
-        <lastmod>2023-08-02T14:26:44.272Z</lastmod>
+        <loc>https://koirametsat.info/</loc>
+        <lastmod>2023-08-04T07:48:38.767Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/joensuu</loc>
-        <lastmod>2023-08-03T09:22:00.822Z</lastmod>
+        <loc>https://koirametsat.info/joensuu</loc>
+        <lastmod>2023-08-04T07:48:38.768Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/joensuu/koiranpuro</loc>
-        <lastmod>2023-08-02T14:58:49.846Z</lastmod>
+        <loc>https://koirametsat.info/joensuu/koiranpuro</loc>
+        <lastmod>2023-08-04T07:48:38.768Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/jokioinen</loc>
-        <lastmod>2023-08-03T09:28:31.559Z</lastmod>
+        <loc>https://koirametsat.info/jokioinen</loc>
+        <lastmod>2023-08-04T07:48:38.769Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/jokioinen/koirakallion-metsa</loc>
-        <lastmod>2023-08-02T14:58:49.986Z</lastmod>
+        <loc>https://koirametsat.info/jokioinen/koirakallion-metsa</loc>
+        <lastmod>2023-08-04T07:48:38.769Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/jyvaskyla</loc>
-        <lastmod>2023-08-03T13:13:31.815Z</lastmod>
+        <loc>https://koirametsat.info/jyvaskyla</loc>
+        <lastmod>2023-08-04T07:48:38.770Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/kaupungit</loc>
-        <lastmod>2023-08-02T14:29:06.578Z</lastmod>
+        <loc>https://koirametsat.info/kaupungit</loc>
+        <lastmod>2023-08-04T20:41:05.850Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/kellokoski</loc>
-        <lastmod>2023-08-03T09:21:38.590Z</lastmod>
+        <loc>https://koirametsat.info/kellokoski</loc>
+        <lastmod>2023-08-04T07:48:38.771Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/kellokoski/touhu-and-temmellys</loc>
-        <lastmod>2023-08-03T13:11:39.648Z</lastmod>
+        <loc>https://koirametsat.info/kellokoski/touhu-and-temmellys</loc>
+        <lastmod>2023-08-04T07:48:38.772Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/kommentoinnin-ehdot</loc>
+        <loc>https://koirametsat.info/koirametsa-havu-ja-muut-suomen-koirametsat</loc>
+        <lastmod>2023-08-14T19:47:45.079Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://koirametsat.info/kommentoinnin-ehdot</loc>
         <lastmod>2023-04-06T09:33:18.272Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/kuopio</loc>
-        <lastmod>2023-08-03T12:48:53.774Z</lastmod>
+        <loc>https://koirametsat.info/kuopio</loc>
+        <lastmod>2023-08-04T07:48:38.773Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/laitila</loc>
-        <lastmod>2023-08-03T09:21:28.806Z</lastmod>
+        <loc>https://koirametsat.info/laitila</loc>
+        <lastmod>2023-08-04T07:48:38.774Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/laitila/temmel-tanner</loc>
-        <lastmod>2023-08-02T14:58:49.988Z</lastmod>
+        <loc>https://koirametsat.info/laitila/temmel-tanner</loc>
+        <lastmod>2023-08-04T07:48:38.775Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/lappeenranta</loc>
-        <lastmod>2023-08-03T09:22:42.579Z</lastmod>
+        <loc>https://koirametsat.info/lappeenranta</loc>
+        <lastmod>2023-08-04T07:48:38.776Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/lappeenranta/koirametsa-villi-piski</loc>
-        <lastmod>2023-08-02T14:58:49.987Z</lastmod>
+        <loc>https://koirametsat.info/lappeenranta/koirametsa-villi-piski</loc>
+        <lastmod>2023-08-04T07:48:38.776Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/lempaala/elometsa</loc>
-        <lastmod>2023-08-02T14:58:49.636Z</lastmod>
+        <loc>https://koirametsat.info/lempaala/elometsa</loc>
+        <lastmod>2023-08-04T07:48:38.777Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/lempaala</loc>
-        <lastmod>2023-08-03T09:23:01.670Z</lastmod>
+        <loc>https://koirametsat.info/lempaala</loc>
+        <lastmod>2023-08-04T07:48:38.778Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/lievestuore</loc>
-        <lastmod>2023-08-03T09:23:14.768Z</lastmod>
+        <loc>https://koirametsat.info/lievestuore</loc>
+        <lastmod>2023-08-04T07:48:38.778Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/lievestuore/rallatus</loc>
-        <lastmod>2023-08-02T14:58:49.987Z</lastmod>
+        <loc>https://koirametsat.info/lievestuore/rallatus</loc>
+        <lastmod>2023-08-04T07:48:38.779Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/littoinen</loc>
-        <lastmod>2023-08-03T12:44:10.331Z</lastmod>
+        <loc>https://koirametsat.info/littoinen</loc>
+        <lastmod>2023-08-04T07:48:38.780Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/littoinen/koirametsa-satumaa</loc>
-        <lastmod>2023-08-02T14:58:49.964Z</lastmod>
+        <loc>https://koirametsat.info/littoinen/koirametsa-satumaa</loc>
+        <lastmod>2023-08-04T07:48:38.780Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/lohja</loc>
-        <lastmod>2023-08-03T09:23:43.501Z</lastmod>
+        <loc>https://koirametsat.info/lohja</loc>
+        <lastmod>2023-08-04T07:48:38.781Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/lohja/koirametsa-leikkila</loc>
-        <lastmod>2023-08-02T14:58:50.027Z</lastmod>
+        <loc>https://koirametsat.info/lohja/koirametsa-leikkila</loc>
+        <lastmod>2023-08-04T07:48:38.782Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/mika-on-koirametsa</loc>
-        <lastmod>2023-08-02T14:33:37.713Z</lastmod>
+        <loc>https://koirametsat.info/mika-on-koirametsa</loc>
+        <lastmod>2023-08-04T07:48:38.782Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/muhos</loc>
-        <lastmod>2023-08-03T09:23:56.709Z</lastmod>
+        <loc>https://koirametsat.info/muhos</loc>
+        <lastmod>2023-08-04T07:48:38.783Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/muhos/muhoksen-kapalametsa</loc>
-        <lastmod>2023-08-02T14:58:49.988Z</lastmod>
+        <loc>https://koirametsat.info/muhos/muhoksen-kapalametsa</loc>
+        <lastmod>2023-08-04T07:48:38.784Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/muurame</loc>
-        <lastmod>2023-08-03T09:24:10.063Z</lastmod>
+        <loc>https://koirametsat.info/muurame</loc>
+        <lastmod>2023-08-04T07:48:38.784Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/muurame/puolen-hehtaarin-koirametsa</loc>
-        <lastmod>2023-08-02T14:58:49.875Z</lastmod>
+        <loc>https://koirametsat.info/muurame/puolen-hehtaarin-koirametsa</loc>
+        <lastmod>2023-08-04T07:48:38.785Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/mynamaki</loc>
-        <lastmod>2023-08-03T09:24:26.203Z</lastmod>
+        <loc>https://koirametsat.info/mynamaki</loc>
+        <lastmod>2023-08-04T07:48:38.785Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/mynamaki/koirien-keidas</loc>
-        <lastmod>2023-08-02T14:58:49.988Z</lastmod>
+        <loc>https://koirametsat.info/mynamaki/koirien-keidas</loc>
+        <lastmod>2023-08-04T07:48:38.786Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/nousiainen</loc>
-        <lastmod>2023-08-03T09:24:42.877Z</lastmod>
+        <loc>https://koirametsat.info/nousiainen</loc>
+        <lastmod>2023-08-04T07:48:38.787Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/nousiainen/koirametsa-seesteinen</loc>
-        <lastmod>2023-08-02T14:58:49.986Z</lastmod>
+        <loc>https://koirametsat.info/nousiainen/koirametsa-seesteinen</loc>
+        <lastmod>2023-08-04T07:48:38.787Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/numminen</loc>
-        <lastmod>2023-08-03T09:24:54.436Z</lastmod>
+        <loc>https://koirametsat.info/numminen</loc>
+        <lastmod>2023-08-04T07:48:38.788Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/numminen/koirametsa-elainkuusikko</loc>
-        <lastmod>2023-08-02T14:58:49.272Z</lastmod>
+        <loc>https://koirametsat.info/numminen/koirametsa-elainkuusikko</loc>
+        <lastmod>2023-08-04T07:48:38.789Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/nurmijarvi/hattaramaa</loc>
-        <lastmod>2023-08-03T13:09:11.906Z</lastmod>
+        <loc>https://koirametsat.info/nurmijarvi/hattaramaa</loc>
+        <lastmod>2023-08-04T07:48:38.789Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/nurmijarvi</loc>
-        <lastmod>2023-08-03T13:00:43.140Z</lastmod>
+        <loc>https://koirametsat.info/nurmijarvi</loc>
+        <lastmod>2023-08-04T07:48:38.790Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/oulu</loc>
-        <lastmod>2023-08-03T13:15:54.250Z</lastmod>
+        <loc>https://koirametsat.info/oulu</loc>
+        <lastmod>2023-08-04T07:48:38.790Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/oulu/oulun-koirametsa</loc>
-        <lastmod>2023-08-02T14:58:49.988Z</lastmod>
+        <loc>https://koirametsat.info/oulu/oulun-koirametsa</loc>
+        <lastmod>2023-08-04T07:48:38.791Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/paimio</loc>
-        <lastmod>2023-08-03T09:25:38.809Z</lastmod>
+        <loc>https://koirametsat.info/paimio</loc>
+        <lastmod>2023-08-04T07:48:38.791Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/paimio/paimion-koirametsa</loc>
-        <lastmod>2023-08-02T14:58:49.986Z</lastmod>
+        <loc>https://koirametsat.info/paimio/paimion-koirametsa</loc>
+        <lastmod>2023-08-04T07:48:38.792Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/rauma</loc>
-        <lastmod>2023-08-03T09:25:49.888Z</lastmod>
+        <loc>https://koirametsat.info/rauma</loc>
+        <lastmod>2023-08-04T07:48:38.793Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/rauma/koirametsa-mustinmaa</loc>
-        <lastmod>2023-08-02T14:58:49.987Z</lastmod>
+        <loc>https://koirametsat.info/rauma/koirametsa-mustinmaa</loc>
+        <lastmod>2023-08-04T07:48:38.793Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/renko</loc>
-        <lastmod>2023-08-03T09:26:02.725Z</lastmod>
+        <loc>https://koirametsat.info/renko</loc>
+        <lastmod>2023-08-04T07:48:38.794Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/renko/rengon-rekkumesta</loc>
-        <lastmod>2023-08-03T12:52:58.051Z</lastmod>
+        <loc>https://koirametsat.info/renko/rengon-rekkumesta</loc>
+        <lastmod>2023-08-04T07:48:38.794Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/sastamala</loc>
-        <lastmod>2023-08-03T09:26:13.707Z</lastmod>
+        <loc>https://koirametsat.info/sastamala</loc>
+        <lastmod>2023-08-04T07:48:38.795Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/sastamala/petvillan-koirapuisto-and-uimalampi</loc>
-        <lastmod>2023-08-02T14:58:49.987Z</lastmod>
+        <loc>https://koirametsat.info/sastamala/petvillan-koirapuisto-and-uimalampi</loc>
+        <lastmod>2023-08-04T07:48:38.795Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/sastamala/taikakallion-pieni-koirametsa</loc>
-        <lastmod>2023-08-02T14:58:49.987Z</lastmod>
+        <loc>https://koirametsat.info/sastamala/taikakallion-pieni-koirametsa</loc>
+        <lastmod>2023-08-04T07:48:38.796Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/seinajoki</loc>
-        <lastmod>2023-08-03T09:26:24.206Z</lastmod>
+        <loc>https://koirametsat.info/seinajoki</loc>
+        <lastmod>2023-08-04T07:48:38.797Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/seinajoki/koirametsa-havu</loc>
-        <lastmod>2023-08-02T14:58:49.945Z</lastmod>
+        <loc>https://koirametsat.info/seinajoki/koirametsa-havu</loc>
+        <lastmod>2023-08-04T07:48:38.797Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/tampere</loc>
-        <lastmod>2023-08-03T13:14:17.397Z</lastmod>
+        <loc>https://koirametsat.info/tampere</loc>
+        <lastmod>2023-08-04T07:48:38.798Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/tampere/vuorekesen-koirametsa</loc>
-        <lastmod>2023-08-02T14:58:50.028Z</lastmod>
+        <loc>https://koirametsat.info/tampere/vuorekesen-koirametsa</loc>
+        <lastmod>2023-08-04T07:48:38.798Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/tietoa-palvelusta</loc>
-        <lastmod>2023-08-02T14:28:36.450Z</lastmod>
+        <loc>https://koirametsat.info/tietoa-palvelusta</loc>
+        <lastmod>2023-08-04T07:48:38.799Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/tietosuojaseloste</loc>
+        <loc>https://koirametsat.info/tietosuojaseloste</loc>
         <lastmod>2023-04-06T09:33:18.273Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/turku</loc>
-        <lastmod>2023-08-03T12:50:22.441Z</lastmod>
+        <loc>https://koirametsat.info/turku</loc>
+        <lastmod>2023-08-04T07:48:38.799Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/tuusula</loc>
-        <lastmod>2023-08-03T09:26:50.851Z</lastmod>
+        <loc>https://koirametsat.info/tuusula</loc>
+        <lastmod>2023-08-04T07:48:38.800Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/tuusula/touhu-and-temmellys</loc>
-        <lastmod>2023-08-02T14:58:49.988Z</lastmod>
+        <loc>https://koirametsat.info/tuusula/touhu-and-temmellys</loc>
+        <lastmod>2023-08-04T07:48:38.800Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/valkeakoski/haukkumaa</loc>
-        <lastmod>2023-08-02T14:58:49.986Z</lastmod>
+        <loc>https://koirametsat.info/valkeakoski/haukkumaa</loc>
+        <lastmod>2023-08-04T07:48:38.801Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/valkeakoski</loc>
-        <lastmod>2023-08-03T09:27:02.810Z</lastmod>
+        <loc>https://koirametsat.info/valkeakoski</loc>
+        <lastmod>2023-08-04T07:48:38.801Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/valkeala</loc>
-        <lastmod>2023-08-03T09:27:16.261Z</lastmod>
+        <loc>https://koirametsat.info/valkeala</loc>
+        <lastmod>2023-08-04T07:48:38.802Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/valkeala/sudenkuoppa</loc>
-        <lastmod>2023-08-02T14:58:50.008Z</lastmod>
+        <loc>https://koirametsat.info/valkeala/sudenkuoppa</loc>
+        <lastmod>2023-08-04T07:48:38.802Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/vesilahti/hunsvottila</loc>
-        <lastmod>2023-08-02T14:58:49.986Z</lastmod>
+        <loc>https://koirametsat.info/vesilahti/hunsvottila</loc>
+        <lastmod>2023-08-04T07:48:38.803Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/vesilahti</loc>
-        <lastmod>2023-08-03T09:27:28.557Z</lastmod>
+        <loc>https://koirametsat.info/vesilahti</loc>
+        <lastmod>2023-08-04T07:48:38.803Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/vihti</loc>
-        <lastmod>2023-08-03T09:27:43.341Z</lastmod>
+        <loc>https://koirametsat.info/vihti</loc>
+        <lastmod>2023-08-04T07:48:38.804Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://localhost:3000/vihti/leponiemen-koirametsa</loc>
-        <lastmod>2023-08-03T13:10:37.628Z</lastmod>
+        <loc>https://koirametsat.info/vihti/leponiemen-koirametsa</loc>
+        <lastmod>2023-08-14T18:45:11.734Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
