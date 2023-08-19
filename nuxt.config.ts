@@ -5,6 +5,7 @@ import cookieUi from "./cookieUi";
 import cookieTexts from "./cookieTexts";
 import gtmNoscript from "./gtmNoscript";
 import metaNoscript from "./metaNoscript";
+import redirects from "./redirects";
 
 export default defineNuxtConfig({
   app: {
@@ -108,7 +109,7 @@ export default defineNuxtConfig({
   nitro: {
     preset: process.env.NITRO_PRESET,
     routeRules: {
-      "/sitemap.xml": { headers: { "Content-Type": "application/xml" } }
+      "/sitemap.xml": { headers: { "Content-Type": "application/xml" } },
     },
     prerender: {
       crawlLinks: true,
@@ -129,6 +130,9 @@ export default defineNuxtConfig({
       tailwindcss: {},
       autoprefixer: {},
     },
+  },
+  routeRules: {
+    ...redirects,
   },
   schemaOrg: {
     host: process.env.SITE_URL,
