@@ -18,7 +18,8 @@
       '/tietosuojaseloste', 
       '/', 
       '/kommentoinnin-ehdot', 
-      '/mika-on-koirametsa'
+      '/mika-on-koirametsa',
+      '/koirametsa-havu-ja-muut-suomen-koirametsat'
     ];
 
     const cityList = computed(() => {
