@@ -4,7 +4,7 @@ import { ReviewPost } from "types/review.post";
 
 export const useReviews = (slug: string) => { 
     const db = useFirestore()
-    const reviews = useCollection(collectionRef(db, slug));    
+    const reviews = useCollection(collectionRef(db, slug));
 
     // Get an average rating from an array of ratings
     const calclulateAverageRating = (ratings: any) => {

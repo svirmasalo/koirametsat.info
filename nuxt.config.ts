@@ -93,6 +93,15 @@ export default defineNuxtConfig({
       siteUrl: process.env.SITE_URL,
       storyblokVersion: 'draft',
     },
+    firebase: {
+      apiKey: process.env.VF_APIKEY,
+      authDomain: process.env.VF_AUTHDOMAIN,
+      projectId: process.env.VF_PROJECTID,
+      appId: process.env.VF_APPID,
+      storageBucket: process.env.VF_STORAGEBUCKET,
+      messagingSenderId: process.env.VF_MESSAGINGSENDERID,
+      measurementId: process.env.VF_MEASUREMENTID,
+    }
   },
   modules: [
     "nuxt-security",

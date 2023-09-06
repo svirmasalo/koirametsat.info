@@ -22,13 +22,13 @@
     </header>
     <div role="list" class="kmi-reviews-wrapper" v-if="reviews.length > 0">
       <div
-        v-for="r in reviews"
+        v-for="(r, index) in reviews"
         role="listitem"
         class="kmi-reviews-review"
         itemprop="review"
         itemscope
         itemtype="https://schema.org/Review"
-        :key="r.id"
+        :key="index"
       >
         <ReviewItem :review="r" />
       </div>
@@ -42,8 +42,16 @@
 <script setup>
 // Get props "collection" from the parent component
 const props = defineProps(['slug']);
+const reviews = ref([]);
+const averageRating = ref(0);
 
-const {reviews, averageRating} = useReviews(props.slug);
+// const {reviews, averageRating} = useReviews(props.slug);
+
+const parkReviews = await $fetch('/api/get-all-reviews?slug=' + props.slug);
+if (parkReviews.data) {
+  reviews.value = parkReviews.data;
+  averageRating.value = Math.round(parkReviews.data.reduce((acc, cur) => acc + cur.rating, 0) / parkReviews.data.length);
+}
 
 // Check if "_kmcom_consent" cookie exists;
 const comCookieBase = useCookie("_kmcom_consent");

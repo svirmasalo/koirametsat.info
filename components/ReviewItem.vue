@@ -1,7 +1,7 @@
 <template>
   <div class="kmi-reviews-review--header">
     <div class="kmi-reviews-review--header-icon">
-      <span>{{ getInitials(review.user) }}</span>
+      <span>{{ initials }}</span>
     </div>
     <div class="kmi-reviews-review--header-data">
       <meta itemprop="name" :content="review.user">
@@ -37,36 +37,44 @@
   @apply sr-only;
 }
 </style>
-<script setup>
-const props = defineProps(["review"]);
-let reviewDate;
-try {
-  reviewDate = props.review.date.toDate();
-} catch (error) {
-  reviewDate = "-";
+<script setup lang="ts">
+
+interface Review {
+  user: string;
+  rating: number;
+  review: string;
+  date: {
+    seconds: number;
+    nanoSeconds: number;
+  };  
 }
 
+const props = defineProps(["review"]);
+const review = ref<Review>(props.review);
+const humanDate = ref("");
+const osDate = ref("");
+const initials = ref("");
+
+const date = new Date(review.value.date.seconds * 1000);
+const {user} = review.value;
+
 // Format date string to day month year format
-const formatDate = (date) => {
-  if (date === "-") return date;
-  const options = { year: "numeric", month: "long", day: "numeric" };
+const formatDate = (date : Date) => {
+  const options : any = { year: "numeric", month: "long", day: "numeric" };
   return date.toLocaleDateString("fi-FI", options);
 };
 
 // Format date to year-month-day
-const formatDateToOS = (date) => {
-  if (date === "-") return date;
+const formatDateToOS = (date : Date) => {
   const year = date.getFullYear();
   const month =
     date.getMonth() + 1 > 9 ? date.getMonth() + 1 : `0${date.getMonth() + 1}`;
   const day = date.getDate() > 9 ? date.getDate() : `0${date.getDate()}`;
   return `${year}-${month}-${day}`;
 };
-const humanDate = formatDate(reviewDate);
-const osDate = formatDateToOS(reviewDate);
 
 // Function that returns initials from a name string
-const getInitials = (name) => {
+const getInitials = (name : string) => {
   if (!name) return "";
   const nameArray = name.split(" ");
   // Reduce the array to two items
@@ -76,4 +84,9 @@ const getInitials = (name) => {
   const initials = nameArray.map((n) => n.charAt(0)).join("");
   return initials;
 };
+
+humanDate.value = formatDate(date);
+osDate.value = formatDateToOS(date);
+initials.value = getInitials(user);
+
 </script>
