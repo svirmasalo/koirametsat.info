@@ -1,4 +1,5 @@
 <script setup>
+const averageRating = ref(0);
 const props = defineProps(["title", "substring", "to"]);
 // Format firestore collection slug from the 'to' prop (e.g. /helsinki/koirapuisto -> koirapuisto-helsinki)
 const firestoreSlug = props.to
@@ -7,7 +8,14 @@ const firestoreSlug = props.to
   .reverse()
   .join("-");
 // Get average rating from firestore
-const averageRating = 5;
+
+const reviews = await $fetch('/api/get-all-reviews?slug=' + firestoreSlug);
+averageRating.value = Math.round(reviews.data.reduce((acc, cur) => acc + cur.rating, 0) / reviews.data.length) || 0;
+
+if (averageRating.value === 0) {
+  averageRating.value = "Ei arvosteluja";
+}
+
 </script>
 <template>
   <NuxtLink

@@ -1,15 +1,15 @@
 /**
  * Get all reviews from the Firebase database
  */
-import { collection, getDocs } from 'firebase/firestore/lite';
+import { initializeApp } from 'firebase/app';
+import { getFirestore, collection, getDocs } from 'firebase/firestore/lite';
 
 export default defineEventHandler((event) => {
+  const config = useRuntimeConfig();
+  const firebaseConfig = config.firebase;  
+  const app = initializeApp(firebaseConfig);
+  const db = getFirestore(app);
 
-  console.log(event);
-
-  interface documentSlugQuery {
-    slug: string
-  }
 
   const query = getQuery(event);
   

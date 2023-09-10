@@ -1,7 +1,8 @@
 /**
  * Set new review to firestore database
  */
-import {collection, addDoc, Timestamp } from 'firebase/firestore/lite';
+import { initializeApp } from 'firebase/app';
+import {getFirestore, collection, addDoc, Timestamp } from 'firebase/firestore/lite';
 import {ReviewPost} from '~/types/review.post';
 
 interface ReviewRequest {
@@ -10,6 +11,10 @@ interface ReviewRequest {
 }
 
 export default defineEventHandler(async (event) => {
+    const config = useRuntimeConfig();
+    const firebaseConfig = config.firebase;  
+    const app = initializeApp(firebaseConfig);
+    const db = getFirestore(app);
 
     const body: ReviewRequest = await readBody(event)
     const { slug, data } = body;
