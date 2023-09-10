@@ -110,7 +110,6 @@ export default defineNuxtConfig({
     "@nuxt/image-edge",
     "@dargmuesli/nuxt-cookie-control",
     "nuxt-schema-org",
-    "nuxt-vuefire",
     "@formkit/nuxt",
     "@storyblok/nuxt",
     "nuxt-csurf"
@@ -154,11 +153,11 @@ export default defineNuxtConfig({
         'base-uri': ["'self'"],
         'font-src': ["'self'", 'https:', 'data:'],
         'form-action': ["'self'"],
-        'frame-ancestors': ["'self'", "https:"],
+        'frame-ancestors': ["'self'", "https:", "https://a.storyblok.com/"],
         'img-src': ["'self'", "https://a.storyblok.com/", "data:", "https://www.facebook.com/", "https://googleads.g.doubleclick.net", "https://www.google.com", "https://www.google.fi"],
-        'object-src': ["'none'"],
-        'script-src-attr': ["'none'"],
-        'style-src': ["'self'", 'https:', "'unsafe-inline'"],
+        'object-src': ["'none'", "https://a.storyblok.com/"],
+        'script-src-attr': ["'none'", "https://a.storyblok.com/"],
+        'style-src': ["'self'", 'https:', "'unsafe-inline'", "https://a.storyblok.com/"],
         'upgrade-insecure-requests': process.env.STAGE === 'DEV' ? false : true
       },
       crossOriginResourcePolicy: 'cross-origin',
@@ -177,16 +176,5 @@ export default defineNuxtConfig({
   vite: {
     //...
     optimizeDeps: { exclude: ["fsevents"] },
-  },
-  vuefire: {
-    config: {
-      apiKey: process.env.VF_APIKEY,
-      authDomain: process.env.VF_AUTHDOMAIN,
-      projectId: process.env.VF_PROJECTID,
-      appId: process.env.VF_APPID,
-      storageBucket: process.env.VF_STORAGEBUCKET,
-      messagingSenderId: process.env.VF_MESSAGINGSENDERID,
-      measurementId: process.env.VF_MEASUREMENTID,
-    },
   },
 });

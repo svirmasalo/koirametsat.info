@@ -80,6 +80,9 @@ import "@formkit/themes/genesis";
 import { reset } from "@formkit/core";
 
 import { ref } from "vue";
+import {ReviewPost} from "types/review.post"
+
+const { $csrfFetch } = useNuxtApp()
 
 const route = useRoute();
 
@@ -88,7 +91,7 @@ const formRating = ref(undefined);
 
 const error = useState("error", () => false);
 const reviewSent = useState("reviewSent", () => false);
-const formSent = useState("formSent", () => false);
+const formSent = useState("formSent", () => false); 
 
 const comCookie = useCookie("_kmcom", {
   expires: new Date("2035-12-31"),
@@ -102,6 +105,8 @@ if (comCookie.value && comCookie.value === props.slug) {
   formSent.value = true;
 }
 
+formSent.value = false;
+
 const addReview = async (fields: any) => {
   if (formSent.value) {
     return;
@@ -113,12 +118,18 @@ const addReview = async (fields: any) => {
   const data = {
     user: fields.name,
     review: fields.review,
-    rating: rating,
-    date: new Date(),
+    rating: rating
   };
+
   // Add a new document with automatically generated id.
   try {
-    const res = await usePostReview(props.slug, data);
+    const res = await $csrfFetch('/api/post-review', {
+      method: 'POST',
+      body: {
+        slug: props.slug,
+        data: data
+      }
+    });
   } catch (e) {
     console.error("Error adding document: ", e);
     error.value = true;

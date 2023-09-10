@@ -11,5 +11,5 @@ export interface ReviewItem {
     date: {
       seconds: number;
       nanoSeconds: number;
-    };  
+    };
   }
