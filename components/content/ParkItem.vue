@@ -34,10 +34,11 @@ const trackClick = () => {
           @click="trackClick"
           :href="link"
           :title="maps ? 'Karttaan' : `Koirametsän varaukset täältä`"
-          class="flex items-center"
+          class="flex"
+          :class="maps ? 'flex-col items-start' : 'justify-start items-center'"
         >
-          <span class="max-w-sm truncate">{{ featureDescription }}</span>
-          <svg
+          <span class="max-w-sm truncate" :class="maps && 'shrink'">{{ featureDescription }}</span>
+          <svg v-if="!maps"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 20 20"
             fill="currentColor"
@@ -49,6 +50,9 @@ const trackClick = () => {
               clip-rule="evenodd"
             />
           </svg>
+          <span v-if="maps" class="py-1 px-2 mt-1 rounded bg-primary text-xs font-bold text-white flex-1">
+            Avaa kartta
+          </span>
         </a>
       </NuxtLink>
     </span>

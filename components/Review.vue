@@ -17,7 +17,7 @@
             fill-rule="evenodd"
           ></path>
         </svg>
-        <span itemprop="ratingValue" :content="averageRating">{{ averageRating }} <span class="sr-only">/</span> <span class="sr-only" itemprop="bestRating">5</span></span>
+        <span itemprop="ratingValue" :content="averageRating">{{ averageRating || '-' }} <span class="sr-only">/</span> <span class="sr-only" itemprop="bestRating">5</span></span>
       </p>
     </header>
     <div role="list" class="kmi-reviews-wrapper" v-if="reviews.length > 0">
@@ -36,21 +36,23 @@
     <div v-else>
         <p class="italic">Tätä koirametsää ei vielä ole arvosteltu.</p>
     </div>
-    <ReviewForm :slug="slug" v-if="comCookieBase" />
+    <div v-if="comCookieBase">
+      <ReviewForm :slug="slug" />
+    </div>
   </section>
 </template>
-<script setup>
-// Get props "collection" from the parent component
+<script setup lang="ts">
+
+import { ReviewsResponse, ReviewItem as RI } from "types/reviews";
+
 const props = defineProps(['slug']);
-const reviews = ref([]);
+const reviews = ref<RI[]>([]);  
 const averageRating = ref(0);
 
-// const {reviews, averageRating} = useReviews(props.slug);
-
-const parkReviews = await $fetch('/api/get-all-reviews?slug=' + props.slug);
+const parkReviews : ReviewsResponse = await $fetch('/api/get-all-reviews?slug=' + props.slug);
 if (parkReviews.data) {
   reviews.value = parkReviews.data;
-  averageRating.value = Math.round(parkReviews.data.reduce((acc, cur) => acc + cur.rating, 0) / parkReviews.data.length);
+  averageRating.value = Math.round(parkReviews.data.reduce((acc, cur) => acc + cur.rating, 0) / parkReviews.data.length) || 0;
 }
 
 // Check if "_kmcom_consent" cookie exists;

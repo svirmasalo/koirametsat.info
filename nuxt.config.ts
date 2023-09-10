@@ -91,7 +91,7 @@ export default defineNuxtConfig({
       GTAG_ID: process.env.GTAG_ID,
       META_ID: process.env.META_ID,
       siteUrl: process.env.SITE_URL,
-      storyblokVersion: 'draft',
+      storyblokVersion:  process.env.STAGE === 'draft' ? 'draft' : 'published',
     },
     firebase: {
       apiKey: process.env.VF_APIKEY,
@@ -161,6 +161,7 @@ export default defineNuxtConfig({
         'style-src': ["'self'", 'https:', "'unsafe-inline'"],
         'upgrade-insecure-requests': process.env.STAGE === 'DEV' ? false : true
       },
+      crossOriginResourcePolicy: 'cross-origin',
       crossOriginEmbedderPolicy: process.env.STAGE === 'DEV' ? 'unsafe-none' : 'require-corp',
     }
   },

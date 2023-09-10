@@ -38,19 +38,10 @@
 }
 </style>
 <script setup lang="ts">
-
-interface Review {
-  user: string;
-  rating: number;
-  review: string;
-  date: {
-    seconds: number;
-    nanoSeconds: number;
-  };  
-}
+import { ReviewItem } from 'types/reviews';
 
 const props = defineProps(["review"]);
-const review = ref<Review>(props.review);
+const review = ref<ReviewItem>(props.review);
 const humanDate = ref("");
 const osDate = ref("");
 const initials = ref("");
