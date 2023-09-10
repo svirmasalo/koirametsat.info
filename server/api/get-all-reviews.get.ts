@@ -2,25 +2,20 @@
  * Get all reviews from the Firebase database
  */
 import { initializeApp } from 'firebase/app';
-// import { get } from 'firebase/database';
 import { getFirestore, collection, getDocs } from 'firebase/firestore/lite';
 
 export default defineEventHandler((event) => {
+  const config = useRuntimeConfig();
+  const firebaseConfig = config.firebase;  
+  const app = initializeApp(firebaseConfig);
+  const db = getFirestore(app);
 
-  interface documentSlugQuery {
-    slug: string
-  }
 
   const query = getQuery(event);
   
   if (!query.slug ) {
     return { statusCode: 200, body: 'Missing slug parameter', data: [] };
   }
-  
-  const config = useRuntimeConfig();
-  const firebaseConfig = config.firebase;
-  const app = initializeApp(firebaseConfig);
-  const db = getFirestore(app);
   
   // Get a list of cities from your database
   async function getReviews(db) {
