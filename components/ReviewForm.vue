@@ -39,8 +39,8 @@
           to="/tietoa-palvelusta/kommentoinnin-ehdot"
           title="Kommentoinnin ehdot"
           class="text-xs"
-          >Kommentoinnin ehdot.</NuxtLink
-        >
+          >Kommentoinnin ehdot.
+        </NuxtLink>
       </div>
     </FormKit>
     <div

@@ -5,14 +5,19 @@
         <priority>0.9</priority>
     </url>
     <url>
+        <loc>https://koirametsat.info/tietoa-koirametsista/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
         <loc>https://koirametsat.info/tietoa-palvelusta/kommentoinnin-ehdot</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://koirametsat.info/tietoa-koirametsista/</loc>
+        <loc>https://koirametsat.info/tietoa-koirametsista/koirametsa</loc>
         <changefreq>monthly</changefreq>
-        <priority>0.9</priority>
+        <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/tietoa-palvelusta/tietosuojaseloste</loc>
@@ -41,397 +46,397 @@
     </url>
     <url>
         <loc>https://koirametsat.info/espoo</loc>
-        <lastmod>2023-08-04T07:48:38.763Z</lastmod>
+        <lastmod>2023-09-05T17:16:16.962Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/espoo/pikkutahti</loc>
-        <lastmod>2023-08-04T07:48:38.763Z</lastmod>
+        <lastmod>2023-09-05T17:16:16.964Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/haku</loc>
-        <lastmod>2023-08-04T07:48:38.764Z</lastmod>
+        <lastmod>2023-09-05T17:16:16.965Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/hameenlinna</loc>
-        <lastmod>2023-08-04T07:48:38.764Z</lastmod>
+        <lastmod>2023-09-05T17:16:16.966Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/hamina</loc>
-        <lastmod>2023-08-04T07:48:38.765Z</lastmod>
+        <lastmod>2023-09-05T17:16:16.967Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/hamina/koirametsa-reviiri</loc>
-        <lastmod>2023-08-04T07:48:38.765Z</lastmod>
+        <lastmod>2023-09-05T17:16:16.968Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/helsinki</loc>
-        <lastmod>2023-08-04T07:48:38.766Z</lastmod>
+        <lastmod>2023-09-05T17:16:16.970Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/joensuu</loc>
-        <lastmod>2023-08-04T07:48:38.768Z</lastmod>
+        <lastmod>2023-09-05T17:16:16.971Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/joensuu/koiranpuro</loc>
-        <lastmod>2023-08-04T07:48:38.768Z</lastmod>
+        <lastmod>2023-09-05T17:16:16.972Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/jokioinen</loc>
-        <lastmod>2023-08-04T07:48:38.769Z</lastmod>
+        <lastmod>2023-09-05T17:16:16.973Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/jokioinen/koirakallion-metsa</loc>
-        <lastmod>2023-08-04T07:48:38.769Z</lastmod>
+        <lastmod>2023-09-05T17:16:16.974Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/jyvaskyla</loc>
-        <lastmod>2023-08-04T07:48:38.770Z</lastmod>
+        <lastmod>2023-09-05T17:16:16.976Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/kaupungit</loc>
-        <lastmod>2023-08-04T20:41:05.850Z</lastmod>
+        <lastmod>2023-09-05T17:16:16.978Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/kellokoski</loc>
-        <lastmod>2023-08-04T07:48:38.771Z</lastmod>
+        <lastmod>2023-09-05T17:16:16.979Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/kellokoski/touhu-and-temmellys</loc>
-        <lastmod>2023-08-04T07:48:38.772Z</lastmod>
+        <lastmod>2023-09-05T17:16:16.981Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/kuopio</loc>
-        <lastmod>2023-08-04T07:48:38.773Z</lastmod>
+        <lastmod>2023-09-05T17:16:16.982Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/laitila</loc>
-        <lastmod>2023-08-04T07:48:38.774Z</lastmod>
+        <lastmod>2023-09-05T17:16:16.983Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/laitila/temmel-tanner</loc>
-        <lastmod>2023-08-04T07:48:38.775Z</lastmod>
+        <lastmod>2023-09-05T17:16:16.984Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/lappeenranta</loc>
-        <lastmod>2023-08-04T07:48:38.776Z</lastmod>
+        <lastmod>2023-09-05T17:16:16.986Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/lappeenranta/koirametsa-villi-piski</loc>
-        <lastmod>2023-08-04T07:48:38.776Z</lastmod>
+        <lastmod>2023-09-05T17:16:16.988Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/lempaala/elometsa</loc>
-        <lastmod>2023-08-04T07:48:38.777Z</lastmod>
+        <lastmod>2023-09-05T17:16:16.989Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/lempaala</loc>
-        <lastmod>2023-08-04T07:48:38.778Z</lastmod>
+        <lastmod>2023-09-05T17:16:16.990Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/lievestuore</loc>
-        <lastmod>2023-08-04T07:48:38.778Z</lastmod>
+        <lastmod>2023-09-05T17:16:16.991Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/lievestuore/rallatus</loc>
-        <lastmod>2023-08-04T07:48:38.779Z</lastmod>
+        <lastmod>2023-09-05T17:16:16.992Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/littoinen</loc>
-        <lastmod>2023-08-04T07:48:38.780Z</lastmod>
+        <lastmod>2023-09-05T17:16:16.994Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/littoinen/koirametsa-satumaa</loc>
-        <lastmod>2023-08-04T07:48:38.780Z</lastmod>
+        <lastmod>2023-09-05T17:16:16.995Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/lohja</loc>
-        <lastmod>2023-08-04T07:48:38.781Z</lastmod>
+        <lastmod>2023-09-05T17:16:16.996Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/lohja/koirametsa-leikkila</loc>
-        <lastmod>2023-08-04T07:48:38.782Z</lastmod>
+        <lastmod>2023-09-05T17:16:16.998Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/muhos</loc>
-        <lastmod>2023-08-04T07:48:38.783Z</lastmod>
+        <lastmod>2023-09-05T17:16:16.999Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/muhos/muhoksen-kapalametsa</loc>
-        <lastmod>2023-08-04T07:48:38.784Z</lastmod>
+        <lastmod>2023-09-05T17:16:17.001Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/muurame</loc>
-        <lastmod>2023-08-04T07:48:38.784Z</lastmod>
+        <lastmod>2023-09-05T17:16:17.002Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/muurame/puolen-hehtaarin-koirametsa</loc>
-        <lastmod>2023-08-04T07:48:38.785Z</lastmod>
+        <lastmod>2023-09-05T17:16:17.003Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/mynamaki</loc>
-        <lastmod>2023-08-04T07:48:38.785Z</lastmod>
+        <lastmod>2023-09-05T17:16:17.004Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/mynamaki/koirien-keidas</loc>
-        <lastmod>2023-08-04T07:48:38.786Z</lastmod>
+        <lastmod>2023-09-05T17:16:17.005Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/nousiainen</loc>
-        <lastmod>2023-08-04T07:48:38.787Z</lastmod>
+        <lastmod>2023-09-05T17:16:17.006Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/nousiainen/koirametsa-seesteinen</loc>
-        <lastmod>2023-08-04T07:48:38.787Z</lastmod>
+        <lastmod>2023-09-05T17:16:17.007Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/numminen</loc>
-        <lastmod>2023-08-04T07:48:38.788Z</lastmod>
+        <lastmod>2023-09-05T17:16:17.009Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/numminen/koirametsa-elainkuusikko</loc>
-        <lastmod>2023-08-04T07:48:38.789Z</lastmod>
+        <lastmod>2023-09-05T17:16:17.010Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/nurmijarvi/hattaramaa</loc>
-        <lastmod>2023-08-04T07:48:38.789Z</lastmod>
+        <lastmod>2023-09-05T17:16:17.011Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/nurmijarvi</loc>
-        <lastmod>2023-08-04T07:48:38.790Z</lastmod>
+        <lastmod>2023-09-05T17:16:17.013Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/oulu</loc>
-        <lastmod>2023-08-04T07:48:38.790Z</lastmod>
+        <lastmod>2023-09-05T17:16:17.014Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/oulu/oulun-koirametsa</loc>
-        <lastmod>2023-08-04T07:48:38.791Z</lastmod>
+        <lastmod>2023-09-05T17:16:17.015Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/paimio</loc>
-        <lastmod>2023-08-04T07:48:38.791Z</lastmod>
+        <lastmod>2023-09-05T17:16:17.016Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/paimio/paimion-koirametsa</loc>
-        <lastmod>2023-08-04T07:48:38.792Z</lastmod>
+        <lastmod>2023-09-05T17:16:17.017Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/rauma</loc>
-        <lastmod>2023-08-04T07:48:38.793Z</lastmod>
+        <lastmod>2023-09-05T17:16:17.018Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/rauma/koirametsa-mustinmaa</loc>
-        <lastmod>2023-08-04T07:48:38.793Z</lastmod>
+        <lastmod>2023-09-05T17:16:17.019Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/renko</loc>
-        <lastmod>2023-08-04T07:48:38.794Z</lastmod>
+        <lastmod>2023-09-05T17:16:17.020Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/renko/rengon-rekkumesta</loc>
-        <lastmod>2023-08-04T07:48:38.794Z</lastmod>
+        <lastmod>2023-09-05T17:16:17.021Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/sastamala</loc>
-        <lastmod>2023-08-04T07:48:38.795Z</lastmod>
+        <lastmod>2023-09-05T17:16:17.022Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/sastamala/petvillan-koirapuisto-and-uimalampi</loc>
-        <lastmod>2023-08-04T07:48:38.795Z</lastmod>
+        <lastmod>2023-09-05T17:16:17.023Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/sastamala/taikakallion-pieni-koirametsa</loc>
-        <lastmod>2023-08-04T07:48:38.796Z</lastmod>
+        <lastmod>2023-09-05T17:16:17.024Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/seinajoki</loc>
-        <lastmod>2023-08-04T07:48:38.797Z</lastmod>
+        <lastmod>2023-09-05T17:16:17.026Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/seinajoki/koirametsa-havu</loc>
-        <lastmod>2023-08-04T07:48:38.797Z</lastmod>
+        <lastmod>2023-09-05T17:16:17.027Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/tampere</loc>
-        <lastmod>2023-08-04T07:48:38.798Z</lastmod>
+        <lastmod>2023-09-05T17:16:17.028Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/tampere/vuorekesen-koirametsa</loc>
-        <lastmod>2023-08-04T07:48:38.798Z</lastmod>
+        <lastmod>2023-09-05T17:16:17.029Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/turku</loc>
-        <lastmod>2023-08-04T07:48:38.799Z</lastmod>
+        <lastmod>2023-09-05T17:16:17.030Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/tuusula</loc>
-        <lastmod>2023-08-04T07:48:38.800Z</lastmod>
+        <lastmod>2023-09-05T17:16:17.032Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/tuusula/touhu-and-temmellys</loc>
-        <lastmod>2023-08-04T07:48:38.800Z</lastmod>
+        <lastmod>2023-09-05T17:16:17.033Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/valkeakoski/haukkumaa</loc>
-        <lastmod>2023-08-04T07:48:38.801Z</lastmod>
+        <lastmod>2023-09-05T17:16:17.034Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/valkeakoski</loc>
-        <lastmod>2023-08-04T07:48:38.801Z</lastmod>
+        <lastmod>2023-09-05T17:16:17.036Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/valkeala</loc>
-        <lastmod>2023-08-04T07:48:38.802Z</lastmod>
+        <lastmod>2023-09-05T17:16:17.037Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/valkeala/sudenkuoppa</loc>
-        <lastmod>2023-08-04T07:48:38.802Z</lastmod>
+        <lastmod>2023-09-05T17:16:17.038Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/vesilahti/hunsvottila</loc>
-        <lastmod>2023-08-04T07:48:38.803Z</lastmod>
+        <lastmod>2023-09-05T17:16:17.040Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/vesilahti</loc>
-        <lastmod>2023-08-04T07:48:38.803Z</lastmod>
+        <lastmod>2023-09-05T17:16:17.041Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/vihti</loc>
-        <lastmod>2023-08-04T07:48:38.804Z</lastmod>
+        <lastmod>2023-09-05T17:16:17.042Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://koirametsat.info/vihti/leponiemen-koirametsa</loc>
-        <lastmod>2023-08-19T09:49:13.546Z</lastmod>
+        <lastmod>2023-09-05T17:16:17.043Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
