@@ -7,7 +7,7 @@ const firestoreSlug = props.to
   .reverse()
   .join("-");
 // Get average rating from firestore
-const { averageRating } = useReviews(firestoreSlug);
+const averageRating = 5;
 </script>
 <template>
   <NuxtLink
