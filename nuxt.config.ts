@@ -70,7 +70,6 @@ export default defineNuxtConfig({
     },
     ignores: [
       'storyblok',
-      './index.md'
     ],
     sources: {
       content: {

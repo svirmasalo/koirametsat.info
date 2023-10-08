@@ -24,27 +24,31 @@
         throw createError({ statusCode: 404, statusMessage: `Vuff... sivua ei löytynyt: ${slug}` });
     }
     const serp = story.value?.content.SERP[0];
-    if (serp) {
-        useHead({...useParseSerp(serp, siteUrl)});
-    } else {
-        useHead({
-            title: `${story.value?.name} - Koirametsät.info`,
-            meta: [
-                {
-                    hid: 'description',
-                    name: 'description',
-                    content: 'Tietoa palvelusta',
-                },
-            ],
-            link: [
-                {
-                    hid: 'canonical',
-                    rel: 'canonical',
-                    href: `${siteUrl}/${slug}`,
-                },
-            ],
-        });
-    }
+    const pageHead = computed(() => {
+        if (serp) {
+            const { meta, link, title } = useParseSerp(serp, siteUrl);
+            return { meta, link, title };
+        } else {
+            return {
+                title: `${story.value?.name} - Koirametsät.info`,
+                meta: [
+                    {
+                        hid: 'description',
+                        name: 'description',
+                        content: 'Tietoa koirametsista',
+                    },
+                ],
+                link: [
+                    {
+                        hid: 'canonical',
+                        rel: 'canonical',
+                        href: `${siteUrl}/${slug}`,
+                    },
+                ],
+            };
+        }
+    });
+    useHead(pageHead);
 </script>
 <template>
   <main>

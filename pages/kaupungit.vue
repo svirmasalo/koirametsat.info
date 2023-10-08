@@ -25,6 +25,7 @@
     const cityList = computed(() => {
       // Filter out non-cities and paths that are not direct children of root
       let cl = cityQuery.filter((item) => {
+          // console.log(item._path, item._path.split('/').length);
           return !nonCities.includes(item._path) && item._path.split('/').length === 2;
       });
       // Count number of dog parks in each city
