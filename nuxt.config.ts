@@ -86,6 +86,7 @@ export default defineNuxtConfig({
       cert: 'localhost.pem'
     }
   },
+  debug: process.env.STAGE === 'development' ? true : false,
   runtimeConfig: {
     public: {
       GTAG_ID: process.env.GTAG_ID,

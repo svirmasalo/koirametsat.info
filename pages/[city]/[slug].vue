@@ -1,16 +1,16 @@
 <script setup>
 
+const route = useRoute();
+
 definePageMeta({
   key: route => route.fullPath
-})
+});
 
-const route = useRoute();
 const parkQuery = await queryContent({
   where: {
     _path: route.path,
   },
 }).findOne();
-
 
 // Capitalize city name for meta tags. City name = route.params.city
 const city = route.params.city.charAt(0).toUpperCase() + route.params.city.slice(1);
