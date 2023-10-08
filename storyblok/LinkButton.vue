@@ -17,18 +17,16 @@
     }
 
     const internal = computed(() => {
-        console.log('int', props.blok.to?.linktype === 'story');
         return props.blok.to?.linktype === 'story';
     });
     const external = computed(() => {
-        console.log('ext', props.blok.to?.linktype === 'url');
         return props.blok.to?.linktype === 'url';
     });
 
     const url = computed(() => {
         if (internal.value) {
-            return `/${props.blok.to?.story?.full_slug}`;
-        } else if (external.value) {
+            return `/${props.blok.to?.cached_url}`;
+        } else if (external) {
             return props.blok.to?.url;
         } else {
             return '';
