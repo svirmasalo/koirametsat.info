@@ -141,6 +141,12 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://koirametsat.info/kuopio/koirametsa-tarmokas</loc>
+        <lastmod>2023-10-08T17:16:38.608Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://koirametsat.info/laitila</loc>
         <lastmod>2023-09-05T17:16:16.983Z</lastmod>
         <changefreq>monthly</changefreq>
@@ -285,6 +291,18 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://koirametsat.info/orimattila</loc>
+        <lastmod>2023-10-08T17:23:56.722Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://koirametsat.info/orimattila/muurainkorven-koirametsa</loc>
+        <lastmod>2023-10-08T17:32:26.380Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://koirametsat.info/oulu</loc>
         <lastmod>2023-09-05T17:16:17.014Z</lastmod>
         <changefreq>monthly</changefreq>
@@ -329,6 +347,18 @@
     <url>
         <loc>https://koirametsat.info/renko/rengon-rekkumesta</loc>
         <lastmod>2023-09-05T17:16:17.021Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://koirametsat.info/salo</loc>
+        <lastmod>2023-10-08T16:52:17.575Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://koirametsat.info/salo/torpan-metsa</loc>
+        <lastmod>2023-10-08T17:07:37.221Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>

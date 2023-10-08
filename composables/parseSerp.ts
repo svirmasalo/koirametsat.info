@@ -2,6 +2,9 @@ import { SERPBlock } from "~~/types/stories";
 
 
 export const useParseSerp = (serp: SERPBlock, siteUrl: string) => {
+    //Strip trailing slash from url in serp block
+    serp.canonical.cached_url = serp.canonical.cached_url.replace(/\/$/, "");
+    
     return {
         title: `${serp.meta_title} - Koirametsät.info`,
         meta: [
