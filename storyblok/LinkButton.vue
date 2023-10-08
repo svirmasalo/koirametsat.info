@@ -17,11 +17,9 @@
     }
 
     const internal = computed(() => {
-        console.log('int', props.blok.to?.linktype === 'story');
         return props.blok.to?.linktype === 'story';
     });
     const external = computed(() => {
-        console.log('ext', props.blok.to?.linktype === 'url');
         return props.blok.to?.linktype === 'url';
     });
 
