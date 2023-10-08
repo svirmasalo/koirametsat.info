@@ -25,8 +25,8 @@
 
     const url = computed(() => {
         if (internal.value) {
-            return `/${props.blok.to?.story?.full_slug}`;
-        } else if (external.value) {
+            return `/${props.blok.to?.cached_url}`;
+        } else if (external) {
             return props.blok.to?.url;
         } else {
             return '';
