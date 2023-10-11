@@ -2,18 +2,28 @@
     const props = defineProps({ blok: Object });
 
     const ctaStyle = injection => {
-        let styleString = "";
+        let styleString = [];
+        let bgFallback = false;
+
         if (injection.includes('full')) {
-            styleString += 'block ';
+            styleString.push('block');
         } else {
-            styleString += 'inline-block ';
+            styleString.push('inline-block');
         }
         if (injection.includes('alt')) {
-            styleString += 'bg-primary-active';
+            styleString.push('bg-primary-active');
         } else {
-            styleString += 'bg-primary ';
+            bgFallback = true;
         }
-        return styleString
+        if (injection.includes('support')) {
+            styleString.push('text-indigo-50 bg-indigo-600 linear-gradient to-right from-indigo-700 to-indigo-600 hover:bg-indigo-800 transition-colors');
+        } else {
+            bgFallback = true;
+        }
+        if (bgFallback) {
+            styleString.push('bg-primary');
+        }
+        return styleString.join(' ');
     }
 
     const internal = computed(() => {
