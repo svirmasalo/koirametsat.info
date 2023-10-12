@@ -12,7 +12,7 @@
         @apply text-4xl font-bold text-secondary leading-tight mb-2;
     }
     :deep(p) {
-        @apply text-sm text-secondary leading-relaxed px-4;
+        @apply text-base text-secondary leading-relaxed px-4 max-w-lg mx-auto;
     }
 </style>
   
