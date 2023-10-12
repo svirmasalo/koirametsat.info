@@ -155,13 +155,13 @@ export default defineNuxtConfig({
         'form-action': ["'self'"],
         'frame-ancestors': ["'self'", "https:", "https://a.storyblok.com/"],
         'img-src': ["'self'", "https://a.storyblok.com/", "data:", "https://www.facebook.com/", "https://googleads.g.doubleclick.net", "https://www.google.com", "https://www.google.fi"],
-        'object-src': ["'none'", "https://a.storyblok.com/"],
-        'script-src-attr': ["'none'", "https://a.storyblok.com/"],
+        'object-src': ["'self'", "https://a.storyblok.com/"],
+        'script-src-attr': ["'self'", "https://a.storyblok.com/"],
         'style-src': ["'self'", 'https:', "'unsafe-inline'", "https://a.storyblok.com/"],
         'upgrade-insecure-requests': process.env.STAGE === 'DEV' ? false : true
       },
       crossOriginResourcePolicy: 'cross-origin',
-      crossOriginEmbedderPolicy: process.env.STAGE === 'DEV' ? 'unsafe-none' : 'require-corp',
+      crossOriginEmbedderPolicy: 'unsafe-none',
     }
   },
   ssr: true,

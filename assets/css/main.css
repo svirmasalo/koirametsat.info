@@ -29,9 +29,23 @@
     @apply mx-auto;
 }
 a.body-cta-link {
-    @apply my-2 text-center hover:bg-primary-active text-white py-4 leading-none px-12 rounded no-underline;
+    @apply my-2 text-center hover:bg-primary-active text-white py-4 leading-none px-12 rounded no-underline transition-colors;
 }
-
+a.body-cta-link--primary {
+    @apply inline-block my-2 text-center bg-primary hover:bg-primary-active text-white py-4 leading-none px-12 rounded no-underline transition-colors;
+}
+a.body-cta-link--full {
+    @apply block my-2 text-center hover:bg-primary-active text-white py-4 leading-none px-12 rounded no-underline transition-colors;
+}
+a.body-cta-link--alt {
+    @apply inline-block my-2 text-center bg-primary-active hover:bg-primary-active/90 text-white py-4 leading-none px-12 rounded no-underline transition-colors;
+}
+a.body-cta-link--support {
+    @apply font-bold inline-block my-2 text-center text-indigo-50 bg-indigo-600 bg-gradient-to-r from-indigo-700 to-indigo-600 hover:to-indigo-900 py-4 leading-none px-12 rounded no-underline transition-colors;
+}
+a.body-cta-link--support-full {
+    @apply font-bold block my-2 text-center text-indigo-50 bg-indigo-600 bg-gradient-to-r from-indigo-700 to-indigo-600 hover:to-indigo-700 py-4 leading-none px-12 rounded no-underline transition-colors;
+}
 .ais-SearchBox {
     @apply px-4 pt-2 pb-6 mx-auto;
 }
