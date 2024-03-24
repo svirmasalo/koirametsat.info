@@ -17,6 +17,8 @@ Koirametsä Haukkumaa on aidattu noin kahden hehtaarin kokoinen metsäalue, joka
 ::
 
 ::BodyPage
+::DisplayAd
+::
 ## Tiedot
 ::ParkItem
 ---

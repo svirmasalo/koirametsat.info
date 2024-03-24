@@ -17,6 +17,8 @@ Taikakallion Pieni Koiramtesä on turvallinen ja rauhallinen paikka sinulle ja k
 ::
 
 ::BodyPage
+::DisplayAd
+::
 ## Tiedot
 ::ParkItem
 ---

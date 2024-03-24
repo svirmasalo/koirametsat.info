@@ -57,6 +57,13 @@ if (parkQuery) {
     ],
   });
 }
+
+onMounted(() => {
+  const script = document.createElement("script");
+  script.innerHTML = `(adsbygoogle = window.adsbygoogle || []).push({});`;
+  document.body.appendChild(script);
+});
+
 </script>
 <template>
   <div itemscope itemtype="https://schema.org/LocalBusiness">

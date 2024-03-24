@@ -17,6 +17,8 @@ Turvallinen koirametsä tarjoaa 2 hehtaarin verran aidattua metsää koirien ulk
 ::
 
 ::BodyPage
+::DisplayAd
+::
 ## Tiedot
 ::ParkItem
 ---

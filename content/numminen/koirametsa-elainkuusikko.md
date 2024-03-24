@@ -17,6 +17,8 @@ Mäntsälän Nummisten idyllisissä maisemissa, istutetun kuusimetsän katveessa
 ::
 
 ::BodyPage
+::DisplayAd
+::
 ## Tiedot
 ::ParkItem
 ---

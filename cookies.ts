@@ -23,6 +23,16 @@ export default {
     },
     {
       description: {
+        en: "Käytetään Googlen tarjoamien kohdennettujen mainosten näyttämiseen.",
+      },
+      id: "GAS",
+      name: {
+        en: "AdSense",
+      },
+      targetCookieIds: ["__eoi ","__gpi", " __gpi_optout", " DSID", "id", "__gads", "GED_PLAYLIST_ACTIVITY", "ACLK_DATA"],
+    },
+    {
+      description: {
         en: "Käytetään Googlen hakukone- ja display mainosten kodhistamiseen sivuston vierailijoille",
       },
       id: "AW",

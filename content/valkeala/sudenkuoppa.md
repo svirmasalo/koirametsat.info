@@ -17,6 +17,8 @@ Koirapuisto Kouvolan Valkealassa. Sudenkuopan yksityinen liikuntapuisto tarjoaa 
 ::
 
 ::BodyPage
+::DisplayAd
+::
 ## Tiedot
 ::ParkItem
 ---

@@ -17,6 +17,8 @@ Koirametsä Tarmokas on Kuopion ensimmäinen koirametsä. Alue on noin kahden he
 ::
 
 ::BodyPage
+::DisplayAd
+::
 ## Tiedot
 ::ParkItem
 ---

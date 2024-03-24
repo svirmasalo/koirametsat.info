@@ -17,6 +17,8 @@ Rekkumesta on kaikenkokoisille ja -rotuisille tarkoitettu, noin 1,5 hehtaarin ko
 ::
 
 ::BodyPage
+::DisplayAd
+::
 ## Tiedot
 ::ParkItem
 ---

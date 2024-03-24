@@ -17,6 +17,8 @@ Paimion Koirametsä on noin 2 hehtaaria yksityisomisteista, jykevästi aidattua 
 ::
 
 ::BodyPage
+::DisplayAd
+::
 ## Tiedot
 ::ParkItem
 ---

@@ -17,6 +17,8 @@ Torpan Metsä -koirametsä on n.2 hehtaarin kokoinen hyvin varusteltu koiramets�
 ::
 
 ::BodyPage
+::DisplayAd
+::
 ## Tiedot
 ::ParkItem
 ---

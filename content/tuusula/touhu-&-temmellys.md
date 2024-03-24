@@ -17,6 +17,8 @@ notificationLink: 'https://touhu-temmellys.fi/metsamonttu/'
 ::
 
 ::BodyPage
+::DisplayAd
+::
 ## Tiedot
 ::ParkItem
 ---

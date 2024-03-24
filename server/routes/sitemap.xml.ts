@@ -1,5 +1,3 @@
-import consola from "consola";
-
 import { serverQueryContent } from '#content/server'
 import { apiPlugin, storyblokInit } from '@storyblok/js';
 import { SitemapStream, streamToPromise } from 'sitemap'
@@ -89,7 +87,7 @@ export default defineEventHandler(async (event) => {
         changefreq = 'weekly';
       }
     } catch (e) {
-      consola.error(e)
+      // console.error(e)
     }
     try {
       sitemap.write({
@@ -100,7 +98,7 @@ export default defineEventHandler(async (event) => {
         lastmodrealtime: true
       })
     } catch (e) {
-      consola.error(e)
+      // console.error(e)
     }
   }
   sitemap.end()

@@ -16,6 +16,8 @@ notificationLink: 'https://www.facebook.com/Puolen-hehtaarin-Koiramets%C3%A4-106
 ::
 
 ::BodyPage
+::DisplayAd
+::
 ## Tiedot
 ::ParkItem
 ---

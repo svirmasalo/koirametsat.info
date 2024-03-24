@@ -17,6 +17,8 @@ notificationLink: 'https://touhu-temmellys.fi/'
 ::
 
 ::BodyPage
+::DisplayAd
+::
 ## Tiedot
 ::ParkItem
 ---

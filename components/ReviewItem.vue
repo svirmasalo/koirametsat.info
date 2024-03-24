@@ -1,20 +1,22 @@
 <template>
-  <div class="kmi-reviews-review--header">
-    <div class="kmi-reviews-review--header-icon">
-      <span>{{ initials }}</span>
+  <div>
+    <div class="kmi-reviews-review--header">
+      <div class="kmi-reviews-review--header-icon">
+        <span>{{ initials }}</span>
+      </div>
+      <div class="kmi-reviews-review--header-data">
+        <meta itemprop="name" :content="review.user">
+        <h3 itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">{{ review.user }}</span></h3>
+        <meta itemprop="datePublished" :content="osDate" />
+        <p>{{ humanDate }}</p>
+        <meta itemprop="worstRating" content="1" />
+        <meta itemprop="bestRating" content="5" />
+        <span itemprop="ratingValue">{{ review.rating }}</span>
+      </div>
     </div>
-    <div class="kmi-reviews-review--header-data">
-      <meta itemprop="name" :content="review.user">
-      <h3 itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">{{ review.user }}</span></h3>
-      <meta itemprop="datePublished" :content="osDate" />
-      <p>{{ humanDate }}</p>
-      <meta itemprop="worstRating" content="1" />
-      <meta itemprop="bestRating" content="5" />
-      <span itemprop="ratingValue">{{ review.rating }}</span>
+    <div class="kmi-reviews-review--body">
+      <p itemprop="reviewBody">{{ review.review }}</p>
     </div>
-  </div>
-  <div class="kmi-reviews-review--body">
-    <p itemprop="reviewBody">{{ review.review }}</p>
   </div>
 </template>
 <style scoped>
@@ -38,7 +40,7 @@
 }
 </style>
 <script setup lang="ts">
-import { ReviewItem } from 'types/reviews';
+import { type ReviewItem } from '~/types/reviews';
 
 const props = defineProps(["review"]);
 const review = ref<ReviewItem>(props.review);

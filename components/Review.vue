@@ -43,7 +43,7 @@
 </template>
 <script setup lang="ts">
 
-import { ReviewsResponse, ReviewItem as RI } from "types/reviews";
+import { type ReviewsResponse, type ReviewItem as RI } from '~/types/reviews';
 
 const props = defineProps(['slug']);
 const reviews = ref<RI[]>([]);  
