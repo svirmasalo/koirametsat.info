@@ -6,7 +6,7 @@ defineProps({
   notificationLink: { type: String, default: "" },
 });
 // Get path of default image if no image is provided. Default image for the park is in the ./public/images folder, named <slug>.png
-const defaultImage = `${route.params.slug}.png`;
+const defaultImage = `images/${route.params.slug}.png`;
 
 try {
   fbq("track", "ViewContent", {
