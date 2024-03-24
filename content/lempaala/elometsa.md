@@ -17,6 +17,8 @@ notificationLink: 'https://www.elometsa.fi/'
 ::
 
 ::BodyPage
+::DisplayAd
+::
 ## Tiedot
 ::ParkItem
 ---

@@ -6,7 +6,6 @@
 require("dotenv").config();
 
 const algoliasearch = require("algoliasearch");
-const consola = require("consola");
 const fs = require("fs");
 const fsp = require('node:fs/promises');
 const path = require("path");
@@ -26,18 +25,18 @@ const files = fs.readdirSync(contentPath);
 
 // function that slugifies a string
 const slugify = (string) => {
-    return string
-        .toString()
-        .normalize("NFD") // split an accented letter in the base letter and the accented letter
-        .replace(/[\u0300-\u036f]/g, "") // remove all previously split accents
-        .toLowerCase()
-        .trim() // trim spaces from start and end of string
-        .replace(/\s+/g, "-") // replace spaces with -
-        .replace(/&/g, "-and-") // replace & with 'and'
-        .replace(/[^\w\-]+/g, "") // remove all non-word chars
-        .replace(/\-\-+/g, "-") // replace multiple - with single -
-        .replace(/^-+/, "") // trim - from start of text
-        .replace(/-+$/, ""); // trim - from end of text
+  return string
+    .toString()
+    .normalize("NFD") // split an accented letter in the base letter and the accented letter
+    .replace(/[\u0300-\u036f]/g, "") // remove all previously split accents
+    .toLowerCase()
+    .trim() // trim spaces from start and end of string
+    .replace(/\s+/g, "-") // replace spaces with -
+    .replace(/&/g, "-and-") // replace & with 'and'
+    .replace(/[^\w\-]+/g, "") // remove all non-word chars
+    .replace(/\-\-+/g, "-") // replace multiple - with single -
+    .replace(/^-+/, "") // trim - from start of text
+    .replace(/-+$/, ""); // trim - from end of text
 };
 
 
@@ -102,7 +101,7 @@ const contentObjects = contentFilesFlat.map((file) => {
       return object;
     }
   } catch (error) {
-    consola.error(error);
+    // consola.error(error);
   }
 });
 
@@ -147,7 +146,7 @@ const createImages = async () => {
     const blob = await responseIU.blob();
     const arrayBuffer = await blob.arrayBuffer();
     const buffer = Buffer.from(arrayBuffer);
-    await fsp.writeFile(imagePath, buffer, {flag: 'wx'});
+    await fsp.writeFile(imagePath, buffer, { flag: 'wx' });
   }
 };
 if (process.env.STAGE === 'DEV') {

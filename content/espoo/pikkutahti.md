@@ -15,8 +15,9 @@ notificationLink: 'https://yksityinenkoirapuisto.fi/'
 # Pikkutähti
 Yksityinen koirapuisto Nuuksion Kansallispuiston kupeessa
 ::
-
 ::BodyPage
+::DisplayAd
+::
 ## Tiedot
 ::ParkItem
 ---

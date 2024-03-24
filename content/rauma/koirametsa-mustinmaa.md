@@ -17,6 +17,8 @@ notificationLink: 'https://mustinmaa.fi/'
 ::
 
 ::BodyPage
+::DisplayAd
+::
 ## Tiedot
 ::ParkItem
 ---

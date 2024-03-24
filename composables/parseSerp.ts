@@ -1,4 +1,4 @@
-import { SERPBlock } from "~~/types/stories";
+import { type SERPBlock } from "~~/types/stories";
 
 
 export const useParseSerp = (serp: SERPBlock, siteUrl: string) => {

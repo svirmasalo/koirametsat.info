@@ -17,6 +17,8 @@ notificationLink: 'https://www.koirakallionmetsa.fi/'
 ::
 
 ::BodyPage
+::DisplayAd
+::
 ## Tiedot
 ::ParkItem
 ---

@@ -17,6 +17,8 @@ Leponiemen koirametsä on puolen hehtaarin kokoinen aidattu metsäalue, jossa ko
 ::
 
 ::BodyPage
+::DisplayAd
+::
 ## Tiedot
 ::ParkItem
 ---

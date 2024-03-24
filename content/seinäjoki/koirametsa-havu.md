@@ -17,6 +17,8 @@ Koirametsä Havu on Seinäjoen Nurmossa sijaitseva koirametsä.
 ::
 
 ::BodyPage
+::DisplayAd
+::
 ## Tiedot
 ::ParkItem
 ---

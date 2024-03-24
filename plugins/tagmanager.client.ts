@@ -24,6 +24,18 @@ export default defineNuxtPlugin((NuxtApp) => {
         })(window, document, "script", "dataLayer", config.public.GTAG_ID);
     }
 
+    if (cookiesEnabledIds.value?.includes("GAS")) {
+        const injectAdsByGoogleScript = () => {
+            const script = document.createElement("script");
+            script.async = true;
+            script.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4176977519112516";
+            script.crossOrigin = "anonymous";
+            document.head.appendChild(script);
+        };
+
+        injectAdsByGoogleScript();
+    }
+
     // Inject Meta tag if META cookie is enabled
     if (cookiesEnabledIds.value?.includes("META")) {
         (function (f, b, e, v, n, t, s) {

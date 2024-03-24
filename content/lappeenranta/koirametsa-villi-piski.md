@@ -17,6 +17,8 @@ notificationLink: 'https://piskit.com/koirametsa-villi-piski/'
 ::
 
 ::BodyPage
+::DisplayAd
+::
 ## Tiedot
 ::ParkItem
 ---

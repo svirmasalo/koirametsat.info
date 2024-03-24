@@ -17,6 +17,8 @@ Muurainkorven koirametsän kerrotaan olevan kaunis, kahden hehtaarin alue Orimat
 ::
 
 ::BodyPage
+::DisplayAd
+::
 ## Tiedot
 ::ParkItem
 ---

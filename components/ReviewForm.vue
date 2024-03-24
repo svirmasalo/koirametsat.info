@@ -80,7 +80,6 @@ import "@formkit/themes/genesis";
 import { reset } from "@formkit/core";
 
 import { ref } from "vue";
-import {ReviewPost} from "types/review.post"
 
 const { $csrfFetch } = useNuxtApp()
 

@@ -1,6 +1,6 @@
 <script setup lang="ts">
-    import type { ISbStoryData } from 'storyblok-js-client';
-    import { SERPBlock } from '~~/types/stories';
+    import { type ISbStoryData } from 'storyblok-js-client';
+    import { type SERPBlock } from '~~/types/stories';
     const story = ref<ISbStoryData>();
     try {
         const response = await useStoryblokStory('etusivu');

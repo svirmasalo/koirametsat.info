@@ -17,6 +17,8 @@ notificationLink: 'https://www.koirienkeidas.fi/'
 ::
 
 ::BodyPage
+::DisplayAd
+::
 ## Tiedot
 ::ParkItem
 ---

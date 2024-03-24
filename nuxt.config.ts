@@ -49,7 +49,13 @@ export default defineNuxtConfig({
         {
           name: 'og:site_name',
           content: 'Koirametsät.info'
+        },
+        {
+          hid: 'google-adsense-account',
+          name: 'google-adsense-account',
+          content: 'ca-pub-4176977519112516'
         }
+
       ],
       noscript: [{ children: gtmNoscript }, { children: metaNoscript }],
     },
@@ -107,7 +113,7 @@ export default defineNuxtConfig({
     "nuxt-security",
     "@nuxt/content",
     "@nuxtjs/algolia",
-    "@nuxt/image-edge",
+    "@nuxt/image",
     "@dargmuesli/nuxt-cookie-control",
     "nuxt-schema-org",
     "@formkit/nuxt",
@@ -133,6 +139,9 @@ export default defineNuxtConfig({
     localeTexts: cookieTexts,
     isControlButtonEnabled: true,
   },
+  image: {
+    dir: 'public/images',
+  },
   postcss: {
     plugins: {
       tailwindcss: {},
@@ -154,7 +163,7 @@ export default defineNuxtConfig({
         'font-src': ["'self'", 'https:', 'data:'],
         'form-action': ["'self'"],
         'frame-ancestors': ["'self'", "https:", "https://a.storyblok.com/"],
-        'img-src': ["'self'", "https://a.storyblok.com/", "data:", "https://www.facebook.com/", "https://googleads.g.doubleclick.net", "https://www.google.com", "https://www.google.fi"],
+        'img-src': ["'self'", "https://a.storyblok.com/", "data:", "https://www.facebook.com/", "https://googleads.g.doubleclick.net", "https://www.google.com", "https://www.google.fi", "https://pagead2.googlesyndication.com"],
         'object-src': ["'self'", "https://a.storyblok.com/"],
         'script-src-attr': ["'self'", "https://a.storyblok.com/"],
         'style-src': ["'self'", 'https:', "'unsafe-inline'", "https://a.storyblok.com/"],

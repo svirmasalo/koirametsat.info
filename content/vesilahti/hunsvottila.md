@@ -17,6 +17,8 @@ Hunsvottila on hauska ja tunnelmallinen koirapuisto, jossa viihtyvät niin koira
 ::
 
 ::BodyPage
+::DisplayAd
+::
 ## Tiedot
 ::ParkItem
 ---

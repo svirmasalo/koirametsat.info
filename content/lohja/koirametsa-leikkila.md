@@ -17,6 +17,8 @@ Leikkilä on koirien ulkoilutusta ja aktivointia varten aidattu vajaan hehtaarin
 ::
 
 ::BodyPage
+::DisplayAd
+::
 ## Tiedot
 ::ParkItem
 ---

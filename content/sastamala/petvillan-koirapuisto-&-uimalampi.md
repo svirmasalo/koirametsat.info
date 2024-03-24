@@ -17,6 +17,8 @@ Petvillan koirapuisto ja uimalampi on koirille suunniteltu aktiviteetti-, uima- 
 ::
 
 ::BodyPage
+::DisplayAd
+::
 ## Tiedot
 ::ParkItem
 ---

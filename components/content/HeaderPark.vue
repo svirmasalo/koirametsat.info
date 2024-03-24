@@ -6,7 +6,7 @@ defineProps({
   notificationLink: { type: String, default: "" },
 });
 // Get path of default image if no image is provided. Default image for the park is in the ./public/images folder, named <slug>.png
-const defaultImage = `images/${route.params.slug}.png`;
+const defaultImage = `${route.params.slug}.png`;
 
 try {
   fbq("track", "ViewContent", {
@@ -40,7 +40,7 @@ const trackClick = () => {
     <div
       class="rounded-full border-2 border-secondary overflow-hidden mb-6 w-44 h-44 mx-auto"
     >
-      <nuxt-img
+      <NuxtImg
         :src="defaultImage"
         class="object-cover object-center h-full w-full"
         quality="20"

@@ -17,6 +17,8 @@ Nurmijärvellä sijaitseva Hattaramaa on noin hehtaarin kokoinen aidattu ruohikk
 ::
 
 ::BodyPage
+::DisplayAd
+::
 ## Tiedot
 ::ParkItem
 ---

@@ -17,6 +17,8 @@ Koirametsä Seesteinen on koirien ja koiranomistajien ensimmäinen koirametsä V
 ::
 
 ::BodyPage
+::DisplayAd
+::
 ## Tiedot
 ::ParkItem
 ---

@@ -16,6 +16,8 @@ notificationLink: 'https://www.temmeltanner.com/'
 ::
 
 ::BodyPage
+::DisplayAd
+::
 ## Tiedot
 ::ParkItem
 ---

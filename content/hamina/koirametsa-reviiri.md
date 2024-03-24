@@ -16,6 +16,8 @@ Aidoin rajattu kahden hehtaarin metsäalue, jossa lemmikin ulkoilu onnistuu huol
 ::
 
 ::BodyPage
+::DisplayAd
+::
 ## Tiedot
 ::ParkItem
 ---

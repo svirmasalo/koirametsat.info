@@ -17,6 +17,8 @@ notificationLink: 'https://www.koirametsasatumaa.com/'
 ::
 
 ::BodyPage
+::DisplayAd
+::
 ## Tiedot
 ::ParkItem
 ---

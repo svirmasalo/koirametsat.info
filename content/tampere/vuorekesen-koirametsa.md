@@ -17,6 +17,8 @@ Koirametsä Tampereen ja Lempäälän rajalla.
 ::
 
 ::BodyPage
+::DisplayAd
+::
 ## Tiedot
 ::ParkItem
 ---

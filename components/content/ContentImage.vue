@@ -6,5 +6,5 @@ defineProps({
 
 </script>
 <template>
-  <nuxt-img :src="src" loading="lazy" :alt="alt" quality="60" format="webp" />
+  <NuxtImg :src="src" loading="lazy" :alt="alt" quality="60" format="webp" />
 </template>

@@ -17,6 +17,8 @@ Muhoksella sijaitseva Käpälämetsä on reilun hehtaarin kokoinen yksityinen ko
 ::
 
 ::BodyPage
+::DisplayAd
+::
 ## Tiedot
 ::ParkItem
 ---

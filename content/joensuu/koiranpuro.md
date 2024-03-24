@@ -17,6 +17,8 @@ Koiranpuron suuri Koirametsä on kahdeksan hehtaarin metsäalue Joensuun Louhioj
 ::
 
 ::BodyPage
+::DisplayAd
+::
 ## Tiedot
 ::ParkItem
 ---
