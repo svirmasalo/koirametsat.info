@@ -162,10 +162,10 @@ export default defineNuxtConfig({
         'base-uri': ["'self'"],
         'font-src': ["'self'", 'https:', 'data:'],
         'form-action': ["'self'"],
-        'frame-ancestors': ["'self'", "https:", "https://a.storyblok.com/"],
+        'frame-ancestors': ["'self'", "https:", "https://a.storyblok.com/", "https://pagead2.googlesyndication.com"],
         'img-src': ["'self'", "https://a.storyblok.com/", "data:", "https://www.facebook.com/", "https://googleads.g.doubleclick.net", "https://www.google.com", "https://www.google.fi", "https://pagead2.googlesyndication.com"],
-        'object-src': ["'self'", "https://a.storyblok.com/"],
-        'script-src-attr': ["'self'", "https://a.storyblok.com/"],
+        'object-src': ["'self'", "https://a.storyblok.com/", "https://pagead2.googlesyndication.com"],
+        'script-src-attr': ["'self'", "https://a.storyblok.com/", "https://pagead2.googlesyndication.com"],
         'style-src': ["'self'", 'https:', "'unsafe-inline'", "https://a.storyblok.com/"],
         'upgrade-insecure-requests': process.env.STAGE === 'DEV' ? false : true
       },
